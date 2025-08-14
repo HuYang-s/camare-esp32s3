@@ -16,8 +16,9 @@
 #include "esp_wifi.h"
 #include "esp_http_server.h"
 #include "esp_timer.h"
-
-#include "esp_camera.h"
+#include "lwip/sockets.h"
+ 
+ #include "esp_camera.h"
 
 // WiFi credentials from Kconfig
 #define WIFI_SSID       CONFIG_WIFI_SSID
@@ -75,6 +76,9 @@ static void wifi_init_sta(void)
 	esp_wifi_set_config(WIFI_IF_STA, &wifi_config);
 	// Disable WiFi power save to improve throughput/latency
 	esp_wifi_set_ps(WIFI_PS_NONE);
+	// Prefer 40MHz bandwidth and 11n for higher throughput if AP supports it
+	esp_wifi_set_bandwidth(WIFI_IF_STA, WIFI_BW_HT40);
+	esp_wifi_set_protocol(WIFI_IF_STA, WIFI_PROTOCOL_11B | WIFI_PROTOCOL_11G | WIFI_PROTOCOL_11N);
 	esp_wifi_start();
 
 	ESP_LOGI(TAG, "WiFi init finished. Connecting to SSID: %s", WIFI_SSID);
@@ -155,6 +159,7 @@ static esp_err_t init_camera(void)
 // HTTP server and handlers
 static const char *STREAM_CONTENT_TYPE = "multipart/x-mixed-replace;boundary=frame";
 static const char *STREAM_BOUNDARY = "--frame";
+static const int STREAM_SOCKET_SNDBUF = 64 * 1024;
 static const char *STREAM_PART = "Content-Type: image/jpeg\r\nContent-Length: %u\r\n\r\n";
 
 static esp_err_t index_handler(httpd_req_t *req)
@@ -217,6 +222,12 @@ static esp_err_t stream_handler(httpd_req_t *req)
 
 	httpd_resp_set_type(req, STREAM_CONTENT_TYPE);
 
+	// Enlarge TCP send buffer to reduce fragmentation/backpressure
+	int sock = httpd_req_to_sockfd(req);
+	if (sock >= 0) {
+		setsockopt(sock, SOL_SOCKET, SO_SNDBUF, &STREAM_SOCKET_SNDBUF, sizeof(STREAM_SOCKET_SNDBUF));
+	}
+
 	while (true)
 	{
 		camera_fb_t *fb = esp_camera_fb_get();
@@ -238,8 +249,19 @@ static esp_err_t stream_handler(httpd_req_t *req)
 			esp_camera_fb_return(fb);
 			break;
 		}
-		if ((res = httpd_resp_send_chunk(req, (const char *)fb->buf, fb->len)) != ESP_OK)
-		{
+		// Coalesce large payload into fewer chunks to reduce copies
+		const uint8_t *p = fb->buf;
+		size_t remaining = fb->len;
+		while (remaining > 0) {
+			size_t to_send = remaining > 4096 ? 4096 : remaining;
+			res = httpd_resp_send_chunk(req, (const char *)p, to_send);
+			if (res != ESP_OK) {
+				break;
+			}
+			p += to_send;
+			remaining -= to_send;
+		}
+		if (res != ESP_OK) {
 			esp_camera_fb_return(fb);
 			break;
 		}
@@ -250,8 +272,8 @@ static esp_err_t stream_handler(httpd_req_t *req)
 		}
 
 		esp_camera_fb_return(fb);
-		// Small delay to yield; tune as needed
-		vTaskDelay(pdMS_TO_TICKS(5));
+		// Yield very briefly; if network is ready this keeps latency low
+		vTaskDelay(pdMS_TO_TICKS(1));
 	}
 
 	// End the stream if error
