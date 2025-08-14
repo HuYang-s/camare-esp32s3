@@ -626,6 +626,7 @@
 /workspace/build-idf/esp-idf/esp_driver_cam/CMakeFiles/install.dir
 /workspace/build-idf/esp-idf/esp_driver_cam/CMakeFiles/install/local.dir
 /workspace/build-idf/esp-idf/esp_driver_cam/CMakeFiles/install/strip.dir
+/workspace/build-idf/esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir
 /workspace/build-idf/esp-idf/esp_psram/CMakeFiles/edit_cache.dir
 /workspace/build-idf/esp-idf/esp_psram/CMakeFiles/rebuild_cache.dir
 /workspace/build-idf/esp-idf/esp_psram/CMakeFiles/list_install_components.dir
