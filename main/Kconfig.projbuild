@@ -1,0 +1,95 @@
+menu "Application Configuration"
+
+config WIFI_SSID
+	string "WiFi SSID"
+	default "your-ssid"
+	help
+	  SSID for WiFi STA connection.
+
+config WIFI_PASSWORD
+	string "WiFi Password"
+	default "your-password"
+	help
+	  Password for WiFi STA connection.
+
+endmenu
+
+menu "Camera Configuration (OV2640 on ESP32-S3)"
+
+config CAMERA_PIN_PWDN
+	int "PWDN pin (-1 if not connected)"
+	default -1
+
+config CAMERA_PIN_RESET
+	int "RESET pin (-1 if not connected)"
+	default -1
+
+config CAMERA_PIN_XCLK
+	int "XCLK pin"
+	default 15
+
+config CAMERA_PIN_SIOD
+	int "SIOD (SDA) pin"
+	default 4
+
+config CAMERA_PIN_SIOC
+	int "SIOC (SCL) pin"
+	default 5
+
+config CAMERA_PIN_D7
+	int "D7 pin"
+	default 16
+
+config CAMERA_PIN_D6
+	int "D6 pin"
+	default 17
+
+config CAMERA_PIN_D5
+	int "D5 pin"
+	default 18
+
+config CAMERA_PIN_D4
+	int "D4 pin"
+	default 12
+
+config CAMERA_PIN_D3
+	int "D3 pin"
+	default 10
+
+config CAMERA_PIN_D2
+	int "D2 pin"
+	default 8
+
+config CAMERA_PIN_D1
+	int "D1 pin"
+	default 9
+
+config CAMERA_PIN_D0
+	int "D0 pin"
+	default 11
+
+config CAMERA_PIN_VSYNC
+	int "VSYNC pin"
+	default 6
+
+config CAMERA_PIN_HREF
+	int "HREF pin"
+	default 7
+
+config CAMERA_PIN_PCLK
+	int "PCLK pin"
+	default 13
+
+config CAMERA_XCLK_FREQ
+	int "XCLK frequency (Hz)"
+	default 20000000
+
+config CAMERA_JPEG_QUALITY
+	int "JPEG quality (lower is better; 10-20 recommended)"
+	default 12
+
+config CAMERA_FRAMEBUFFER_COUNT
+	int "Frame buffer count"
+	default 2
+
+endmenu
