@@ -982,9 +982,9 @@ CONFIG_PARTITION_TABLE_MD5=y
 # Application Configuration
 #
 # default:
-CONFIG_WIFI_SSID="your-ssid"
+CONFIG_WIFI_SSID="bed_room_2.4G"
 # default:
-CONFIG_WIFI_PASSWORD="your-password"
+CONFIG_WIFI_PASSWORD="Hdk4560.0"
 # end of Application Configuration
 
 #

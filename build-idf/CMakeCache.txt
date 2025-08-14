@@ -304,6 +304,9 @@ ENABLE_PROGRAMS:BOOL=
 //Build Mbed TLS tests.
 ENABLE_TESTING:BOOL=
 
+//No help, variable specified on the command line.
+EXTRA_COMPONENT_DIRS:UNINITIALIZED=/workspace/managed_components
+
 //Generate the auto-generated files as needed
 GEN_FILES:BOOL=
 
