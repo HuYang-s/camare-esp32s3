@@ -1,0 +1,290 @@
+In file included from /home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:15,
+                 from /workspace/main/shexiang-ov2640.c:9:
+/workspace/main/shexiang-ov2640.c: In function 'init_camera':
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log_color.h:98:31: error: format '%zu' expects argument of type 'size_t', but argument 6 has type 'uint32_t' {aka 'long unsigned int'} [-Werror=format=]
+   98 | #define LOG_COLOR_E           ""
+      |                               ^~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:62:37: note: in expansion of macro 'LOG_COLOR_E'
+   62 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                     ^~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:182:86: note: in expansion of macro 'LOG_FORMAT'
+  182 |         if (level==ESP_LOG_ERROR )          { esp_log_write(ESP_LOG_ERROR,      tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:205:38: note: in expansion of macro 'ESP_LOG_LEVEL'
+  205 |         if (_ESP_LOG_ENABLED(level)) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                      ^~~~~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:114:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  114 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/workspace/main/shexiang-ov2640.c:140:5: note: in expansion of macro 'ESP_LOGI'
+  140 |     ESP_LOGI(TAG, "Free heap before camera init: %zu bytes", esp_get_free_heap_size());
+      |     ^~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log_color.h:99:31: error: format '%zu' expects argument of type 'size_t', but argument 6 has type 'uint32_t' {aka 'long unsigned int'} [-Werror=format=]
+   99 | #define LOG_COLOR_W           ""
+      |                               ^~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:62:37: note: in expansion of macro 'LOG_COLOR_W'
+   62 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                     ^~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:183:86: note: in expansion of macro 'LOG_FORMAT'
+  183 |         else if (level==ESP_LOG_WARN )      { esp_log_write(ESP_LOG_WARN,       tag, LOG_FORMAT(W, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:205:38: note: in expansion of macro 'ESP_LOG_LEVEL'
+  205 |         if (_ESP_LOG_ENABLED(level)) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                      ^~~~~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:114:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  114 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/workspace/main/shexiang-ov2640.c:140:5: note: in expansion of macro 'ESP_LOGI'
+  140 |     ESP_LOGI(TAG, "Free heap before camera init: %zu bytes", esp_get_free_heap_size());
+      |     ^~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log_color.h:101:31: error: format '%zu' expects argument of type 'size_t', but argument 6 has type 'uint32_t' {aka 'long unsigned int'} [-Werror=format=]
+  101 | #define LOG_COLOR_D           ""
+      |                               ^~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:62:37: note: in expansion of macro 'LOG_COLOR_D'
+   62 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                     ^~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:184:86: note: in expansion of macro 'LOG_FORMAT'
+  184 |         else if (level==ESP_LOG_DEBUG )     { esp_log_write(ESP_LOG_DEBUG,      tag, LOG_FORMAT(D, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:205:38: note: in expansion of macro 'ESP_LOG_LEVEL'
+  205 |         if (_ESP_LOG_ENABLED(level)) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                      ^~~~~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:114:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  114 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/workspace/main/shexiang-ov2640.c:140:5: note: in expansion of macro 'ESP_LOGI'
+  140 |     ESP_LOGI(TAG, "Free heap before camera init: %zu bytes", esp_get_free_heap_size());
+      |     ^~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log_color.h:102:31: error: format '%zu' expects argument of type 'size_t', but argument 6 has type 'uint32_t' {aka 'long unsigned int'} [-Werror=format=]
+  102 | #define LOG_COLOR_V           ""
+      |                               ^~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:62:37: note: in expansion of macro 'LOG_COLOR_V'
+   62 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                     ^~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:185:86: note: in expansion of macro 'LOG_FORMAT'
+  185 |         else if (level==ESP_LOG_VERBOSE )   { esp_log_write(ESP_LOG_VERBOSE,    tag, LOG_FORMAT(V, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:205:38: note: in expansion of macro 'ESP_LOG_LEVEL'
+  205 |         if (_ESP_LOG_ENABLED(level)) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                      ^~~~~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:114:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  114 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/workspace/main/shexiang-ov2640.c:140:5: note: in expansion of macro 'ESP_LOGI'
+  140 |     ESP_LOGI(TAG, "Free heap before camera init: %zu bytes", esp_get_free_heap_size());
+      |     ^~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log_color.h:100:31: error: format '%zu' expects argument of type 'size_t', but argument 6 has type 'uint32_t' {aka 'long unsigned int'} [-Werror=format=]
+  100 | #define LOG_COLOR_I           ""
+      |                               ^~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:62:37: note: in expansion of macro 'LOG_COLOR_I'
+   62 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                     ^~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:186:86: note: in expansion of macro 'LOG_FORMAT'
+  186 |         else                                { esp_log_write(ESP_LOG_INFO,       tag, LOG_FORMAT(I, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:205:38: note: in expansion of macro 'ESP_LOG_LEVEL'
+  205 |         if (_ESP_LOG_ENABLED(level)) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                      ^~~~~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:114:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  114 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/workspace/main/shexiang-ov2640.c:140:5: note: in expansion of macro 'ESP_LOGI'
+  140 |     ESP_LOGI(TAG, "Free heap before camera init: %zu bytes", esp_get_free_heap_size());
+      |     ^~~~~~~~
+/workspace/main/shexiang-ov2640.c:141:63: error: implicit declaration of function 'esp_get_free_psram_size'; did you mean 'esp_get_free_heap_size'? [-Wimplicit-function-declaration]
+  141 |     ESP_LOGI(TAG, "Free PSRAM before camera init: %zu bytes", esp_get_free_psram_size());
+      |                                                               ^~~~~~~~~~~~~~~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:182:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  182 |         if (level==ESP_LOG_ERROR )          { esp_log_write(ESP_LOG_ERROR,      tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:114:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  114 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/workspace/main/shexiang-ov2640.c:141:5: note: in expansion of macro 'ESP_LOGI'
+  141 |     ESP_LOGI(TAG, "Free PSRAM before camera init: %zu bytes", esp_get_free_psram_size());
+      |     ^~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log_color.h:98:31: error: format '%zu' expects argument of type 'size_t', but argument 6 has type 'uint32_t' {aka 'long unsigned int'} [-Werror=format=]
+   98 | #define LOG_COLOR_E           ""
+      |                               ^~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:62:37: note: in expansion of macro 'LOG_COLOR_E'
+   62 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                     ^~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:182:86: note: in expansion of macro 'LOG_FORMAT'
+  182 |         if (level==ESP_LOG_ERROR )          { esp_log_write(ESP_LOG_ERROR,      tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:205:38: note: in expansion of macro 'ESP_LOG_LEVEL'
+  205 |         if (_ESP_LOG_ENABLED(level)) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                      ^~~~~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:112:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  112 | #define ESP_LOGE( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR,   tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/workspace/main/shexiang-ov2640.c:147:9: note: in expansion of macro 'ESP_LOGE'
+  147 |         ESP_LOGE(TAG, "Free heap after failed init: %zu bytes", esp_get_free_heap_size());
+      |         ^~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log_color.h:99:31: error: format '%zu' expects argument of type 'size_t', but argument 6 has type 'uint32_t' {aka 'long unsigned int'} [-Werror=format=]
+   99 | #define LOG_COLOR_W           ""
+      |                               ^~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:62:37: note: in expansion of macro 'LOG_COLOR_W'
+   62 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                     ^~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:183:86: note: in expansion of macro 'LOG_FORMAT'
+  183 |         else if (level==ESP_LOG_WARN )      { esp_log_write(ESP_LOG_WARN,       tag, LOG_FORMAT(W, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:205:38: note: in expansion of macro 'ESP_LOG_LEVEL'
+  205 |         if (_ESP_LOG_ENABLED(level)) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                      ^~~~~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:112:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  112 | #define ESP_LOGE( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR,   tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/workspace/main/shexiang-ov2640.c:147:9: note: in expansion of macro 'ESP_LOGE'
+  147 |         ESP_LOGE(TAG, "Free heap after failed init: %zu bytes", esp_get_free_heap_size());
+      |         ^~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log_color.h:101:31: error: format '%zu' expects argument of type 'size_t', but argument 6 has type 'uint32_t' {aka 'long unsigned int'} [-Werror=format=]
+  101 | #define LOG_COLOR_D           ""
+      |                               ^~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:62:37: note: in expansion of macro 'LOG_COLOR_D'
+   62 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                     ^~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:184:86: note: in expansion of macro 'LOG_FORMAT'
+  184 |         else if (level==ESP_LOG_DEBUG )     { esp_log_write(ESP_LOG_DEBUG,      tag, LOG_FORMAT(D, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:205:38: note: in expansion of macro 'ESP_LOG_LEVEL'
+  205 |         if (_ESP_LOG_ENABLED(level)) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                      ^~~~~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:112:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  112 | #define ESP_LOGE( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR,   tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/workspace/main/shexiang-ov2640.c:147:9: note: in expansion of macro 'ESP_LOGE'
+  147 |         ESP_LOGE(TAG, "Free heap after failed init: %zu bytes", esp_get_free_heap_size());
+      |         ^~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log_color.h:102:31: error: format '%zu' expects argument of type 'size_t', but argument 6 has type 'uint32_t' {aka 'long unsigned int'} [-Werror=format=]
+  102 | #define LOG_COLOR_V           ""
+      |                               ^~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:62:37: note: in expansion of macro 'LOG_COLOR_V'
+   62 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                     ^~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:185:86: note: in expansion of macro 'LOG_FORMAT'
+  185 |         else if (level==ESP_LOG_VERBOSE )   { esp_log_write(ESP_LOG_VERBOSE,    tag, LOG_FORMAT(V, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:205:38: note: in expansion of macro 'ESP_LOG_LEVEL'
+  205 |         if (_ESP_LOG_ENABLED(level)) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                      ^~~~~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:112:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  112 | #define ESP_LOGE( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR,   tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/workspace/main/shexiang-ov2640.c:147:9: note: in expansion of macro 'ESP_LOGE'
+  147 |         ESP_LOGE(TAG, "Free heap after failed init: %zu bytes", esp_get_free_heap_size());
+      |         ^~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log_color.h:100:31: error: format '%zu' expects argument of type 'size_t', but argument 6 has type 'uint32_t' {aka 'long unsigned int'} [-Werror=format=]
+  100 | #define LOG_COLOR_I           ""
+      |                               ^~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:62:37: note: in expansion of macro 'LOG_COLOR_I'
+   62 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                     ^~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:186:86: note: in expansion of macro 'LOG_FORMAT'
+  186 |         else                                { esp_log_write(ESP_LOG_INFO,       tag, LOG_FORMAT(I, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:205:38: note: in expansion of macro 'ESP_LOG_LEVEL'
+  205 |         if (_ESP_LOG_ENABLED(level)) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                      ^~~~~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:112:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  112 | #define ESP_LOGE( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_ERROR,   tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/workspace/main/shexiang-ov2640.c:147:9: note: in expansion of macro 'ESP_LOGE'
+  147 |         ESP_LOGE(TAG, "Free heap after failed init: %zu bytes", esp_get_free_heap_size());
+      |         ^~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log_color.h:98:31: error: format '%zu' expects argument of type 'size_t', but argument 6 has type 'uint32_t' {aka 'long unsigned int'} [-Werror=format=]
+   98 | #define LOG_COLOR_E           ""
+      |                               ^~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:62:37: note: in expansion of macro 'LOG_COLOR_E'
+   62 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                     ^~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:182:86: note: in expansion of macro 'LOG_FORMAT'
+  182 |         if (level==ESP_LOG_ERROR )          { esp_log_write(ESP_LOG_ERROR,      tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:205:38: note: in expansion of macro 'ESP_LOG_LEVEL'
+  205 |         if (_ESP_LOG_ENABLED(level)) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                      ^~~~~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:114:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  114 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/workspace/main/shexiang-ov2640.c:169:5: note: in expansion of macro 'ESP_LOGI'
+  169 |     ESP_LOGI(TAG, "Free heap after camera init: %zu bytes", esp_get_free_heap_size());
+      |     ^~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log_color.h:99:31: error: format '%zu' expects argument of type 'size_t', but argument 6 has type 'uint32_t' {aka 'long unsigned int'} [-Werror=format=]
+   99 | #define LOG_COLOR_W           ""
+      |                               ^~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:62:37: note: in expansion of macro 'LOG_COLOR_W'
+   62 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                     ^~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:183:86: note: in expansion of macro 'LOG_FORMAT'
+  183 |         else if (level==ESP_LOG_WARN )      { esp_log_write(ESP_LOG_WARN,       tag, LOG_FORMAT(W, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:205:38: note: in expansion of macro 'ESP_LOG_LEVEL'
+  205 |         if (_ESP_LOG_ENABLED(level)) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                      ^~~~~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:114:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  114 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/workspace/main/shexiang-ov2640.c:169:5: note: in expansion of macro 'ESP_LOGI'
+  169 |     ESP_LOGI(TAG, "Free heap after camera init: %zu bytes", esp_get_free_heap_size());
+      |     ^~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log_color.h:101:31: error: format '%zu' expects argument of type 'size_t', but argument 6 has type 'uint32_t' {aka 'long unsigned int'} [-Werror=format=]
+  101 | #define LOG_COLOR_D           ""
+      |                               ^~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:62:37: note: in expansion of macro 'LOG_COLOR_D'
+   62 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                     ^~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:184:86: note: in expansion of macro 'LOG_FORMAT'
+  184 |         else if (level==ESP_LOG_DEBUG )     { esp_log_write(ESP_LOG_DEBUG,      tag, LOG_FORMAT(D, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:205:38: note: in expansion of macro 'ESP_LOG_LEVEL'
+  205 |         if (_ESP_LOG_ENABLED(level)) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                      ^~~~~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:114:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  114 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/workspace/main/shexiang-ov2640.c:169:5: note: in expansion of macro 'ESP_LOGI'
+  169 |     ESP_LOGI(TAG, "Free heap after camera init: %zu bytes", esp_get_free_heap_size());
+      |     ^~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log_color.h:102:31: error: format '%zu' expects argument of type 'size_t', but argument 6 has type 'uint32_t' {aka 'long unsigned int'} [-Werror=format=]
+  102 | #define LOG_COLOR_V           ""
+      |                               ^~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:62:37: note: in expansion of macro 'LOG_COLOR_V'
+   62 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                     ^~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:185:86: note: in expansion of macro 'LOG_FORMAT'
+  185 |         else if (level==ESP_LOG_VERBOSE )   { esp_log_write(ESP_LOG_VERBOSE,    tag, LOG_FORMAT(V, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:205:38: note: in expansion of macro 'ESP_LOG_LEVEL'
+  205 |         if (_ESP_LOG_ENABLED(level)) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                      ^~~~~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:114:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  114 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/workspace/main/shexiang-ov2640.c:169:5: note: in expansion of macro 'ESP_LOGI'
+  169 |     ESP_LOGI(TAG, "Free heap after camera init: %zu bytes", esp_get_free_heap_size());
+      |     ^~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log_color.h:100:31: error: format '%zu' expects argument of type 'size_t', but argument 6 has type 'uint32_t' {aka 'long unsigned int'} [-Werror=format=]
+  100 | #define LOG_COLOR_I           ""
+      |                               ^~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:62:37: note: in expansion of macro 'LOG_COLOR_I'
+   62 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                     ^~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:186:86: note: in expansion of macro 'LOG_FORMAT'
+  186 |         else                                { esp_log_write(ESP_LOG_INFO,       tag, LOG_FORMAT(I, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:205:38: note: in expansion of macro 'ESP_LOG_LEVEL'
+  205 |         if (_ESP_LOG_ENABLED(level)) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                      ^~~~~~~~~~~~~
+/home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:114:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  114 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/workspace/main/shexiang-ov2640.c:169:5: note: in expansion of macro 'ESP_LOGI'
+  169 |     ESP_LOGI(TAG, "Free heap after camera init: %zu bytes", esp_get_free_heap_size());
+      |     ^~~~~~~~
+cc1: some warnings being treated as errors
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:79: esp-idf/main/CMakeFiles/__idf_main.dir/shexiang-ov2640.c.obj] Error 1
+make[1]: *** [CMakeFiles/Makefile2:7387: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:136: all] Error 2

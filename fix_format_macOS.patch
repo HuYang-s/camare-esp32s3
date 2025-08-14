@@ -1,0 +1,27 @@
+#!/bin/bash
+# 修复 macOS ESP-IDF v5.4.2 格式化错误的脚本
+# 这个脚本将修复 main/shexiang-ov2640.c 中的格式化问题
+
+echo "🔧 修复 macOS ESP-IDF v5.4.2 格式化错误..."
+
+# 备份原文件
+cp main/shexiang-ov2640.c main/shexiang-ov2640.c.backup
+
+# 修复所有可能的格式化问题
+sed -i '' 's/ESP_LOGI(TAG, "JPG: %uB", (uint32_t)(pic->len));/ESP_LOGI(TAG, "JPG: %zuB", pic->len);/g' main/shexiang-ov2640.c
+sed -i '' 's/%uB.*pic->len/%zuB", pic->len/g' main/shexiang-ov2640.c
+sed -i '' 's/(uint32_t)(pic->len)/pic->len/g' main/shexiang-ov2640.c
+
+# 额外的格式化修复 - 针对 size_t 类型
+sed -i '' 's/%u.*size_t/%zu/g' main/shexiang-ov2640.c
+sed -i '' 's/%lu.*size_t/%zu/g' main/shexiang-ov2640.c
+
+echo "✅ 格式化错误修复完成！"
+echo ""
+echo "📝 修复内容："
+echo "   - 将 %uB 改为 %zuB (适配 size_t 类型)"
+echo "   - 移除 (uint32_t) 强制转换"
+echo "   - 修复所有 size_t 相关的格式化字符串"
+echo ""
+echo "🔄 请重新运行构建："
+echo "   idf.py build"

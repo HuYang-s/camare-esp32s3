@@ -1,0 +1,24 @@
+esp-idf/hal/CMakeFiles/__idf_hal.dir/brownout_hal.c.obj: \
+ /home/ubuntu/esp-idf-v5.4/components/hal/brownout_hal.c \
+ /home/ubuntu/esp-idf-v5.4/components/hal/esp32s3/include/hal/brownout_ll.h \
+ /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h \
+ /home/ubuntu/esp-idf-v5.4/components/esp_common/include/esp_bit_defs.h \
+ /home/ubuntu/esp-idf-v5.4/components/soc/esp32s3/register/soc/rtc_cntl_struct.h \
+ /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdint.h \
+ /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/stdint.h \
+ /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/_default_types.h \
+ /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h \
+ /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/_newlib_version.h \
+ /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_intsup.h \
+ /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_stdint.h \
+ /home/ubuntu/esp-idf-v5.4/components/hal/platform_port/include/hal/regi2c_ctrl.h \
+ /home/ubuntu/esp-idf-v5.4/components/esp_hw_support/include/esp_private/regi2c_ctrl.h \
+ /workspace/build/config/sdkconfig.h \
+ /home/ubuntu/esp-idf-v5.4/components/esp_rom/include/esp_rom_regi2c.h \
+ /home/ubuntu/esp-idf-v5.4/components/soc/esp32s3/include/soc/regi2c_defs.h \
+ /home/ubuntu/esp-idf-v5.4/components/hal/include/hal/psdet_types.h \
+ /home/ubuntu/esp-idf-v5.4/components/soc/esp32s3/include/soc/regi2c_brownout.h \
+ /home/ubuntu/esp-idf-v5.4/components/hal/include/hal/brownout_hal.h \
+ /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h \
+ /home/ubuntu/esp-idf-v5.4/components/soc/esp32s3/include/soc/soc_caps.h \
+ /home/ubuntu/esp-idf-v5.4/components/soc/esp32s3/include/soc/mpu_caps.h
