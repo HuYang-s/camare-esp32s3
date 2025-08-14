@@ -91,6 +91,7 @@ esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/esp32s3/esp_adapter.c.obj: /home/
   /home/ubuntu/esp-idf-v5.4/components/esp_netif/include/esp_netif_types.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_phy/esp32s3/include/phy_init_data.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_phy/include/esp_phy_init.h \
+  /home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_psram.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/include/esp32s3/rom/ets_sys.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_rom/include/esp_rom_sys.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_system/include/esp_private/crosscore_int.h \
@@ -879,6 +880,7 @@ esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_init.c.obj: /home/ubuntu
   /home/ubuntu/esp-idf-v5.4/components/esp_phy/include/esp_private/phy.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_pm/include/esp_pm.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_pm/include/esp_private/pm_impl.h \
+  /home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_psram.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_rom/include/esp_rom_sys.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_system/include/esp_private/crosscore_int.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_system/include/esp_system.h \
@@ -1207,6 +1209,10 @@ esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_netif.c.obj: /home/ubunt
 
 /home/ubuntu/esp-idf-v5.4/components/log/include/esp_log.h:
 
+/home/ubuntu/esp-idf-v5.4/components/lwip/lwip/src/include/lwip/ip6_addr.h:
+
+/home/ubuntu/esp-idf-v5.4/components/heap/include/esp_heap_caps.h:
+
 /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/unistd.h:
 
 /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/stdlib.h:
@@ -1461,9 +1467,7 @@ config/sdkconfig.h:
 
 /home/ubuntu/esp-idf-v5.4/components/esp_phy/esp32s3/include/phy_init_data.h:
 
-/home/ubuntu/esp-idf-v5.4/components/lwip/lwip/src/include/lwip/ip6_addr.h:
-
-/home/ubuntu/esp-idf-v5.4/components/heap/include/esp_heap_caps.h:
+/home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_psram.h:
 
 /home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/include/esp32s3/rom/ets_sys.h:
 
@@ -1509,6 +1513,10 @@ config/sdkconfig.h:
 
 /home/ubuntu/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/include/freertos/message_buffer.h:
 
+/home/ubuntu/esp-idf-v5.4/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h:
+
+/home/ubuntu/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h:
+
 /home/ubuntu/esp-idf-v5.4/components/lwip/lwip/src/include/lwip/arch.h:
 
 /home/ubuntu/esp-idf-v5.4/components/soc/esp32s3/register/soc/reg_base.h:
@@ -1540,7 +1548,3 @@ config/sdkconfig.h:
 /home/ubuntu/esp-idf-v5.4/components/soc/esp32s3/include/soc/soc.h:
 
 /home/ubuntu/esp-idf-v5.4/components/freertos/config/include/freertos/FreeRTOSConfig.h:
-
-/home/ubuntu/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h:
-
-/home/ubuntu/esp-idf-v5.4/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h:

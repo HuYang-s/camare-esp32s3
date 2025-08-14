@@ -576,8 +576,11 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_mmap.c.obj: /home/ubuntu/
   /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/inttypes.h \
   /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/limits.h \
   /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/_default_types.h \
+  /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/_endian.h \
   /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/_types.h \
+  /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/endian.h \
   /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h \
+  /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/param.h \
   /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/stdlib.h \
   /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h \
   /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/reent.h \
@@ -594,6 +597,7 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_mmap.c.obj: /home/ubuntu/
   /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/config.h \
   /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h \
   /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/lock.h \
+  /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/param.h \
   /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h \
   /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/stdio.h \
   /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/string.h \
@@ -613,6 +617,8 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_mmap.c.obj: /home/ubuntu/
   /home/ubuntu/esp-idf-v5.4/components/esp_hw_support/include/spinlock.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_mm/include/esp_mmu_map.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_mm/include/esp_private/esp_mmu_map_private.h \
+  /home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_private/esp_psram_extram.h \
+  /home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_private/mmu_psram_flash.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/esp_rom_caps.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_rom/include/esp_rom_spiflash.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_rom/include/esp_rom_spiflash_defs.h \
@@ -747,6 +753,7 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_ops.c.obj: /home/ubuntu/e
   /home/ubuntu/esp-idf-v5.4/components/esp_hw_support/include/esp_private/esp_gpio_reserve.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_hw_support/include/esp_private/mspi_timing_tuning.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_hw_support/include/spinlock.h \
+  /home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_private/esp_psram_io.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/include/esp32s3/rom/cache.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/include/esp32s3/rom/efuse.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/include/esp32s3/rom/opi_flash.h \
@@ -1905,6 +1912,8 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj: /home/ubu
 
 /home/ubuntu/esp-idf-v5.4/components/hal/esp32s3/include/hal/mmu_ll.h:
 
+/home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_private/esp_psram_extram.h:
+
 /home/ubuntu/esp-idf-v5.4/components/soc/include/soc/gpio_periph.h:
 
 /home/ubuntu/esp-idf-v5.4/components/soc/esp32s3/register/soc/gpio_reg.h:
@@ -2173,6 +2182,8 @@ config/sdkconfig.h:
 
 /home/ubuntu/esp-idf-v5.4/components/esp_system/include/esp_private/esp_ipc.h:
 
+/home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_private/esp_psram_io.h:
+
 /home/ubuntu/esp-idf-v5.4/components/soc/include/soc/efuse_periph.h:
 
 /home/ubuntu/esp-idf-v5.4/components/xtensa/include/xt_instr_macros.h:
@@ -2202,6 +2213,8 @@ config/sdkconfig.h:
 /home/ubuntu/esp-idf-v5.4/components/soc/esp32s3/register/soc/system_reg.h:
 
 /home/ubuntu/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/include/freertos/queue.h:
+
+/home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_private/mmu_psram_flash.h:
 
 /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h:
 

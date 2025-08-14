@@ -893,6 +893,8 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/app_startup.c.obj: /home/ubuntu/e
   /home/ubuntu/esp-idf-v5.4/components/esp_hw_support/include/esp_intr_types.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_hw_support/include/esp_memory_utils.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_hw_support/include/spinlock.h \
+  /home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_private/esp_psram_extram.h \
+  /home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_psram.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_rom/include/esp_rom_sys.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_system/include/esp_freertos_hooks.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_system/include/esp_private/crosscore_int.h \
@@ -1580,6 +1582,10 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_systick.c.obj: /home/ubuntu/
 
 /home/ubuntu/esp-idf-v5.4/components/freertos/esp_additions/idf_additions.c:
 
+/home/ubuntu/esp-idf-v5.4/components/freertos/esp_additions/freertos_compatibility.c:
+
+/home/ubuntu/esp-idf-v5.4/components/heap/include/esp_heap_caps_init.h:
+
 /home/ubuntu/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/include/freertos/mpu_wrappers.h:
 
 /home/ubuntu/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/include/freertos/list.h:
@@ -1712,6 +1718,8 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_systick.c.obj: /home/ubuntu/
 
 /home/ubuntu/esp-idf-v5.4/components/esp_common/include/esp_bit_defs.h:
 
+/home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_private/esp_psram_extram.h:
+
 /home/ubuntu/esp-idf-v5.4/components/esp_rom/include/esp_rom_sys.h:
 
 /home/ubuntu/esp-idf-v5.4/components/esp_common/include/esp_idf_version.h:
@@ -1731,6 +1739,8 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_systick.c.obj: /home/ubuntu/
 /home/ubuntu/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h:
 
 /home/ubuntu/esp-idf-v5.4/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h:
+
+/home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_psram.h:
 
 /home/ubuntu/esp-idf-v5.4/components/heap/include/esp_heap_caps.h:
 
@@ -1839,7 +1849,3 @@ config/sdkconfig.h:
 /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h:
 
 /home/ubuntu/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/timers.c:
-
-/home/ubuntu/esp-idf-v5.4/components/heap/include/esp_heap_caps_init.h:
-
-/home/ubuntu/esp-idf-v5.4/components/freertos/esp_additions/freertos_compatibility.c:

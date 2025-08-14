@@ -1258,6 +1258,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_gpio_reserve.c.ob
   /home/ubuntu/esp-idf-v5.4/components/soc/esp32s3/include/soc/soc_caps.h
 
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_memory_utils.c.obj: /home/ubuntu/esp-idf-v5.4/components/esp_hw_support/esp_memory_utils.c \
+  /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdarg.h \
   /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h \
   /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h \
   /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdint.h \
@@ -1271,6 +1272,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_memory_utils.c.ob
   /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/stdlib.h \
   /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h \
   /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/stdint.h \
+  /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h \
   /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/stdlib.h \
   /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_intsup.h \
   /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_locale.h \
@@ -1281,10 +1283,14 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_memory_utils.c.ob
   /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h \
   /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/lock.h \
   /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h \
+  /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/stdio.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_common/include/esp_assert.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_common/include/esp_attr.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_common/include/esp_bit_defs.h \
+  /home/ubuntu/esp-idf-v5.4/components/esp_common/include/esp_compiler.h \
+  /home/ubuntu/esp-idf-v5.4/components/esp_common/include/esp_err.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_hw_support/include/esp_memory_utils.h \
+  /home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_private/esp_psram_extram.h \
   /home/ubuntu/esp-idf-v5.4/components/newlib/platform_include/assert.h \
   /home/ubuntu/esp-idf-v5.4/components/newlib/platform_include/sys/lock.h \
   /home/ubuntu/esp-idf-v5.4/components/newlib/platform_include/sys/reent.h \
@@ -4594,6 +4600,10 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/spi_share_hw_ctrl.c.o
 
 /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h:
 
+/home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/include/esp32s3/rom/opi_flash.h:
+
+/home/ubuntu/esp-idf-v5.4/components/esp_hw_support/include/esp_private/sar_periph_ctrl.h:
+
 /home/ubuntu/esp-idf-v5.4/components/xtensa/include/xtensa/corebits.h:
 
 /home/ubuntu/esp-idf-v5.4/components/esp_driver_gpio/include/esp_private/gpio.h:
@@ -4922,10 +4932,6 @@ config/sdkconfig.h:
 
 /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/lock.h:
 
-/home/ubuntu/esp-idf-v5.4/components/esp_hw_support/include/esp_private/sar_periph_ctrl.h:
-
-/home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/include/esp32s3/rom/opi_flash.h:
-
 /home/ubuntu/esp-idf-v5.4/components/hal/platform_port/include/hal/regi2c_ctrl.h:
 
 /home/ubuntu/esp-idf-v5.4/components/hal/include/hal/touch_sensor_hal.h:
@@ -5135,6 +5141,8 @@ config/sdkconfig.h:
 /home/ubuntu/esp-idf-v5.4/components/soc/esp32s3/register/soc/system_reg.h:
 
 /home/ubuntu/esp-idf-v5.4/components/soc/include/soc/gpio_periph.h:
+
+/home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_private/esp_psram_extram.h:
 
 /home/ubuntu/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/include/freertos/message_buffer.h:
 

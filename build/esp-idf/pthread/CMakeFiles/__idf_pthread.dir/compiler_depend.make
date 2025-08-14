@@ -95,6 +95,7 @@ esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread.c.obj: /home/ubuntu/esp-idf
   /home/ubuntu/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h \
   /home/ubuntu/esp-idf-v5.4/components/freertos/config/include/freertos/FreeRTOSConfig.h \
   /home/ubuntu/esp-idf-v5.4/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h \
+  /home/ubuntu/esp-idf-v5.4/components/freertos/esp_additions/include/esp_private/freertos_idf_additions_priv.h \
   /home/ubuntu/esp-idf-v5.4/components/freertos/esp_additions/include/freertos/idf_additions.h \
   /home/ubuntu/esp-idf-v5.4/components/heap/include/esp_heap_caps.h \
   /home/ubuntu/esp-idf-v5.4/components/heap/include/heap_memory_layout.h \
@@ -692,6 +693,8 @@ esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_semaphore.c.obj: /home/ubun
 
 /home/ubuntu/esp-idf-v5.4/components/xtensa/esp32s3/include/xtensa/config/tie.h:
 
+/home/ubuntu/esp-idf-v5.4/components/xtensa/esp32s3/include/xtensa/config/system.h:
+
 /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/time.h:
 
 /home/ubuntu/esp-idf-v5.4/components/xtensa/include/xtensa/xtensa-versions.h:
@@ -745,8 +748,6 @@ config/sdkconfig.h:
 /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h:
 
 /home/ubuntu/esp-idf-v5.4/components/esp_hw_support/include/esp_intr_alloc.h:
-
-/home/ubuntu/esp-idf-v5.4/components/xtensa/esp32s3/include/xtensa/config/system.h:
 
 /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/errno.h:
 
@@ -842,8 +843,6 @@ config/sdkconfig.h:
 
 /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/reent.h:
 
-/home/ubuntu/esp-idf-v5.4/components/esp_common/include/esp_attr.h:
-
 /home/ubuntu/esp-idf-v5.4/components/esp_common/include/esp_bit_defs.h:
 
 /home/ubuntu/esp-idf-v5.4/components/esp_common/include/esp_check.h:
@@ -923,6 +922,10 @@ config/sdkconfig.h:
 /home/ubuntu/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h:
 
 /home/ubuntu/esp-idf-v5.4/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h:
+
+/home/ubuntu/esp-idf-v5.4/components/esp_common/include/esp_attr.h:
+
+/home/ubuntu/esp-idf-v5.4/components/freertos/esp_additions/include/esp_private/freertos_idf_additions_priv.h:
 
 /home/ubuntu/esp-idf-v5.4/components/heap/include/esp_heap_caps.h:
 

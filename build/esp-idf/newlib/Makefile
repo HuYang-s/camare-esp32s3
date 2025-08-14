@@ -391,6 +391,30 @@ port/esp_time_impl.c.s:
 	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/port/esp_time_impl.c.s
 .PHONY : port/esp_time_impl.c.s
 
+port/xtensa/stdatomic_s32c1i.obj: port/xtensa/stdatomic_s32c1i.c.obj
+.PHONY : port/xtensa/stdatomic_s32c1i.obj
+
+# target to build an object file
+port/xtensa/stdatomic_s32c1i.c.obj:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/port/xtensa/stdatomic_s32c1i.c.obj
+.PHONY : port/xtensa/stdatomic_s32c1i.c.obj
+
+port/xtensa/stdatomic_s32c1i.i: port/xtensa/stdatomic_s32c1i.c.i
+.PHONY : port/xtensa/stdatomic_s32c1i.i
+
+# target to preprocess a source file
+port/xtensa/stdatomic_s32c1i.c.i:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/port/xtensa/stdatomic_s32c1i.c.i
+.PHONY : port/xtensa/stdatomic_s32c1i.c.i
+
+port/xtensa/stdatomic_s32c1i.s: port/xtensa/stdatomic_s32c1i.c.s
+.PHONY : port/xtensa/stdatomic_s32c1i.s
+
+# target to generate assembly for a file
+port/xtensa/stdatomic_s32c1i.c.s:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/port/xtensa/stdatomic_s32c1i.c.s
+.PHONY : port/xtensa/stdatomic_s32c1i.c.s
+
 pthread.obj: pthread.c.obj
 .PHONY : pthread.obj
 
@@ -671,6 +695,9 @@ help:
 	@echo "... port/esp_time_impl.obj"
 	@echo "... port/esp_time_impl.i"
 	@echo "... port/esp_time_impl.s"
+	@echo "... port/xtensa/stdatomic_s32c1i.obj"
+	@echo "... port/xtensa/stdatomic_s32c1i.i"
+	@echo "... port/xtensa/stdatomic_s32c1i.s"
 	@echo "... pthread.obj"
 	@echo "... pthread.i"
 	@echo "... pthread.s"

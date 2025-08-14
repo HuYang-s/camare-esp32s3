@@ -98,6 +98,14 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/cpu_start.c.obj: \
  /home/ubuntu/esp-idf-v5.4/components/esp_mm/include/esp_private/esp_mmu_map_private.h \
  /home/ubuntu/esp-idf-v5.4/components/hal/include/hal/mmu_types.h \
  /home/ubuntu/esp-idf-v5.4/components/esp_system/port/include/private/esp_private/image_process.h \
+ /home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_psram.h \
+ /home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_private/mmu_psram_flash.h \
+ /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/param.h \
+ /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/syslimits.h \
+ /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/endian.h \
+ /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/_endian.h \
+ /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/param.h \
+ /home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_private/esp_psram_extram.h \
  /home/ubuntu/esp-idf-v5.4/components/spi_flash/include/esp_private/spi_flash_os.h \
  /home/ubuntu/esp-idf-v5.4/components/spi_flash/include/esp_flash.h \
  /home/ubuntu/esp-idf-v5.4/components/hal/include/hal/spi_flash_types.h \
@@ -115,11 +123,6 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/cpu_start.c.obj: \
  /home/ubuntu/esp-idf-v5.4/components/soc/esp32s3/register/soc/spi_mem_struct.h \
  /home/ubuntu/esp-idf-v5.4/components/soc/esp32s3/register/soc/spi_mem_reg.h \
  /home/ubuntu/esp-idf-v5.4/components/hal/include/hal/spi_types.h \
- /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/param.h \
- /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/syslimits.h \
- /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/endian.h \
- /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/_endian.h \
- /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/param.h \
  /home/ubuntu/esp-idf-v5.4/components/hal/esp32s3/include/hal/spimem_flash_ll.h \
  /home/ubuntu/esp-idf-v5.4/components/hal/platform_port/include/hal/assert.h \
  /home/ubuntu/esp-idf-v5.4/components/spi_flash/include/spi_flash_override.h \

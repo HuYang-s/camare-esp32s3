@@ -17,6 +17,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/ubuntu/esp-idf-v5.4/components/newlib/newlib_init.c" "esp-idf/newlib/CMakeFiles/__idf_newlib.dir/newlib_init.c.obj" "gcc" "esp-idf/newlib/CMakeFiles/__idf_newlib.dir/newlib_init.c.obj.d"
   "/home/ubuntu/esp-idf-v5.4/components/newlib/poll.c" "esp-idf/newlib/CMakeFiles/__idf_newlib.dir/poll.c.obj" "gcc" "esp-idf/newlib/CMakeFiles/__idf_newlib.dir/poll.c.obj.d"
   "/home/ubuntu/esp-idf-v5.4/components/newlib/port/esp_time_impl.c" "esp-idf/newlib/CMakeFiles/__idf_newlib.dir/port/esp_time_impl.c.obj" "gcc" "esp-idf/newlib/CMakeFiles/__idf_newlib.dir/port/esp_time_impl.c.obj.d"
+  "/home/ubuntu/esp-idf-v5.4/components/newlib/port/xtensa/stdatomic_s32c1i.c" "esp-idf/newlib/CMakeFiles/__idf_newlib.dir/port/xtensa/stdatomic_s32c1i.c.obj" "gcc" "esp-idf/newlib/CMakeFiles/__idf_newlib.dir/port/xtensa/stdatomic_s32c1i.c.obj.d"
   "/home/ubuntu/esp-idf-v5.4/components/newlib/pthread.c" "esp-idf/newlib/CMakeFiles/__idf_newlib.dir/pthread.c.obj" "gcc" "esp-idf/newlib/CMakeFiles/__idf_newlib.dir/pthread.c.obj.d"
   "/home/ubuntu/esp-idf-v5.4/components/newlib/random.c" "esp-idf/newlib/CMakeFiles/__idf_newlib.dir/random.c.obj" "gcc" "esp-idf/newlib/CMakeFiles/__idf_newlib.dir/random.c.obj.d"
   "/home/ubuntu/esp-idf-v5.4/components/newlib/realpath.c" "esp-idf/newlib/CMakeFiles/__idf_newlib.dir/realpath.c.obj" "gcc" "esp-idf/newlib/CMakeFiles/__idf_newlib.dir/realpath.c.obj.d"

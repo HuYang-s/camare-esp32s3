@@ -324,10 +324,24 @@ esp-idf/newlib/CMakeFiles/__idf_newlib.dir/scandir.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_newlib.dir/scandir.c.s"
 	cd /workspace/build/esp-idf/newlib && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/esp-idf-v5.4/components/newlib/scandir.c -o CMakeFiles/__idf_newlib.dir/scandir.c.s
 
+esp-idf/newlib/CMakeFiles/__idf_newlib.dir/port/xtensa/stdatomic_s32c1i.c.obj: esp-idf/newlib/CMakeFiles/__idf_newlib.dir/flags.make
+esp-idf/newlib/CMakeFiles/__idf_newlib.dir/port/xtensa/stdatomic_s32c1i.c.obj: /home/ubuntu/esp-idf-v5.4/components/newlib/port/xtensa/stdatomic_s32c1i.c
+esp-idf/newlib/CMakeFiles/__idf_newlib.dir/port/xtensa/stdatomic_s32c1i.c.obj: esp-idf/newlib/CMakeFiles/__idf_newlib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/port/xtensa/stdatomic_s32c1i.c.obj"
+	cd /workspace/build/esp-idf/newlib && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -mno-disable-hardware-atomics -MD -MT esp-idf/newlib/CMakeFiles/__idf_newlib.dir/port/xtensa/stdatomic_s32c1i.c.obj -MF CMakeFiles/__idf_newlib.dir/port/xtensa/stdatomic_s32c1i.c.obj.d -o CMakeFiles/__idf_newlib.dir/port/xtensa/stdatomic_s32c1i.c.obj -c /home/ubuntu/esp-idf-v5.4/components/newlib/port/xtensa/stdatomic_s32c1i.c
+
+esp-idf/newlib/CMakeFiles/__idf_newlib.dir/port/xtensa/stdatomic_s32c1i.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_newlib.dir/port/xtensa/stdatomic_s32c1i.c.i"
+	cd /workspace/build/esp-idf/newlib && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -mno-disable-hardware-atomics -E /home/ubuntu/esp-idf-v5.4/components/newlib/port/xtensa/stdatomic_s32c1i.c > CMakeFiles/__idf_newlib.dir/port/xtensa/stdatomic_s32c1i.c.i
+
+esp-idf/newlib/CMakeFiles/__idf_newlib.dir/port/xtensa/stdatomic_s32c1i.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_newlib.dir/port/xtensa/stdatomic_s32c1i.c.s"
+	cd /workspace/build/esp-idf/newlib && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -mno-disable-hardware-atomics -S /home/ubuntu/esp-idf-v5.4/components/newlib/port/xtensa/stdatomic_s32c1i.c -o CMakeFiles/__idf_newlib.dir/port/xtensa/stdatomic_s32c1i.c.s
+
 esp-idf/newlib/CMakeFiles/__idf_newlib.dir/port/esp_time_impl.c.obj: esp-idf/newlib/CMakeFiles/__idf_newlib.dir/flags.make
 esp-idf/newlib/CMakeFiles/__idf_newlib.dir/port/esp_time_impl.c.obj: /home/ubuntu/esp-idf-v5.4/components/newlib/port/esp_time_impl.c
 esp-idf/newlib/CMakeFiles/__idf_newlib.dir/port/esp_time_impl.c.obj: esp-idf/newlib/CMakeFiles/__idf_newlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/port/esp_time_impl.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/port/esp_time_impl.c.obj"
 	cd /workspace/build/esp-idf/newlib && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/newlib/CMakeFiles/__idf_newlib.dir/port/esp_time_impl.c.obj -MF CMakeFiles/__idf_newlib.dir/port/esp_time_impl.c.obj.d -o CMakeFiles/__idf_newlib.dir/port/esp_time_impl.c.obj -c /home/ubuntu/esp-idf-v5.4/components/newlib/port/esp_time_impl.c
 
 esp-idf/newlib/CMakeFiles/__idf_newlib.dir/port/esp_time_impl.c.i: cmake_force
@@ -358,6 +372,7 @@ __idf_newlib_OBJECTS = \
 "CMakeFiles/__idf_newlib.dir/sysconf.c.obj" \
 "CMakeFiles/__idf_newlib.dir/realpath.c.obj" \
 "CMakeFiles/__idf_newlib.dir/scandir.c.obj" \
+"CMakeFiles/__idf_newlib.dir/port/xtensa/stdatomic_s32c1i.c.obj" \
 "CMakeFiles/__idf_newlib.dir/port/esp_time_impl.c.obj"
 
 # External object files for target __idf_newlib
@@ -381,10 +396,11 @@ esp-idf/newlib/libnewlib.a: esp-idf/newlib/CMakeFiles/__idf_newlib.dir/time.c.ob
 esp-idf/newlib/libnewlib.a: esp-idf/newlib/CMakeFiles/__idf_newlib.dir/sysconf.c.obj
 esp-idf/newlib/libnewlib.a: esp-idf/newlib/CMakeFiles/__idf_newlib.dir/realpath.c.obj
 esp-idf/newlib/libnewlib.a: esp-idf/newlib/CMakeFiles/__idf_newlib.dir/scandir.c.obj
+esp-idf/newlib/libnewlib.a: esp-idf/newlib/CMakeFiles/__idf_newlib.dir/port/xtensa/stdatomic_s32c1i.c.obj
 esp-idf/newlib/libnewlib.a: esp-idf/newlib/CMakeFiles/__idf_newlib.dir/port/esp_time_impl.c.obj
 esp-idf/newlib/libnewlib.a: esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make
 esp-idf/newlib/libnewlib.a: esp-idf/newlib/CMakeFiles/__idf_newlib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking C static library libnewlib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking C static library libnewlib.a"
 	cd /workspace/build/esp-idf/newlib && $(CMAKE_COMMAND) -P CMakeFiles/__idf_newlib.dir/cmake_clean_target.cmake
 	cd /workspace/build/esp-idf/newlib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_newlib.dir/link.txt --verbose=$(VERBOSE)
 

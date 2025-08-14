@@ -184,6 +184,7 @@ esp-idf/esp_system/ld/sections.ld: esp-idf/http_parser/libhttp_parser.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp-tls/libesp-tls.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_adc/libesp_adc.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_cam/libesp_driver_cam.a
+esp-idf/esp_system/ld/sections.ld: esp-idf/esp_psram/libesp_psram.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_eth/libesp_eth.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_hid/libesp_hid.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/tcp_transport/libtcp_transport.a

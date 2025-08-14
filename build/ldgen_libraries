@@ -60,6 +60,7 @@
 /workspace/build/esp-idf/esp-tls/libesp-tls.a
 /workspace/build/esp-idf/esp_adc/libesp_adc.a
 /workspace/build/esp-idf/esp_driver_cam/libesp_driver_cam.a
+/workspace/build/esp-idf/esp_psram/libesp_psram.a
 /workspace/build/esp-idf/esp_eth/libesp_eth.a
 /workspace/build/esp-idf/esp_hid/libesp_hid.a
 /workspace/build/esp-idf/tcp_transport/libtcp_transport.a

@@ -135,6 +135,7 @@ esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread.c.obj: \
  /home/ubuntu/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/include/freertos/event_groups.h \
  /home/ubuntu/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/include/freertos/timers.h \
  /home/ubuntu/esp-idf-v5.4/components/esp_system/include/esp_private/startup_internal.h \
+ /home/ubuntu/esp-idf-v5.4/components/freertos/esp_additions/include/esp_private/freertos_idf_additions_priv.h \
  /home/ubuntu/esp-idf-v5.4/components/heap/include/soc/soc_memory_layout.h \
  /home/ubuntu/esp-idf-v5.4/components/heap/include/heap_memory_layout.h \
  /home/ubuntu/esp-idf-v5.4/components/pthread/pthread_internal.h \

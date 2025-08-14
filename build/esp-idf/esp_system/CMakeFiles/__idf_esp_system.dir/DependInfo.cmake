@@ -89,6 +89,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/home/ubuntu/esp-idf-v5.4/components/esp_gdbstub/include"
   "/home/ubuntu/esp-idf-v5.4/components/esp_app_format/include"
   "/home/ubuntu/esp-idf-v5.4/components/vfs/include"
+  "/home/ubuntu/esp-idf-v5.4/components/esp_psram/include"
   )
 
 # The set of dependency files which are needed:

@@ -76,6 +76,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/home/ubuntu/esp-idf-v5.4/components/lwip/port/esp32xx/include"
   "/home/ubuntu/esp-idf-v5.4/components/lwip/port/esp32xx/include/arch"
   "/home/ubuntu/esp-idf-v5.4/components/lwip/port/esp32xx/include/sys"
+  "/home/ubuntu/esp-idf-v5.4/components/esp_psram/include"
   )
 
 # The set of dependency files which are needed:

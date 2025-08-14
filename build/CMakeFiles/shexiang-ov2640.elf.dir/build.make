@@ -161,6 +161,7 @@ shexiang-ov2640.elf: esp-idf/http_parser/libhttp_parser.a
 shexiang-ov2640.elf: esp-idf/esp-tls/libesp-tls.a
 shexiang-ov2640.elf: esp-idf/esp_adc/libesp_adc.a
 shexiang-ov2640.elf: esp-idf/esp_driver_cam/libesp_driver_cam.a
+shexiang-ov2640.elf: esp-idf/esp_psram/libesp_psram.a
 shexiang-ov2640.elf: esp-idf/esp_eth/libesp_eth.a
 shexiang-ov2640.elf: esp-idf/esp_hid/libesp_hid.a
 shexiang-ov2640.elf: esp-idf/tcp_transport/libtcp_transport.a
@@ -254,6 +255,7 @@ shexiang-ov2640.elf: esp-idf/esp_gdbstub/libesp_gdbstub.a
 shexiang-ov2640.elf: esp-idf/http_parser/libhttp_parser.a
 shexiang-ov2640.elf: esp-idf/esp-tls/libesp-tls.a
 shexiang-ov2640.elf: esp-idf/esp_adc/libesp_adc.a
+shexiang-ov2640.elf: esp-idf/esp_psram/libesp_psram.a
 shexiang-ov2640.elf: esp-idf/tcp_transport/libtcp_transport.a
 shexiang-ov2640.elf: esp-idf/esp_http_client/libesp_http_client.a
 shexiang-ov2640.elf: esp-idf/esp_http_server/libesp_http_server.a
@@ -327,6 +329,7 @@ shexiang-ov2640.elf: esp-idf/esp_gdbstub/libesp_gdbstub.a
 shexiang-ov2640.elf: esp-idf/http_parser/libhttp_parser.a
 shexiang-ov2640.elf: esp-idf/esp-tls/libesp-tls.a
 shexiang-ov2640.elf: esp-idf/esp_adc/libesp_adc.a
+shexiang-ov2640.elf: esp-idf/esp_psram/libesp_psram.a
 shexiang-ov2640.elf: esp-idf/tcp_transport/libtcp_transport.a
 shexiang-ov2640.elf: esp-idf/esp_http_client/libesp_http_client.a
 shexiang-ov2640.elf: esp-idf/esp_http_server/libesp_http_server.a
@@ -400,6 +403,7 @@ shexiang-ov2640.elf: esp-idf/esp_gdbstub/libesp_gdbstub.a
 shexiang-ov2640.elf: esp-idf/http_parser/libhttp_parser.a
 shexiang-ov2640.elf: esp-idf/esp-tls/libesp-tls.a
 shexiang-ov2640.elf: esp-idf/esp_adc/libesp_adc.a
+shexiang-ov2640.elf: esp-idf/esp_psram/libesp_psram.a
 shexiang-ov2640.elf: esp-idf/tcp_transport/libtcp_transport.a
 shexiang-ov2640.elf: esp-idf/esp_http_client/libesp_http_client.a
 shexiang-ov2640.elf: esp-idf/esp_http_server/libesp_http_server.a
@@ -473,6 +477,7 @@ shexiang-ov2640.elf: esp-idf/esp_gdbstub/libesp_gdbstub.a
 shexiang-ov2640.elf: esp-idf/http_parser/libhttp_parser.a
 shexiang-ov2640.elf: esp-idf/esp-tls/libesp-tls.a
 shexiang-ov2640.elf: esp-idf/esp_adc/libesp_adc.a
+shexiang-ov2640.elf: esp-idf/esp_psram/libesp_psram.a
 shexiang-ov2640.elf: esp-idf/tcp_transport/libtcp_transport.a
 shexiang-ov2640.elf: esp-idf/esp_http_client/libesp_http_client.a
 shexiang-ov2640.elf: esp-idf/esp_http_server/libesp_http_server.a
@@ -546,6 +551,7 @@ shexiang-ov2640.elf: esp-idf/esp_gdbstub/libesp_gdbstub.a
 shexiang-ov2640.elf: esp-idf/http_parser/libhttp_parser.a
 shexiang-ov2640.elf: esp-idf/esp-tls/libesp-tls.a
 shexiang-ov2640.elf: esp-idf/esp_adc/libesp_adc.a
+shexiang-ov2640.elf: esp-idf/esp_psram/libesp_psram.a
 shexiang-ov2640.elf: esp-idf/tcp_transport/libtcp_transport.a
 shexiang-ov2640.elf: esp-idf/esp_http_client/libesp_http_client.a
 shexiang-ov2640.elf: esp-idf/esp_http_server/libesp_http_server.a
@@ -619,6 +625,7 @@ shexiang-ov2640.elf: esp-idf/esp_gdbstub/libesp_gdbstub.a
 shexiang-ov2640.elf: esp-idf/http_parser/libhttp_parser.a
 shexiang-ov2640.elf: esp-idf/esp-tls/libesp-tls.a
 shexiang-ov2640.elf: esp-idf/esp_adc/libesp_adc.a
+shexiang-ov2640.elf: esp-idf/esp_psram/libesp_psram.a
 shexiang-ov2640.elf: esp-idf/tcp_transport/libtcp_transport.a
 shexiang-ov2640.elf: esp-idf/esp_http_client/libesp_http_client.a
 shexiang-ov2640.elf: esp-idf/esp_http_server/libesp_http_server.a

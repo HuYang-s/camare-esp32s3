@@ -136,25 +136,39 @@ void wifi_init_sta(void)
 
 esp_err_t init_camera(void)
 {
+    // 检查可用内存
+    ESP_LOGI(TAG, "Free heap before camera init: %lu bytes", (unsigned long)esp_get_free_heap_size());
+    #if CONFIG_SPIRAM
+    ESP_LOGI(TAG, "PSRAM enabled, checking available PSRAM...");
+    #endif
+    
     // 初始化摄像头
     esp_err_t err = esp_camera_init(&camera_config);
     if (err != ESP_OK) {
         ESP_LOGE(TAG, "Camera init failed with error 0x%x", err);
+        ESP_LOGE(TAG, "Free heap after failed init: %lu bytes", (unsigned long)esp_get_free_heap_size());
         return err;
     }
 
     // 获取摄像头传感器
     sensor_t *s = esp_camera_sensor_get();
-    if (s->id.PID == OV2640_PID) {
-        ESP_LOGI(TAG, "OV2640 camera detected!");
-        // 初始设置一些参数
-        s->set_vflip(s, 1);       // 垂直翻转
-        s->set_brightness(s, 0);  // 亮度 (-2到2)
-        s->set_saturation(s, 0);  // 饱和度 (-2到2)
+    if (s != NULL) {
+        if (s->id.PID == OV2640_PID) {
+            ESP_LOGI(TAG, "OV2640 camera detected!");
+            // 初始设置一些参数
+            s->set_vflip(s, 1);       // 垂直翻转
+            s->set_brightness(s, 0);  // 亮度 (-2到2)
+            s->set_saturation(s, 0);  // 饱和度 (-2到2)
+        } else {
+            ESP_LOGW(TAG, "Camera PID=0x%02x not recognized", s->id.PID);
+        }
+        ESP_LOGI(TAG, "Camera sensor configured successfully");
     } else {
-        ESP_LOGW(TAG, "Camera PID=0x%02x not recognized", s->id.PID);
+        ESP_LOGW(TAG, "Failed to get camera sensor");
     }
 
+    ESP_LOGI(TAG, "Free heap after camera init: %lu bytes", (unsigned long)esp_get_free_heap_size());
+    
     return ESP_OK;
 }
 

@@ -124,6 +124,12 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_mmap.c.obj: \
  /home/ubuntu/esp-idf-v5.4/components/esp_mm/include/esp_mmu_map.h \
  /home/ubuntu/esp-idf-v5.4/components/esp_rom/include/esp_rom_spiflash.h \
  /home/ubuntu/esp-idf-v5.4/components/esp_rom/include/esp_rom_spiflash_defs.h \
+ /home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_private/esp_psram_extram.h \
+ /home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_private/mmu_psram_flash.h \
+ /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/param.h \
+ /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/endian.h \
+ /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/_endian.h \
+ /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/param.h \
  /home/ubuntu/esp-idf-v5.4/components/spi_flash/include/esp_private/cache_utils.h \
  /home/ubuntu/esp-idf-v5.4/components/spi_flash/include/spi_flash_mmap.h \
  /home/ubuntu/esp-idf-v5.4/components/spi_flash/include/esp_spi_flash_counters.h

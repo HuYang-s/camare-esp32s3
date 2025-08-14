@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/__idf_newlib.dir/poll.c.obj.d"
   "CMakeFiles/__idf_newlib.dir/port/esp_time_impl.c.obj"
   "CMakeFiles/__idf_newlib.dir/port/esp_time_impl.c.obj.d"
+  "CMakeFiles/__idf_newlib.dir/port/xtensa/stdatomic_s32c1i.c.obj"
+  "CMakeFiles/__idf_newlib.dir/port/xtensa/stdatomic_s32c1i.c.obj.d"
   "CMakeFiles/__idf_newlib.dir/pthread.c.obj"
   "CMakeFiles/__idf_newlib.dir/pthread.c.obj.d"
   "CMakeFiles/__idf_newlib.dir/random.c.obj"

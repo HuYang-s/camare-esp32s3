@@ -903,6 +903,8 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/app_startup.c.obj
  /home/ubuntu/esp-idf-v5.4/components/esp_hw_support/include/esp_intr_types.h
  /home/ubuntu/esp-idf-v5.4/components/esp_hw_support/include/esp_memory_utils.h
  /home/ubuntu/esp-idf-v5.4/components/esp_hw_support/include/spinlock.h
+ /home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_private/esp_psram_extram.h
+ /home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_psram.h
  /home/ubuntu/esp-idf-v5.4/components/esp_rom/include/esp_rom_sys.h
  /home/ubuntu/esp-idf-v5.4/components/esp_system/include/esp_freertos_hooks.h
  /home/ubuntu/esp-idf-v5.4/components/esp_system/include/esp_private/crosscore_int.h

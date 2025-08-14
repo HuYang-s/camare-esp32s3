@@ -1383,6 +1383,9 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/cpu_start.c.obj: /home/u
   /home/ubuntu/esp-idf-v5.4/components/esp_hw_support/include/soc/esp32s3/soc_memprot_types.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_hw_support/port/esp32s3/include/soc/rtc.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_mm/include/esp_private/esp_mmu_map_private.h \
+  /home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_private/esp_psram_extram.h \
+  /home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_private/mmu_psram_flash.h \
+  /home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_psram.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/esp_rom_caps.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/include/esp32s3/rom/cache.h \
   /home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/include/esp32s3/rom/efuse.h \
@@ -3269,6 +3272,10 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/xt_wdt.c.obj: /home/ubuntu/es
 
 /home/ubuntu/esp-idf-v5.4/components/esp_system/port/include/private/esp_private/image_process.h:
 
+/home/ubuntu/esp-idf-v5.4/components/esp_system/port/include/esp_clk_internal.h:
+
+/home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/include/esp32s3/rom/spi_flash.h:
+
 /home/ubuntu/esp-idf-v5.4/components/hal/esp32s3/include/hal/timer_ll.h:
 
 /home/ubuntu/esp-idf-v5.4/components/esp_common/include/esp_check.h:
@@ -3607,6 +3614,8 @@ config/sdkconfig.h:
 
 /home/ubuntu/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/include/freertos/mpu_wrappers.h:
 
+/home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_private/mmu_psram_flash.h:
+
 /home/ubuntu/esp-idf-v5.4/components/hal/include/hal/wdt_types.h:
 
 /home/ubuntu/esp-idf-v5.4/components/hal/platform_port/include/hal/assert.h:
@@ -3721,8 +3730,6 @@ config/sdkconfig.h:
 
 /home/ubuntu/esp-idf-v5.4/components/xtensa/include/esp_cpu_utils.h:
 
-/home/ubuntu/esp-idf-v5.4/components/esp_system/port/include/esp_clk_internal.h:
-
 /home/ubuntu/esp-idf-v5.4/components/xtensa/include/xtensa-debug-module.h:
 
 /home/ubuntu/esp-idf-v5.4/components/soc/esp32s3/include/soc/dport_reg.h:
@@ -3799,11 +3806,11 @@ config/sdkconfig.h:
 
 /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/time.h:
 
+/home/ubuntu/esp-idf-v5.4/components/esp_system/include/esp_private/startup_internal.h:
+
 /home/ubuntu/esp-idf-v5.4/components/hal/include/hal/timer_types.h:
 
 /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h:
-
-/home/ubuntu/esp-idf-v5.4/components/esp_system/include/esp_private/startup_internal.h:
 
 /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/lock.h:
 
@@ -3821,6 +3828,10 @@ config/sdkconfig.h:
 
 /home/ubuntu/esp-idf-v5.4/components/esp_hw_support/include/esp_private/sleep_gpio.h:
 
+/home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_private/esp_psram_extram.h:
+
+/home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_psram.h:
+
 /home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/include/esp32s3/rom/cache.h:
 
 /home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/include/esp32s3/rom/efuse.h:
@@ -3830,5 +3841,3 @@ config/sdkconfig.h:
 /home/ubuntu/esp-idf-v5.4/components/hal/include/hal/uart_hal.h:
 
 /home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/include/esp32s3/rom/secure_boot.h:
-
-/home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/include/esp32s3/rom/spi_flash.h:

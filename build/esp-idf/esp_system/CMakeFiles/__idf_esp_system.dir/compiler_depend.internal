@@ -1398,6 +1398,9 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/cpu_start.c.obj
  /home/ubuntu/esp-idf-v5.4/components/esp_hw_support/include/soc/esp32s3/soc_memprot_types.h
  /home/ubuntu/esp-idf-v5.4/components/esp_hw_support/port/esp32s3/include/soc/rtc.h
  /home/ubuntu/esp-idf-v5.4/components/esp_mm/include/esp_private/esp_mmu_map_private.h
+ /home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_private/esp_psram_extram.h
+ /home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_private/mmu_psram_flash.h
+ /home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_psram.h
  /home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/esp_rom_caps.h
  /home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/include/esp32s3/rom/cache.h
  /home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/include/esp32s3/rom/efuse.h

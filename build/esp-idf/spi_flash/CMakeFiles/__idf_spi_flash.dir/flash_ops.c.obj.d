@@ -166,4 +166,5 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_ops.c.obj: \
  /home/ubuntu/esp-idf-v5.4/components/soc/esp32s3/include/soc/efuse_defs.h \
  /home/ubuntu/esp-idf-v5.4/components/soc/esp32s3/register/soc/efuse_struct.h \
  /home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/include/esp32s3/rom/efuse.h \
- /home/ubuntu/esp-idf-v5.4/components/hal/include/hal/efuse_hal.h
+ /home/ubuntu/esp-idf-v5.4/components/hal/include/hal/efuse_hal.h \
+ /home/ubuntu/esp-idf-v5.4/components/esp_psram/include/esp_private/esp_psram_io.h

@@ -161,6 +161,92 @@ depend:
 	cd /workspace/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/rule:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/rule
+.PHONY : esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/rule
+
+# Convenience name for target.
+__idf_esp_psram: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/rule
+.PHONY : __idf_esp_psram
+
+# fast build rule for target.
+__idf_esp_psram/fast:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build
+.PHONY : __idf_esp_psram/fast
+
+device/esp_psram_impl_ap_quad.obj: device/esp_psram_impl_ap_quad.c.obj
+.PHONY : device/esp_psram_impl_ap_quad.obj
+
+# target to build an object file
+device/esp_psram_impl_ap_quad.c.obj:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/device/esp_psram_impl_ap_quad.c.obj
+.PHONY : device/esp_psram_impl_ap_quad.c.obj
+
+device/esp_psram_impl_ap_quad.i: device/esp_psram_impl_ap_quad.c.i
+.PHONY : device/esp_psram_impl_ap_quad.i
+
+# target to preprocess a source file
+device/esp_psram_impl_ap_quad.c.i:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/device/esp_psram_impl_ap_quad.c.i
+.PHONY : device/esp_psram_impl_ap_quad.c.i
+
+device/esp_psram_impl_ap_quad.s: device/esp_psram_impl_ap_quad.c.s
+.PHONY : device/esp_psram_impl_ap_quad.s
+
+# target to generate assembly for a file
+device/esp_psram_impl_ap_quad.c.s:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/device/esp_psram_impl_ap_quad.c.s
+.PHONY : device/esp_psram_impl_ap_quad.c.s
+
+esp_psram.obj: esp_psram.c.obj
+.PHONY : esp_psram.obj
+
+# target to build an object file
+esp_psram.c.obj:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp_psram.c.obj
+.PHONY : esp_psram.c.obj
+
+esp_psram.i: esp_psram.c.i
+.PHONY : esp_psram.i
+
+# target to preprocess a source file
+esp_psram.c.i:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp_psram.c.i
+.PHONY : esp_psram.c.i
+
+esp_psram.s: esp_psram.c.s
+.PHONY : esp_psram.s
+
+# target to generate assembly for a file
+esp_psram.c.s:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp_psram.c.s
+.PHONY : esp_psram.c.s
+
+mmu_psram_flash.obj: mmu_psram_flash.c.obj
+.PHONY : mmu_psram_flash.obj
+
+# target to build an object file
+mmu_psram_flash.c.obj:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/mmu_psram_flash.c.obj
+.PHONY : mmu_psram_flash.c.obj
+
+mmu_psram_flash.i: mmu_psram_flash.c.i
+.PHONY : mmu_psram_flash.i
+
+# target to preprocess a source file
+mmu_psram_flash.c.i:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/mmu_psram_flash.c.i
+.PHONY : mmu_psram_flash.c.i
+
+mmu_psram_flash.s: mmu_psram_flash.c.s
+.PHONY : mmu_psram_flash.s
+
+# target to generate assembly for a file
+mmu_psram_flash.c.s:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/mmu_psram_flash.c.s
+.PHONY : mmu_psram_flash.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -173,6 +259,16 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... __idf_esp_psram"
+	@echo "... device/esp_psram_impl_ap_quad.obj"
+	@echo "... device/esp_psram_impl_ap_quad.i"
+	@echo "... device/esp_psram_impl_ap_quad.s"
+	@echo "... esp_psram.obj"
+	@echo "... esp_psram.i"
+	@echo "... esp_psram.s"
+	@echo "... mmu_psram_flash.obj"
+	@echo "... mmu_psram_flash.i"
+	@echo "... mmu_psram_flash.s"
 .PHONY : help
 
 

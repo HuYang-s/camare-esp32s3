@@ -644,6 +644,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/DependInfo.cmake"
   "esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/DependInfo.cmake"
   "esp-idf/esp_driver_cam/CMakeFiles/__idf_esp_driver_cam.dir/DependInfo.cmake"
+  "esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/DependInfo.cmake"
   "esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/DependInfo.cmake"
   "esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/DependInfo.cmake"
   "esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/DependInfo.cmake"
