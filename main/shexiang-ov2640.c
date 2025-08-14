@@ -15,27 +15,29 @@
 #include <img_converters.h>
 
 // WiFi配置
-#define WIFI_SSID      "YOUR_WIFI_SSID"      // 请修改为您的WiFi名称
-#define WIFI_PASS      "YOUR_WIFI_PASSWORD"  // 请修改为您的WiFi密码
+const char *ssid = "bed_room_2.4G";
+const char *password = "Hdk4560.0";
 #define MAXIMUM_RETRY  5
 
 // 摄像头引脚定义 (ESP32-S3)
-#define PWDN_GPIO_NUM     -1
-#define RESET_GPIO_NUM    -1
-#define XCLK_GPIO_NUM     10
-#define SIOD_GPIO_NUM     40
-#define SIOC_GPIO_NUM     39
-#define Y9_GPIO_NUM       48
-#define Y8_GPIO_NUM       11
-#define Y7_GPIO_NUM       12
-#define Y6_GPIO_NUM       14
-#define Y5_GPIO_NUM       16
-#define Y4_GPIO_NUM       18
-#define Y3_GPIO_NUM       17
-#define Y2_GPIO_NUM       15
-#define VSYNC_GPIO_NUM    38
-#define HREF_GPIO_NUM     47
-#define PCLK_GPIO_NUM     13
+#define PWDN_GPIO_NUM  -1
+#define RESET_GPIO_NUM -1
+#define XCLK_GPIO_NUM  15
+#define SIOD_GPIO_NUM  4
+#define SIOC_GPIO_NUM  5
+
+#define Y2_GPIO_NUM 11
+#define Y3_GPIO_NUM 9
+#define Y4_GPIO_NUM 8
+#define Y5_GPIO_NUM 10
+#define Y6_GPIO_NUM 12
+#define Y7_GPIO_NUM 18
+#define Y8_GPIO_NUM 17
+#define Y9_GPIO_NUM 16
+
+#define VSYNC_GPIO_NUM 6
+#define HREF_GPIO_NUM  7
+#define PCLK_GPIO_NUM  13
 
 static const char *TAG = "OV2640_CAMERA";
 static int s_retry_num = 0;
@@ -117,8 +119,6 @@ static void wifi_init_sta(void)
 
     wifi_config_t wifi_config = {
         .sta = {
-            .ssid = WIFI_SSID,
-            .password = WIFI_PASS,
             .threshold.authmode = WIFI_AUTH_WPA2_PSK,
             .pmf_cfg = {
                 .capable = true,
@@ -126,6 +126,8 @@ static void wifi_init_sta(void)
             },
         },
     };
+    strcpy((char *)wifi_config.sta.ssid, ssid);
+    strcpy((char *)wifi_config.sta.password, password);
     ESP_ERROR_CHECK(esp_wifi_set_mode(WIFI_MODE_STA));
     ESP_ERROR_CHECK(esp_wifi_set_config(WIFI_IF_STA, &wifi_config));
     ESP_ERROR_CHECK(esp_wifi_start());

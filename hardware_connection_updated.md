@@ -1,4 +1,14 @@
-# ESP32-S3 与 OV2640 摄像头硬件连接图
+# ESP32-S3 与 OV2640 摄像头硬件连接图 (更新版)
+
+## 更新说明
+
+根据用户提供的实际配置，已更新以下引脚定义：
+
+- **WiFi配置**: 
+  - SSID: `bed_room_2.4G`
+  - Password: `Hdk4560.0`
+
+- **摄像头引脚**: 已按照用户提供的配置进行更新
 
 ## 连接示意图
 
@@ -71,6 +81,57 @@ ESP32-S3 开发板                    OV2640 摄像头模块
 - **HREF**: 连接到GPIO7，水平参考信号
 - **VSYNC**: 连接到GPIO6，垂直同步信号
 
+## 引脚映射表
+
+| OV2640引脚 | ESP32-S3引脚 | 功能描述 | 数据位 |
+|------------|--------------|----------|--------|
+| VCC        | 3.3V         | 电源正极 | -      |
+| GND        | GND          | 电源地   | -      |
+| XCLK       | GPIO15       | 系统时钟 | -      |
+| SIOC       | GPIO5        | I2C时钟线 | -      |
+| SIOD       | GPIO4        | I2C数据线 | -      |
+| Y2         | GPIO11       | 数据位0  | D0     |
+| Y3         | GPIO9        | 数据位1  | D1     |
+| Y4         | GPIO8        | 数据位2  | D2     |
+| Y5         | GPIO10       | 数据位3  | D3     |
+| Y6         | GPIO12       | 数据位4  | D4     |
+| Y7         | GPIO18       | 数据位5  | D5     |
+| Y8         | GPIO17       | 数据位6  | D6     |
+| Y9         | GPIO16       | 数据位7  | D7     |
+| PCLK       | GPIO13       | 像素时钟 | -      |
+| HREF       | GPIO7        | 水平参考 | -      |
+| VSYNC      | GPIO6        | 垂直同步 | -      |
+
+## 代码配置
+
+### WiFi配置
+```c
+const char *ssid = "bed_room_2.4G";
+const char *password = "Hdk4560.0";
+```
+
+### 摄像头引脚定义
+```c
+#define PWDN_GPIO_NUM  -1
+#define RESET_GPIO_NUM -1
+#define XCLK_GPIO_NUM  15
+#define SIOD_GPIO_NUM  4
+#define SIOC_GPIO_NUM  5
+
+#define Y2_GPIO_NUM 11
+#define Y3_GPIO_NUM 9
+#define Y4_GPIO_NUM 8
+#define Y5_GPIO_NUM 10
+#define Y6_GPIO_NUM 12
+#define Y7_GPIO_NUM 18
+#define Y8_GPIO_NUM 17
+#define Y9_GPIO_NUM 16
+
+#define VSYNC_GPIO_NUM 6
+#define HREF_GPIO_NUM  7
+#define PCLK_GPIO_NUM  13
+```
+
 ## 注意事项
 
 ### 1. 电源要求
@@ -93,15 +154,20 @@ ESP32-S3 开发板                    OV2640 摄像头模块
 - 时钟线要远离其他信号线
 - 考虑使用屏蔽线
 
+### 5. 引脚冲突检查
+- 确认所选引脚没有与其他功能冲突
+- 检查引脚是否支持所需的功能模式
+- 避免使用特殊功能引脚
+
 ## 常见问题
 
 ### 1. 图像不稳定
-- 检查XCLK时钟信号
+- 检查XCLK时钟信号（GPIO15）
 - 确认电源电压稳定
 - 检查数据线连接
 
 ### 2. 无法初始化
-- 检查I2C连接（SIOC/SIOD）
+- 检查I2C连接（GPIO4/SIOD, GPIO5/SIOC）
 - 确认电源电压
 - 检查引脚定义是否正确
 
@@ -110,12 +176,18 @@ ESP32-S3 开发板                    OV2640 摄像头模块
 - 确认同步信号正常
 - 调整摄像头参数
 
+### 4. WiFi连接问题
+- 确认SSID和密码正确
+- 检查WiFi信号强度
+- 确认网络加密方式支持
+
 ## 测试步骤
 
 ### 1. 硬件检查
 1. 使用万用表检查电源电压
 2. 检查所有连接点是否牢固
 3. 确认没有短路或断路
+4. 验证引脚连接正确性
 
 ### 2. 功能测试
 1. 上电后检查串口输出
@@ -142,3 +214,9 @@ ESP32-S3 开发板                    OV2640 摄像头模块
 ### 3. 添加显示屏
 - 可以连接SPI/I2C显示屏来显示状态信息
 - 例如：显示IP地址、连接状态等
+
+## 更新日志
+
+- **2024-01-XX**: 更新WiFi配置和摄像头引脚定义
+- **2024-01-XX**: 创建新的硬件连接说明文档
+- **2024-01-XX**: 更新代码配置示例

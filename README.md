@@ -55,8 +55,8 @@
 在 `main/shexiang-ov2640.c` 文件中修改WiFi配置：
 
 ```c
-#define WIFI_SSID      "YOUR_WIFI_SSID"      // 修改为您的WiFi名称
-#define WIFI_PASS      "YOUR_WIFI_PASSWORD"  // 修改为您的WiFi密码
+const char *ssid = "bed_room_2.4G";      // 修改为您的WiFi名称
+const char *password = "Hdk4560.0";      // 修改为您的WiFi密码
 ```
 
 ### 3. 摄像头参数配置
