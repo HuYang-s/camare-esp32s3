@@ -86,7 +86,7 @@ config CAMERA_XCLK_FREQ
 
 config CAMERA_JPEG_QUALITY
 	int "JPEG quality (lower is better; 10-20 recommended)"
-	default 12
+	default 18
 
 config CAMERA_FRAMEBUFFER_COUNT
 	int "Frame buffer count"

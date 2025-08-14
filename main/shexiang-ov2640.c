@@ -107,7 +107,7 @@ static esp_err_t init_camera(void)
 		.pin_reset = CONFIG_CAMERA_PIN_RESET,
 		.xclk_freq_hz = CONFIG_CAMERA_XCLK_FREQ,
 		.pixel_format = PIXFORMAT_JPEG,
-		.frame_size = FRAMESIZE_VGA,
+		.frame_size = FRAMESIZE_QVGA,
 		.jpeg_quality = CONFIG_CAMERA_JPEG_QUALITY,
 		.fb_count = CONFIG_CAMERA_FRAMEBUFFER_COUNT,
 		.fb_location = CAMERA_FB_IN_PSRAM,
