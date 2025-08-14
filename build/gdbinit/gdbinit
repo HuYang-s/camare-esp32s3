@@ -1,2 +1,2 @@
-source /Users/huyang/Desktop/esp-shexiang/shexiang1/shexiang-ov2640/build/gdbinit/symbols
-source /Users/huyang/Desktop/esp-shexiang/shexiang1/shexiang-ov2640/build/gdbinit/connect
+source /workspace/build/gdbinit/symbols
+source /workspace/build/gdbinit/connect

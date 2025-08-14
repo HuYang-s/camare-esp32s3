@@ -1,4 +1,4 @@
-# Install script for directory: /Users/huyang/esp/v5.4.2/esp-idf/components/esp_hw_support/lowpower
+# Install script for directory: /home/ubuntu/esp-idf/components/esp_hw_support/lowpower
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +34,12 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/Users/huyang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-objdump")
+  set(CMAKE_OBJDUMP "/home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-objdump")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/huyang/Desktop/esp-shexiang/shexiang1/shexiang-ov2640/build/bootloader/esp-idf/esp_hw_support/lowpower/install_local_manifest.txt"
+  file(WRITE "/workspace/build/bootloader/esp-idf/esp_hw_support/lowpower/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

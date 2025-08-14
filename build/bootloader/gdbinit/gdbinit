@@ -1,2 +1,2 @@
-source /Users/huyang/Desktop/esp-shexiang/shexiang1/shexiang-ov2640/build/bootloader/gdbinit/symbols
-source /Users/huyang/Desktop/esp-shexiang/shexiang1/shexiang-ov2640/build/bootloader/gdbinit/connect
+source /workspace/build/bootloader/gdbinit/symbols
+source /workspace/build/bootloader/gdbinit/connect
