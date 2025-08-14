@@ -1,0 +1,16 @@
+dependencies:
+  esp32-camera:
+    version: "^2.0.0"
+    git: https://github.com/espressif/esp32-camera.git
+  esp_http_server:
+    version: "^1.0.0"
+  esp_wifi:
+    version: "^1.0.0"
+  nvs_flash:
+    version: "^1.0.0"
+  esp_timer:
+    version: "^1.0.0"
+  img_converters:
+    version: "^1.0.0"
+    git: https://github.com/espressif/esp32-camera.git
+    path: components/img_converters
