@@ -1,0 +1,2 @@
+source /workspace/build-idf/bootloader/gdbinit/symbols
+source /workspace/build-idf/bootloader/gdbinit/connect

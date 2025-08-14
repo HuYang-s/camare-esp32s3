@@ -1,0 +1,2 @@
+source /workspace/build-idf/gdbinit/symbols
+source /workspace/build-idf/gdbinit/connect

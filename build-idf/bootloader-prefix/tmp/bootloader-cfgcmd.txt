@@ -1,0 +1,1 @@
+cmd='/home/ubuntu/.espressif/tools/cmake/3.30.2/bin/cmake;-DSDKCONFIG=/workspace/sdkconfig;-DIDF_PATH=/workspace/esp-idf;-DIDF_TARGET=esp32s3;-DPYTHON_DEPS_CHECKED=1;-DPYTHON=python;-DEXTRA_COMPONENT_DIRS=/workspace/esp-idf/components/bootloader;-DPROJECT_SOURCE_DIR=/workspace;-DIGNORE_EXTRA_COMPONENT=;-GNinja;-S;<SOURCE_DIR><SOURCE_SUBDIR>;-B;<BINARY_DIR>'

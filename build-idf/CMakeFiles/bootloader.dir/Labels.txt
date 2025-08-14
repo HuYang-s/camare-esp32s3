@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/workspace/build-idf/CMakeFiles/bootloader
+/workspace/build-idf/CMakeFiles/bootloader.rule
+/workspace/build-idf/CMakeFiles/bootloader-complete.rule
+/workspace/build-idf/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/workspace/build-idf/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/workspace/build-idf/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/workspace/build-idf/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/workspace/build-idf/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/workspace/build-idf/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/workspace/build-idf/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

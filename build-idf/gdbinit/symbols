@@ -1,0 +1,9 @@
+
+
+# Load bootloader symbols
+set confirm off
+    add-symbol-file /workspace/build-idf/bootloader/bootloader.elf
+set confirm on
+
+# Load application symbols
+file /workspace/build-idf/shexiang-ov2640.elf
