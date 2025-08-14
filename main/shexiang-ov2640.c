@@ -73,6 +73,8 @@ static void wifi_init_sta(void)
 
 	esp_wifi_set_mode(WIFI_MODE_STA);
 	esp_wifi_set_config(WIFI_IF_STA, &wifi_config);
+	// Disable WiFi power save to improve throughput/latency
+	esp_wifi_set_ps(WIFI_PS_NONE);
 	esp_wifi_start();
 
 	ESP_LOGI(TAG, "WiFi init finished. Connecting to SSID: %s", WIFI_SSID);
@@ -105,7 +107,7 @@ static esp_err_t init_camera(void)
 		.jpeg_quality = CONFIG_CAMERA_JPEG_QUALITY,
 		.fb_count = CONFIG_CAMERA_FRAMEBUFFER_COUNT,
 		.fb_location = CAMERA_FB_IN_PSRAM,
-		.grab_mode = CAMERA_GRAB_WHEN_EMPTY
+		.grab_mode = CAMERA_GRAB_LATEST
 	};
 
 	// If no PSRAM, reduce buffers and place in DRAM
@@ -132,6 +134,19 @@ static esp_err_t init_camera(void)
 		// Flip or adjust if image orientation is wrong
 		// s->set_vflip(s, 1);
 		// s->set_hmirror(s, 1);
+		// Tune default FPS pipeline for smoother stream
+		s->set_brightness(s, 0);
+		s->set_contrast(s, 0);
+		s->set_saturation(s, 0);
+		s->set_sharpness(s, 0);
+		s->set_whitebal(s, 1);
+		s->set_gain_ctrl(s, 1);
+		s->set_exposure_ctrl(s, 1);
+		s->set_aec2(s, 0);
+		s->set_ae_level(s, 0);
+		s->set_awb_gain(s, 1);
+		s->set_agc_gain(s, 16);
+		s->set_wb_mode(s, 0);
 	}
 
 	return ESP_OK;
@@ -176,6 +191,30 @@ static esp_err_t stream_handler(httpd_req_t *req)
 	esp_err_t res = ESP_OK;
 	char part_buf[64];
 
+	// Optional: parse query for quality/frame_size
+	int quality = CONFIG_CAMERA_JPEG_QUALITY;
+	framesize_t frame_size = FRAMESIZE_VGA;
+	char buf[64];
+	if (httpd_req_get_url_query_str(req, buf, sizeof(buf)) == ESP_OK) {
+		char param[16];
+		if (httpd_query_key_value(buf, "q", param, sizeof(param)) == ESP_OK) {
+			int q = atoi(param);
+			if (q >= 5 && q <= 63) quality = q;
+		}
+		if (httpd_query_key_value(buf, "fs", param, sizeof(param)) == ESP_OK) {
+			if (strcmp(param, "QVGA") == 0) frame_size = FRAMESIZE_QVGA;
+			else if (strcmp(param, "VGA") == 0) frame_size = FRAMESIZE_VGA;
+			else if (strcmp(param, "SVGA") == 0) frame_size = FRAMESIZE_SVGA;
+			else if (strcmp(param, "XGA") == 0) frame_size = FRAMESIZE_XGA;
+		}
+	}
+	// Apply settings
+	sensor_t *s = esp_camera_sensor_get();
+	if (s) {
+		s->set_quality(s, quality);
+		s->set_framesize(s, frame_size);
+	}
+
 	httpd_resp_set_type(req, STREAM_CONTENT_TYPE);
 
 	while (true)
@@ -211,7 +250,8 @@ static esp_err_t stream_handler(httpd_req_t *req)
 		}
 
 		esp_camera_fb_return(fb);
-		vTaskDelay(pdMS_TO_TICKS(10));
+		// Small delay to yield; tune as needed
+		vTaskDelay(pdMS_TO_TICKS(5));
 	}
 
 	// End the stream if error
@@ -224,6 +264,11 @@ static httpd_handle_t start_webserver(void)
 	httpd_config_t config = HTTPD_DEFAULT_CONFIG();
 	config.server_port = 80;
 	config.uri_match_fn = httpd_uri_match_wildcard;
+	// Increase send/recv buffer and concurrent sessions to improve throughput
+	config.stack_size = 8192;
+	config.lru_purge_enable = true;
+	config.recv_wait_timeout = 10;
+	config.send_wait_timeout = 10;
 
 	httpd_handle_t server = NULL;
 	if (httpd_start(&server, &config) == ESP_OK)

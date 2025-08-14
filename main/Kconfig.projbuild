@@ -90,6 +90,6 @@ config CAMERA_JPEG_QUALITY
 
 config CAMERA_FRAMEBUFFER_COUNT
 	int "Frame buffer count"
-	default 2
+	default 3
 
 endmenu
