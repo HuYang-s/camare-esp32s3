@@ -1081,437 +1081,557 @@ hmac_drbg.c.s:
 	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/hmac_drbg.c.s
 .PHONY : hmac_drbg.c.s
 
-home/ubuntu/esp-idf/components/mbedtls/port/aes/block/esp_aes.obj: home/ubuntu/esp-idf/components/mbedtls/port/aes/block/esp_aes.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/aes/block/esp_aes.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes.obj: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes.obj
 
 # target to build an object file
-home/ubuntu/esp-idf/components/mbedtls/port/aes/block/esp_aes.c.obj:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/aes/block/esp_aes.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/aes/block/esp_aes.c.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes.c.obj:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes.c.obj
 
-home/ubuntu/esp-idf/components/mbedtls/port/aes/block/esp_aes.i: home/ubuntu/esp-idf/components/mbedtls/port/aes/block/esp_aes.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/aes/block/esp_aes.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes.i: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes.i
 
 # target to preprocess a source file
-home/ubuntu/esp-idf/components/mbedtls/port/aes/block/esp_aes.c.i:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/aes/block/esp_aes.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/aes/block/esp_aes.c.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes.c.i:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes.c.i
 
-home/ubuntu/esp-idf/components/mbedtls/port/aes/block/esp_aes.s: home/ubuntu/esp-idf/components/mbedtls/port/aes/block/esp_aes.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/aes/block/esp_aes.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes.s: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes.s
 
 # target to generate assembly for a file
-home/ubuntu/esp-idf/components/mbedtls/port/aes/block/esp_aes.c.s:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/aes/block/esp_aes.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/aes/block/esp_aes.c.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes.c.s:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes.c.s
 
-home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_common.obj: home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_common.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_dma_core.obj: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_dma_core.obj
 
 # target to build an object file
-home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.obj:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.obj:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.obj
 
-home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_common.i: home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_common.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_dma_core.i: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_dma_core.i
 
 # target to preprocess a source file
-home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.i:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.i:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.i
 
-home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_common.s: home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_common.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_dma_core.s: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_dma_core.s
 
 # target to generate assembly for a file
-home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.s:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.s:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_dma_core.c.s
 
-home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.obj: home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.obj: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.obj
 
 # target to build an object file
-home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.obj:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.obj:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.obj
 
-home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.i: home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.i: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.i
 
 # target to preprocess a source file
-home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.i:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.i:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.i
 
-home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.s: home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.s: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.s
 
 # target to generate assembly for a file
-home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.s:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.s:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.c.s
 
-home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_xts.obj: home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_xts.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_common.obj: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_common.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_common.obj
 
 # target to build an object file
-home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.obj:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_common.c.obj:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_common.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_common.c.obj
 
-home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_xts.i: home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_xts.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_common.i: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_common.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_common.i
 
 # target to preprocess a source file
-home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.i:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_common.c.i:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_common.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_common.c.i
 
-home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_xts.s: home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_xts.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_common.s: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_common.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_common.s
 
 # target to generate assembly for a file
-home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.s:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_common.c.s:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_common.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_common.c.s
 
-home/ubuntu/esp-idf/components/mbedtls/port/bignum/bignum_alt.obj: home/ubuntu/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/bignum/bignum_alt.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_gcm.obj: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_gcm.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_gcm.obj
 
 # target to build an object file
-home/ubuntu/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.obj:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_gcm.c.obj:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_gcm.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_gcm.c.obj
 
-home/ubuntu/esp-idf/components/mbedtls/port/bignum/bignum_alt.i: home/ubuntu/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/bignum/bignum_alt.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_gcm.i: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_gcm.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_gcm.i
 
 # target to preprocess a source file
-home/ubuntu/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.i:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_gcm.c.i:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_gcm.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_gcm.c.i
 
-home/ubuntu/esp-idf/components/mbedtls/port/bignum/bignum_alt.s: home/ubuntu/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/bignum/bignum_alt.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_gcm.s: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_gcm.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_gcm.s
 
 # target to generate assembly for a file
-home/ubuntu/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.s:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_gcm.c.s:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_gcm.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_gcm.c.s
 
-home/ubuntu/esp-idf/components/mbedtls/port/bignum/esp_bignum.obj: home/ubuntu/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/bignum/esp_bignum.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_xts.obj: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_xts.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_xts.obj
 
 # target to build an object file
-home/ubuntu/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.obj:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_xts.c.obj:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_xts.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_xts.c.obj
 
-home/ubuntu/esp-idf/components/mbedtls/port/bignum/esp_bignum.i: home/ubuntu/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/bignum/esp_bignum.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_xts.i: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_xts.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_xts.i
 
 # target to preprocess a source file
-home/ubuntu/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.i:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_xts.c.i:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_xts.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_xts.c.i
 
-home/ubuntu/esp-idf/components/mbedtls/port/bignum/esp_bignum.s: home/ubuntu/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/bignum/esp_bignum.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_xts.s: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_xts.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_xts.s
 
 # target to generate assembly for a file
-home/ubuntu/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.s:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_xts.c.s:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_xts.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_xts.c.s
 
-home/ubuntu/esp-idf/components/mbedtls/port/esp_hardware.obj: home/ubuntu/esp-idf/components/mbedtls/port/esp_hardware.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/esp_hardware.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/bignum_alt.obj: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/bignum_alt.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/bignum_alt.obj
 
 # target to build an object file
-home/ubuntu/esp-idf/components/mbedtls/port/esp_hardware.c.obj:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/esp_hardware.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/esp_hardware.c.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/bignum_alt.c.obj:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/bignum_alt.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/bignum_alt.c.obj
 
-home/ubuntu/esp-idf/components/mbedtls/port/esp_hardware.i: home/ubuntu/esp-idf/components/mbedtls/port/esp_hardware.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/esp_hardware.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/bignum_alt.i: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/bignum_alt.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/bignum_alt.i
 
 # target to preprocess a source file
-home/ubuntu/esp-idf/components/mbedtls/port/esp_hardware.c.i:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/esp_hardware.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/esp_hardware.c.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/bignum_alt.c.i:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/bignum_alt.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/bignum_alt.c.i
 
-home/ubuntu/esp-idf/components/mbedtls/port/esp_hardware.s: home/ubuntu/esp-idf/components/mbedtls/port/esp_hardware.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/esp_hardware.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/bignum_alt.s: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/bignum_alt.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/bignum_alt.s
 
 # target to generate assembly for a file
-home/ubuntu/esp-idf/components/mbedtls/port/esp_hardware.c.s:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/esp_hardware.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/esp_hardware.c.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/bignum_alt.c.s:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/bignum_alt.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/bignum_alt.c.s
 
-home/ubuntu/esp-idf/components/mbedtls/port/esp_mem.obj: home/ubuntu/esp-idf/components/mbedtls/port/esp_mem.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/esp_mem.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/esp_bignum.obj: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/esp_bignum.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/esp_bignum.obj
 
 # target to build an object file
-home/ubuntu/esp-idf/components/mbedtls/port/esp_mem.c.obj:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/esp_mem.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/esp_mem.c.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/esp_bignum.c.obj:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/esp_bignum.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/esp_bignum.c.obj
 
-home/ubuntu/esp-idf/components/mbedtls/port/esp_mem.i: home/ubuntu/esp-idf/components/mbedtls/port/esp_mem.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/esp_mem.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/esp_bignum.i: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/esp_bignum.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/esp_bignum.i
 
 # target to preprocess a source file
-home/ubuntu/esp-idf/components/mbedtls/port/esp_mem.c.i:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/esp_mem.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/esp_mem.c.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/esp_bignum.c.i:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/esp_bignum.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/esp_bignum.c.i
 
-home/ubuntu/esp-idf/components/mbedtls/port/esp_mem.s: home/ubuntu/esp-idf/components/mbedtls/port/esp_mem.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/esp_mem.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/esp_bignum.s: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/esp_bignum.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/esp_bignum.s
 
 # target to generate assembly for a file
-home/ubuntu/esp-idf/components/mbedtls/port/esp_mem.c.s:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/esp_mem.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/esp_mem.c.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/esp_bignum.c.s:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/esp_bignum.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/esp_bignum.c.s
 
-home/ubuntu/esp-idf/components/mbedtls/port/esp_platform_time.obj: home/ubuntu/esp-idf/components/mbedtls/port/esp_platform_time.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/esp_platform_time.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.obj: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.obj
 
 # target to build an object file
-home/ubuntu/esp-idf/components/mbedtls/port/esp_platform_time.c.obj:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/ubuntu/esp-idf/components/mbedtls/port/esp_platform_time.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/esp_platform_time.c.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.obj:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.obj
 
-home/ubuntu/esp-idf/components/mbedtls/port/esp_platform_time.i: home/ubuntu/esp-idf/components/mbedtls/port/esp_platform_time.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/esp_platform_time.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.i: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.i
 
 # target to preprocess a source file
-home/ubuntu/esp-idf/components/mbedtls/port/esp_platform_time.c.i:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/ubuntu/esp-idf/components/mbedtls/port/esp_platform_time.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/esp_platform_time.c.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.i:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.i
 
-home/ubuntu/esp-idf/components/mbedtls/port/esp_platform_time.s: home/ubuntu/esp-idf/components/mbedtls/port/esp_platform_time.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/esp_platform_time.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.s: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.s
 
 # target to generate assembly for a file
-home/ubuntu/esp-idf/components/mbedtls/port/esp_platform_time.c.s:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/ubuntu/esp-idf/components/mbedtls/port/esp_platform_time.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/esp_platform_time.c.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.s:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c.s
 
-home/ubuntu/esp-idf/components/mbedtls/port/esp_timing.obj: home/ubuntu/esp-idf/components/mbedtls/port/esp_timing.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/esp_timing.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.obj: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.obj
 
 # target to build an object file
-home/ubuntu/esp-idf/components/mbedtls/port/esp_timing.c.obj:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/esp_timing.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/esp_timing.c.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.c.obj:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.c.obj
 
-home/ubuntu/esp-idf/components/mbedtls/port/esp_timing.i: home/ubuntu/esp-idf/components/mbedtls/port/esp_timing.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/esp_timing.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.i: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.i
 
 # target to preprocess a source file
-home/ubuntu/esp-idf/components/mbedtls/port/esp_timing.c.i:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/esp_timing.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/esp_timing.c.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.c.i:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.c.i
 
-home/ubuntu/esp-idf/components/mbedtls/port/esp_timing.s: home/ubuntu/esp-idf/components/mbedtls/port/esp_timing.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/esp_timing.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.s: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.s
 
 # target to generate assembly for a file
-home/ubuntu/esp-idf/components/mbedtls/port/esp_timing.c.s:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/esp_timing.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/esp_timing.c.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.c.s:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.c.s
 
-home/ubuntu/esp-idf/components/mbedtls/port/mbedtls_debug.obj: home/ubuntu/esp-idf/components/mbedtls/port/mbedtls_debug.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/mbedtls_debug.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_hardware.obj: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_hardware.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_hardware.obj
 
 # target to build an object file
-home/ubuntu/esp-idf/components/mbedtls/port/mbedtls_debug.c.obj:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/ubuntu/esp-idf/components/mbedtls/port/mbedtls_debug.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/mbedtls_debug.c.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_hardware.c.obj:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_hardware.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_hardware.c.obj
 
-home/ubuntu/esp-idf/components/mbedtls/port/mbedtls_debug.i: home/ubuntu/esp-idf/components/mbedtls/port/mbedtls_debug.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/mbedtls_debug.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_hardware.i: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_hardware.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_hardware.i
 
 # target to preprocess a source file
-home/ubuntu/esp-idf/components/mbedtls/port/mbedtls_debug.c.i:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/ubuntu/esp-idf/components/mbedtls/port/mbedtls_debug.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/mbedtls_debug.c.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_hardware.c.i:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_hardware.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_hardware.c.i
 
-home/ubuntu/esp-idf/components/mbedtls/port/mbedtls_debug.s: home/ubuntu/esp-idf/components/mbedtls/port/mbedtls_debug.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/mbedtls_debug.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_hardware.s: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_hardware.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_hardware.s
 
 # target to generate assembly for a file
-home/ubuntu/esp-idf/components/mbedtls/port/mbedtls_debug.c.s:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/ubuntu/esp-idf/components/mbedtls/port/mbedtls_debug.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/mbedtls_debug.c.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_hardware.c.s:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_hardware.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_hardware.c.s
 
-home/ubuntu/esp-idf/components/mbedtls/port/md/esp_md.obj: home/ubuntu/esp-idf/components/mbedtls/port/md/esp_md.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/md/esp_md.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_mem.obj: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_mem.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_mem.obj
 
 # target to build an object file
-home/ubuntu/esp-idf/components/mbedtls/port/md/esp_md.c.obj:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/md/esp_md.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/md/esp_md.c.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_mem.c.obj:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_mem.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_mem.c.obj
 
-home/ubuntu/esp-idf/components/mbedtls/port/md/esp_md.i: home/ubuntu/esp-idf/components/mbedtls/port/md/esp_md.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/md/esp_md.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_mem.i: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_mem.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_mem.i
 
 # target to preprocess a source file
-home/ubuntu/esp-idf/components/mbedtls/port/md/esp_md.c.i:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/md/esp_md.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/md/esp_md.c.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_mem.c.i:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_mem.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_mem.c.i
 
-home/ubuntu/esp-idf/components/mbedtls/port/md/esp_md.s: home/ubuntu/esp-idf/components/mbedtls/port/md/esp_md.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/md/esp_md.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_mem.s: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_mem.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_mem.s
 
 # target to generate assembly for a file
-home/ubuntu/esp-idf/components/mbedtls/port/md/esp_md.c.s:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/md/esp_md.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/md/esp_md.c.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_mem.c.s:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_mem.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_mem.c.s
 
-home/ubuntu/esp-idf/components/mbedtls/port/net_sockets.obj: home/ubuntu/esp-idf/components/mbedtls/port/net_sockets.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/net_sockets.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_platform_time.obj: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_platform_time.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_platform_time.obj
 
 # target to build an object file
-home/ubuntu/esp-idf/components/mbedtls/port/net_sockets.c.obj:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/ubuntu/esp-idf/components/mbedtls/port/net_sockets.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/net_sockets.c.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_platform_time.c.obj:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_platform_time.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_platform_time.c.obj
 
-home/ubuntu/esp-idf/components/mbedtls/port/net_sockets.i: home/ubuntu/esp-idf/components/mbedtls/port/net_sockets.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/net_sockets.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_platform_time.i: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_platform_time.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_platform_time.i
 
 # target to preprocess a source file
-home/ubuntu/esp-idf/components/mbedtls/port/net_sockets.c.i:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/ubuntu/esp-idf/components/mbedtls/port/net_sockets.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/net_sockets.c.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_platform_time.c.i:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_platform_time.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_platform_time.c.i
 
-home/ubuntu/esp-idf/components/mbedtls/port/net_sockets.s: home/ubuntu/esp-idf/components/mbedtls/port/net_sockets.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/net_sockets.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_platform_time.s: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_platform_time.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_platform_time.s
 
 # target to generate assembly for a file
-home/ubuntu/esp-idf/components/mbedtls/port/net_sockets.c.s:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/ubuntu/esp-idf/components/mbedtls/port/net_sockets.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/net_sockets.c.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_platform_time.c.s:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_platform_time.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_platform_time.c.s
 
-home/ubuntu/esp-idf/components/mbedtls/port/sha/esp_sha.obj: home/ubuntu/esp-idf/components/mbedtls/port/sha/esp_sha.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/sha/esp_sha.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_timing.obj: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_timing.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_timing.obj
 
 # target to build an object file
-home/ubuntu/esp-idf/components/mbedtls/port/sha/esp_sha.c.obj:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/sha/esp_sha.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/sha/esp_sha.c.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_timing.c.obj:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_timing.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_timing.c.obj
 
-home/ubuntu/esp-idf/components/mbedtls/port/sha/esp_sha.i: home/ubuntu/esp-idf/components/mbedtls/port/sha/esp_sha.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/sha/esp_sha.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_timing.i: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_timing.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_timing.i
 
 # target to preprocess a source file
-home/ubuntu/esp-idf/components/mbedtls/port/sha/esp_sha.c.i:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/sha/esp_sha.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/sha/esp_sha.c.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_timing.c.i:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_timing.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_timing.c.i
 
-home/ubuntu/esp-idf/components/mbedtls/port/sha/esp_sha.s: home/ubuntu/esp-idf/components/mbedtls/port/sha/esp_sha.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/sha/esp_sha.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_timing.s: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_timing.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_timing.s
 
 # target to generate assembly for a file
-home/ubuntu/esp-idf/components/mbedtls/port/sha/esp_sha.c.s:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/sha/esp_sha.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/sha/esp_sha.c.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_timing.c.s:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_timing.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_timing.c.s
 
-home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha1.obj: home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha1.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha1.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/mbedtls_debug.obj: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/mbedtls_debug.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/mbedtls_debug.obj
 
 # target to build an object file
-home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha1.c.obj:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha1.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha1.c.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/mbedtls_debug.c.obj:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/mbedtls_debug.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/mbedtls_debug.c.obj
 
-home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha1.i: home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha1.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha1.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/mbedtls_debug.i: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/mbedtls_debug.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/mbedtls_debug.i
 
 # target to preprocess a source file
-home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha1.c.i:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha1.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha1.c.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/mbedtls_debug.c.i:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/mbedtls_debug.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/mbedtls_debug.c.i
 
-home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha1.s: home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha1.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha1.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/mbedtls_debug.s: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/mbedtls_debug.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/mbedtls_debug.s
 
 # target to generate assembly for a file
-home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha1.c.s:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha1.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha1.c.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/mbedtls_debug.c.s:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/mbedtls_debug.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/mbedtls_debug.c.s
 
-home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha256.obj: home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha256.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha256.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/md/esp_md.obj: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/md/esp_md.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/md/esp_md.obj
 
 # target to build an object file
-home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha256.c.obj:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha256.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha256.c.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/md/esp_md.c.obj:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/md/esp_md.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/md/esp_md.c.obj
 
-home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha256.i: home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha256.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha256.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/md/esp_md.i: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/md/esp_md.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/md/esp_md.i
 
 # target to preprocess a source file
-home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha256.c.i:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha256.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha256.c.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/md/esp_md.c.i:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/md/esp_md.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/md/esp_md.c.i
 
-home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha256.s: home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha256.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha256.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/md/esp_md.s: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/md/esp_md.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/md/esp_md.s
 
 # target to generate assembly for a file
-home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha256.c.s:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha256.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha256.c.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/md/esp_md.c.s:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/md/esp_md.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/md/esp_md.c.s
 
-home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha512.obj: home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha512.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha512.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/net_sockets.obj: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/net_sockets.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/net_sockets.obj
 
 # target to build an object file
-home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha512.c.obj:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha512.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha512.c.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/net_sockets.c.obj:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/net_sockets.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/net_sockets.c.obj
 
-home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha512.i: home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha512.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha512.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/net_sockets.i: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/net_sockets.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/net_sockets.i
 
 # target to preprocess a source file
-home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha512.c.i:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha512.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha512.c.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/net_sockets.c.i:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/net_sockets.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/net_sockets.c.i
 
-home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha512.s: home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha512.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha512.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/net_sockets.s: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/net_sockets.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/net_sockets.s
 
 # target to generate assembly for a file
-home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha512.c.s:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha512.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha512.c.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/net_sockets.c.s:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/net_sockets.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/net_sockets.c.s
 
-home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.obj: home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha1.obj: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha1.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha1.obj
 
 # target to build an object file
-home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.obj:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.obj
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.obj
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha1.c.obj:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha1.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha1.c.obj
 
-home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.i: home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha1.i: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha1.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha1.i
 
 # target to preprocess a source file
-home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.i:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.i
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.i
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha1.c.i:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha1.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha1.c.i
 
-home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.s: home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha1.s: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha1.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha1.s
 
 # target to generate assembly for a file
-home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.s:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.s
-.PHONY : home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.s
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha1.c.s:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha1.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha1.c.s
+
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha256.obj: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha256.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha256.obj
+
+# target to build an object file
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha256.c.obj:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha256.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha256.c.obj
+
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha256.i: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha256.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha256.i
+
+# target to preprocess a source file
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha256.c.i:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha256.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha256.c.i
+
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha256.s: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha256.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha256.s
+
+# target to generate assembly for a file
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha256.c.s:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha256.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha256.c.s
+
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha512.obj: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha512.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha512.obj
+
+# target to build an object file
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha512.c.obj:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha512.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha512.c.obj
+
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha512.i: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha512.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha512.i
+
+# target to preprocess a source file
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha512.c.i:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha512.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha512.c.i
+
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha512.s: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha512.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha512.s
+
+# target to generate assembly for a file
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha512.c.s:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha512.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha512.c.s
+
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.obj: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.obj
+
+# target to build an object file
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.c.obj:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.c.obj
+
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.i: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.i
+
+# target to preprocess a source file
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.c.i:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.c.i
+
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.s: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.s
+
+# target to generate assembly for a file
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.c.s:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.c.s
+
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/sha.obj: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/sha.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/sha.obj
+
+# target to build an object file
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/sha.c.obj:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/sha.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/sha.c.obj
+
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/sha.i: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/sha.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/sha.i
+
+# target to preprocess a source file
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/sha.c.i:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/sha.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/sha.c.i
+
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/sha.s: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/sha.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/sha.s
+
+# target to generate assembly for a file
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/sha.c.s:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/sha.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/sha.c.s
+
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/esp_sha.obj: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/esp_sha.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/esp_sha.obj
+
+# target to build an object file
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/esp_sha.c.obj:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/esp_sha.c.obj
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/esp_sha.c.obj
+
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/esp_sha.i: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/esp_sha.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/esp_sha.i
+
+# target to preprocess a source file
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/esp_sha.c.i:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/esp_sha.c.i
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/esp_sha.c.i
+
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/esp_sha.s: home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/esp_sha.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/esp_sha.s
+
+# target to generate assembly for a file
+home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/esp_sha.c.s:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/esp_sha.c.s
+.PHONY : home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/esp_sha.c.s
 
 lmots.obj: lmots.c.obj
 .PHONY : lmots.obj
@@ -3341,60 +3461,75 @@ help:
 	@echo "... hmac_drbg.obj"
 	@echo "... hmac_drbg.i"
 	@echo "... hmac_drbg.s"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/aes/block/esp_aes.obj"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/aes/block/esp_aes.i"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/aes/block/esp_aes.s"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_common.obj"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_common.i"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_common.s"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.obj"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.i"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.s"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_xts.obj"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_xts.i"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/aes/esp_aes_xts.s"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/bignum/bignum_alt.obj"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/bignum/bignum_alt.i"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/bignum/bignum_alt.s"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/bignum/esp_bignum.obj"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/bignum/esp_bignum.i"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/bignum/esp_bignum.s"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/esp_hardware.obj"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/esp_hardware.i"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/esp_hardware.s"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/esp_mem.obj"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/esp_mem.i"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/esp_mem.s"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/esp_platform_time.obj"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/esp_platform_time.i"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/esp_platform_time.s"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/esp_timing.obj"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/esp_timing.i"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/esp_timing.s"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/mbedtls_debug.obj"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/mbedtls_debug.i"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/mbedtls_debug.s"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/md/esp_md.obj"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/md/esp_md.i"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/md/esp_md.s"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/net_sockets.obj"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/net_sockets.i"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/net_sockets.s"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/sha/esp_sha.obj"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/sha/esp_sha.i"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/sha/esp_sha.s"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha1.obj"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha1.i"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha1.s"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha256.obj"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha256.i"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha256.s"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha512.obj"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha512.i"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha512.s"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.obj"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.i"
-	@echo "... home/ubuntu/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.s"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes.obj"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes.i"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes.s"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_dma_core.obj"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_dma_core.i"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_dma_core.s"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.obj"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.i"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/dma/esp_aes_gdma_impl.s"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_common.obj"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_common.i"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_common.s"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_gcm.obj"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_gcm.i"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_gcm.s"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_xts.obj"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_xts.i"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/aes/esp_aes_xts.s"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/bignum_alt.obj"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/bignum_alt.i"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/bignum_alt.s"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/esp_bignum.obj"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/esp_bignum.i"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/bignum/esp_bignum.s"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.obj"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.i"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.s"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.obj"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.i"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.s"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_hardware.obj"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_hardware.i"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_hardware.s"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_mem.obj"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_mem.i"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_mem.s"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_platform_time.obj"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_platform_time.i"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_platform_time.s"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_timing.obj"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_timing.i"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/esp_timing.s"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/mbedtls_debug.obj"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/mbedtls_debug.i"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/mbedtls_debug.s"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/md/esp_md.obj"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/md/esp_md.i"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/md/esp_md.s"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/net_sockets.obj"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/net_sockets.i"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/net_sockets.s"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha1.obj"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha1.i"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha1.s"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha256.obj"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha256.i"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha256.s"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha512.obj"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha512.i"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha512.s"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.obj"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.i"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/esp_sha_gdma_impl.s"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/sha.obj"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/sha.i"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/dma/sha.s"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/esp_sha.obj"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/esp_sha.i"
+	@echo "... home/ubuntu/esp-idf-v5.4/components/mbedtls/port/sha/esp_sha.s"
 	@echo "... lmots.obj"
 	@echo "... lmots.i"
 	@echo "... lmots.s"

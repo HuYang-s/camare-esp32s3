@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/esp-idf/components/bootloader/subproject
+CMAKE_SOURCE_DIR = /home/ubuntu/esp-idf-v5.4/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /workspace/build/bootloader
@@ -81,6 +81,6 @@ esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/clean:
 .PHONY : esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/clean
 
 esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/depend:
-	cd /workspace/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/esp-idf/components/bootloader/subproject /home/ubuntu/esp-idf/components/efuse /workspace/build/bootloader /workspace/build/bootloader/esp-idf/efuse /workspace/build/bootloader/esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /workspace/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/esp-idf-v5.4/components/bootloader/subproject /home/ubuntu/esp-idf-v5.4/components/efuse /workspace/build/bootloader /workspace/build/bootloader/esp-idf/efuse /workspace/build/bootloader/esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/depend
 

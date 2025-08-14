@@ -67,7 +67,7 @@ include CMakeFiles/monitor.dir/compiler_depend.make
 include CMakeFiles/monitor.dir/progress.make
 
 CMakeFiles/monitor:
-	cd /home/ubuntu/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/ubuntu/esp-idf -D "SERIAL_TOOL=/home/ubuntu/.espressif/python_env/idf6.0_py3.13_env/bin/python -m esp_idf_monitor" -D "SERIAL_TOOL_ARGS=--toolchain-prefix;xtensa-esp32-elf-;;--target;esp32;;--revision;0;;/workspace/build/shexiang-ov2640.elf" -D WORKING_DIRECTORY=/workspace/build -P run_serial_tool.cmake
+	cd /home/ubuntu/esp-idf-v5.4/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/ubuntu/esp-idf-v5.4 -D "SERIAL_TOOL=/home/ubuntu/.espressif/python_env/idf5.4_py3.13_env/bin/python;-m;esp_idf_monitor" -D "SERIAL_TOOL_ARGS=--toolchain-prefix;xtensa-esp32s3-elf-;;--target;esp32s3;;--revision;0;;/workspace/build/shexiang-ov2640.elf" -D WORKING_DIRECTORY=/workspace/build -P run_serial_tool.cmake
 
 CMakeFiles/monitor.dir/codegen:
 .PHONY : CMakeFiles/monitor.dir/codegen

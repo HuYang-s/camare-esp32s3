@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/esp-idf/components/bootloader/subproject
+CMAKE_SOURCE_DIR = /home/ubuntu/esp-idf-v5.4/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /workspace/build/bootloader
@@ -67,7 +67,7 @@ include CMakeFiles/size.dir/compiler_depend.make
 include CMakeFiles/size.dir/progress.make
 
 CMakeFiles/size: bootloader.map
-	/usr/bin/cmake -D "IDF_SIZE_TOOL=/home/ubuntu/.espressif/python_env/idf6.0_py3.13_env/bin/python;-m;esp_idf_size" -D MAP_FILE=/workspace/build/bootloader/bootloader.map -D OUTPUT_JSON= -P /home/ubuntu/esp-idf/tools/cmake/run_size_tool.cmake
+	/usr/bin/cmake -D "IDF_SIZE_TOOL=/home/ubuntu/.espressif/python_env/idf5.4_py3.13_env/bin/python;-m;esp_idf_size" -D MAP_FILE=/workspace/build/bootloader/bootloader.map -D OUTPUT_JSON= -P /home/ubuntu/esp-idf-v5.4/tools/cmake/run_size_tool.cmake
 
 CMakeFiles/size.dir/codegen:
 .PHONY : CMakeFiles/size.dir/codegen
@@ -85,6 +85,6 @@ CMakeFiles/size.dir/clean:
 .PHONY : CMakeFiles/size.dir/clean
 
 CMakeFiles/size.dir/depend:
-	cd /workspace/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/esp-idf/components/bootloader/subproject /home/ubuntu/esp-idf/components/bootloader/subproject /workspace/build/bootloader /workspace/build/bootloader /workspace/build/bootloader/CMakeFiles/size.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /workspace/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/esp-idf-v5.4/components/bootloader/subproject /home/ubuntu/esp-idf-v5.4/components/bootloader/subproject /workspace/build/bootloader /workspace/build/bootloader /workspace/build/bootloader/CMakeFiles/size.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/size.dir/depend
 

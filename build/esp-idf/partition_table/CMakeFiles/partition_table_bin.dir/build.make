@@ -69,13 +69,13 @@ include esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/progress.make
 esp-idf/partition_table/CMakeFiles/partition_table_bin: partition_table/partition-table.bin
 esp-idf/partition_table/CMakeFiles/partition_table_bin: partition_table/partition-table.bin
 
-partition_table/partition-table.bin: /home/ubuntu/esp-idf/components/partition_table/partitions_singleapp.csv
-partition_table/partition-table.bin: /home/ubuntu/esp-idf/components/partition_table/gen_esp32part.py
+partition_table/partition-table.bin: /home/ubuntu/esp-idf-v5.4/components/partition_table/partitions_singleapp.csv
+partition_table/partition-table.bin: /home/ubuntu/esp-idf-v5.4/components/partition_table/gen_esp32part.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../partition_table/partition-table.bin"
-	cd /workspace/build/esp-idf/partition_table && /home/ubuntu/.espressif/python_env/idf6.0_py3.13_env/bin/python /home/ubuntu/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --primary-bootloader-offset 0x1000 --flash-size 2MB -- /home/ubuntu/esp-idf/components/partition_table/partitions_singleapp.csv /workspace/build/partition_table/partition-table.bin
+	cd /workspace/build/esp-idf/partition_table && /home/ubuntu/.espressif/python_env/idf5.4_py3.13_env/bin/python /home/ubuntu/esp-idf-v5.4/components/partition_table/gen_esp32part.py -q --offset 0x8000 --flash-size 2MB -- /home/ubuntu/esp-idf-v5.4/components/partition_table/partitions_singleapp.csv /workspace/build/partition_table/partition-table.bin
 	cd /workspace/build/esp-idf/partition_table && /usr/bin/cmake -E echo "Partition table binary generated. Contents:"
 	cd /workspace/build/esp-idf/partition_table && /usr/bin/cmake -E echo "*******************************************************************************"
-	cd /workspace/build/esp-idf/partition_table && /home/ubuntu/.espressif/python_env/idf6.0_py3.13_env/bin/python /home/ubuntu/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --primary-bootloader-offset 0x1000 --flash-size 2MB -- /workspace/build/partition_table/partition-table.bin
+	cd /workspace/build/esp-idf/partition_table && /home/ubuntu/.espressif/python_env/idf5.4_py3.13_env/bin/python /home/ubuntu/esp-idf-v5.4/components/partition_table/gen_esp32part.py -q --offset 0x8000 --flash-size 2MB -- /workspace/build/partition_table/partition-table.bin
 	cd /workspace/build/esp-idf/partition_table && /usr/bin/cmake -E echo "*******************************************************************************"
 
 esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/codegen:
@@ -95,6 +95,6 @@ esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/clean:
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/clean
 
 esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/depend:
-	cd /workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace /home/ubuntu/esp-idf/components/partition_table /workspace/build /workspace/build/esp-idf/partition_table /workspace/build/esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace /home/ubuntu/esp-idf-v5.4/components/partition_table /workspace/build /workspace/build/esp-idf/partition_table /workspace/build/esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/depend
 

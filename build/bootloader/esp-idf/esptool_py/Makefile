@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/esp-idf/components/bootloader/subproject
+CMAKE_SOURCE_DIR = /home/ubuntu/esp-idf-v5.4/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /workspace/build/bootloader
@@ -116,6 +116,20 @@ depend:
 	cd /workspace/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+esp-idf/esptool_py/CMakeFiles/bootloader_check_size.dir/rule:
+	cd /workspace/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esptool_py/CMakeFiles/bootloader_check_size.dir/rule
+.PHONY : esp-idf/esptool_py/CMakeFiles/bootloader_check_size.dir/rule
+
+# Convenience name for target.
+bootloader_check_size: esp-idf/esptool_py/CMakeFiles/bootloader_check_size.dir/rule
+.PHONY : bootloader_check_size
+
+# fast build rule for target.
+bootloader_check_size/fast:
+	cd /workspace/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esptool_py/CMakeFiles/bootloader_check_size.dir/build.make esp-idf/esptool_py/CMakeFiles/bootloader_check_size.dir/build
+.PHONY : bootloader_check_size/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -124,6 +138,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... bootloader_check_size"
 .PHONY : help
 
 

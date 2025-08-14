@@ -171,8 +171,8 @@ static esp_err_t capture_handler(httpd_req_t *req)
     httpd_resp_set_hdr(req, "Content-Disposition", "inline; filename=capture.jpg");
     httpd_resp_send(req, (const char *)pic->buf, pic->len);
 
+    ESP_LOGI(TAG, "JPG: %zuB", pic->len);
     esp_camera_fb_return(pic);
-    ESP_LOGI(TAG, "JPG: %uB", (uint32_t)(pic->len));
     return ESP_OK;
 }
 

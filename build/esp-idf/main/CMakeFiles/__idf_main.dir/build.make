@@ -76,15 +76,15 @@ esp-idf/main/CMakeFiles/__idf_main.dir/shexiang-ov2640.c.obj: esp-idf/main/CMake
 esp-idf/main/CMakeFiles/__idf_main.dir/shexiang-ov2640.c.obj: /workspace/main/shexiang-ov2640.c
 esp-idf/main/CMakeFiles/__idf_main.dir/shexiang-ov2640.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/shexiang-ov2640.c.obj"
-	cd /workspace/build/esp-idf/main && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/shexiang-ov2640.c.obj -MF CMakeFiles/__idf_main.dir/shexiang-ov2640.c.obj.d -o CMakeFiles/__idf_main.dir/shexiang-ov2640.c.obj -c /workspace/main/shexiang-ov2640.c
+	cd /workspace/build/esp-idf/main && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/shexiang-ov2640.c.obj -MF CMakeFiles/__idf_main.dir/shexiang-ov2640.c.obj.d -o CMakeFiles/__idf_main.dir/shexiang-ov2640.c.obj -c /workspace/main/shexiang-ov2640.c
 
 esp-idf/main/CMakeFiles/__idf_main.dir/shexiang-ov2640.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_main.dir/shexiang-ov2640.c.i"
-	cd /workspace/build/esp-idf/main && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspace/main/shexiang-ov2640.c > CMakeFiles/__idf_main.dir/shexiang-ov2640.c.i
+	cd /workspace/build/esp-idf/main && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspace/main/shexiang-ov2640.c > CMakeFiles/__idf_main.dir/shexiang-ov2640.c.i
 
 esp-idf/main/CMakeFiles/__idf_main.dir/shexiang-ov2640.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/shexiang-ov2640.c.s"
-	cd /workspace/build/esp-idf/main && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspace/main/shexiang-ov2640.c -o CMakeFiles/__idf_main.dir/shexiang-ov2640.c.s
+	cd /workspace/build/esp-idf/main && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspace/main/shexiang-ov2640.c -o CMakeFiles/__idf_main.dir/shexiang-ov2640.c.s
 
 # Object files for target __idf_main
 __idf_main_OBJECTS = \

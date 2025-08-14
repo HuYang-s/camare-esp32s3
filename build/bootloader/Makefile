@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/esp-idf/components/bootloader/subproject
+CMAKE_SOURCE_DIR = /home/ubuntu/esp-idf-v5.4/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /workspace/build/bootloader
@@ -156,6 +156,71 @@ save-defconfig/fast:
 .PHONY : save-defconfig/fast
 
 #=============================================================================
+# Target rules for targets named gen_project_binary
+
+# Build rule for target.
+gen_project_binary: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gen_project_binary
+.PHONY : gen_project_binary
+
+# fast build rule for target.
+gen_project_binary/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gen_project_binary.dir/build.make CMakeFiles/gen_project_binary.dir/build
+.PHONY : gen_project_binary/fast
+
+#=============================================================================
+# Target rules for targets named app
+
+# Build rule for target.
+app: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app
+.PHONY : app
+
+# fast build rule for target.
+app/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
+.PHONY : app/fast
+
+#=============================================================================
+# Target rules for targets named erase_flash
+
+# Build rule for target.
+erase_flash: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 erase_flash
+.PHONY : erase_flash
+
+# fast build rule for target.
+erase_flash/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/erase_flash.dir/build.make CMakeFiles/erase_flash.dir/build
+.PHONY : erase_flash/fast
+
+#=============================================================================
+# Target rules for targets named merge-bin
+
+# Build rule for target.
+merge-bin: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 merge-bin
+.PHONY : merge-bin
+
+# fast build rule for target.
+merge-bin/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/merge-bin.dir/build.make CMakeFiles/merge-bin.dir/build
+.PHONY : merge-bin/fast
+
+#=============================================================================
+# Target rules for targets named monitor
+
+# Build rule for target.
+monitor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 monitor
+.PHONY : monitor
+
+# fast build rule for target.
+monitor/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitor.dir/build.make CMakeFiles/monitor.dir/build
+.PHONY : monitor/fast
+
+#=============================================================================
 # Target rules for targets named _project_elf_src
 
 # Build rule for target.
@@ -221,6 +286,45 @@ size-components/fast:
 .PHONY : size-components/fast
 
 #=============================================================================
+# Target rules for targets named dfu
+
+# Build rule for target.
+dfu: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dfu
+.PHONY : dfu
+
+# fast build rule for target.
+dfu/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dfu.dir/build.make CMakeFiles/dfu.dir/build
+.PHONY : dfu/fast
+
+#=============================================================================
+# Target rules for targets named dfu-list
+
+# Build rule for target.
+dfu-list: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dfu-list
+.PHONY : dfu-list
+
+# fast build rule for target.
+dfu-list/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dfu-list.dir/build.make CMakeFiles/dfu-list.dir/build
+.PHONY : dfu-list/fast
+
+#=============================================================================
+# Target rules for targets named dfu-flash
+
+# Build rule for target.
+dfu-flash: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dfu-flash
+.PHONY : dfu-flash
+
+# fast build rule for target.
+dfu-flash/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dfu-flash.dir/build.make CMakeFiles/dfu-flash.dir/build
+.PHONY : dfu-flash/fast
+
+#=============================================================================
 # Target rules for targets named uf2
 
 # Build rule for target.
@@ -245,58 +349,6 @@ uf2-app: cmake_check_build_system
 uf2-app/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uf2-app.dir/build.make CMakeFiles/uf2-app.dir/build
 .PHONY : uf2-app/fast
-
-#=============================================================================
-# Target rules for targets named gen_bootloader_binary
-
-# Build rule for target.
-gen_bootloader_binary: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gen_bootloader_binary
-.PHONY : gen_bootloader_binary
-
-# fast build rule for target.
-gen_bootloader_binary/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gen_bootloader_binary.dir/build.make CMakeFiles/gen_bootloader_binary.dir/build
-.PHONY : gen_bootloader_binary/fast
-
-#=============================================================================
-# Target rules for targets named gen_project_binary
-
-# Build rule for target.
-gen_project_binary: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gen_project_binary
-.PHONY : gen_project_binary
-
-# fast build rule for target.
-gen_project_binary/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gen_project_binary.dir/build.make CMakeFiles/gen_project_binary.dir/build
-.PHONY : gen_project_binary/fast
-
-#=============================================================================
-# Target rules for targets named app
-
-# Build rule for target.
-app: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app
-.PHONY : app
-
-# fast build rule for target.
-app/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
-.PHONY : app/fast
-
-#=============================================================================
-# Target rules for targets named bootloader_check_size
-
-# Build rule for target.
-bootloader_check_size: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bootloader_check_size
-.PHONY : bootloader_check_size
-
-# fast build rule for target.
-bootloader_check_size/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bootloader_check_size.dir/build.make CMakeFiles/bootloader_check_size.dir/build
-.PHONY : bootloader_check_size/fast
 
 #=============================================================================
 # Target rules for targets named __idf_xtensa
@@ -559,6 +611,19 @@ __idf_log/fast:
 .PHONY : __idf_log/fast
 
 #=============================================================================
+# Target rules for targets named bootloader_check_size
+
+# Build rule for target.
+bootloader_check_size: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bootloader_check_size
+.PHONY : bootloader_check_size
+
+# fast build rule for target.
+bootloader_check_size/fast:
+	$(MAKE) $(MAKESILENT) -f esp-idf/esptool_py/CMakeFiles/bootloader_check_size.dir/build.make esp-idf/esptool_py/CMakeFiles/bootloader_check_size.dir/build
+.PHONY : bootloader_check_size/fast
+
+#=============================================================================
 # Target rules for targets named __idf_main
 
 # Build rule for target.
@@ -571,29 +636,29 @@ __idf_main/fast:
 	$(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/build
 .PHONY : __idf_main/fast
 
-project_elf_src_esp32.obj: project_elf_src_esp32.c.obj
-.PHONY : project_elf_src_esp32.obj
+project_elf_src_esp32s3.obj: project_elf_src_esp32s3.c.obj
+.PHONY : project_elf_src_esp32s3.obj
 
 # target to build an object file
-project_elf_src_esp32.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bootloader.elf.dir/build.make CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj
-.PHONY : project_elf_src_esp32.c.obj
+project_elf_src_esp32s3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bootloader.elf.dir/build.make CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj
+.PHONY : project_elf_src_esp32s3.c.obj
 
-project_elf_src_esp32.i: project_elf_src_esp32.c.i
-.PHONY : project_elf_src_esp32.i
+project_elf_src_esp32s3.i: project_elf_src_esp32s3.c.i
+.PHONY : project_elf_src_esp32s3.i
 
 # target to preprocess a source file
-project_elf_src_esp32.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bootloader.elf.dir/build.make CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.i
-.PHONY : project_elf_src_esp32.c.i
+project_elf_src_esp32s3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bootloader.elf.dir/build.make CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.i
+.PHONY : project_elf_src_esp32s3.c.i
 
-project_elf_src_esp32.s: project_elf_src_esp32.c.s
-.PHONY : project_elf_src_esp32.s
+project_elf_src_esp32s3.s: project_elf_src_esp32s3.c.s
+.PHONY : project_elf_src_esp32s3.s
 
 # target to generate assembly for a file
-project_elf_src_esp32.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bootloader.elf.dir/build.make CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.s
-.PHONY : project_elf_src_esp32.c.s
+project_elf_src_esp32s3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bootloader.elf.dir/build.make CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.s
+.PHONY : project_elf_src_esp32s3.c.s
 
 # Help Target
 help:
@@ -607,14 +672,19 @@ help:
 	@echo "... app"
 	@echo "... bootloader_check_size"
 	@echo "... confserver"
+	@echo "... dfu"
+	@echo "... dfu-flash"
+	@echo "... dfu-list"
 	@echo "... efuse-common-table"
 	@echo "... efuse-custom-table"
 	@echo "... efuse_common_table"
 	@echo "... efuse_custom_table"
 	@echo "... efuse_test_table"
-	@echo "... gen_bootloader_binary"
+	@echo "... erase_flash"
 	@echo "... gen_project_binary"
 	@echo "... menuconfig"
+	@echo "... merge-bin"
+	@echo "... monitor"
 	@echo "... save-defconfig"
 	@echo "... show-efuse-table"
 	@echo "... show_efuse_table"
@@ -638,9 +708,9 @@ help:
 	@echo "... __idf_spi_flash"
 	@echo "... __idf_xtensa"
 	@echo "... bootloader.elf"
-	@echo "... project_elf_src_esp32.obj"
-	@echo "... project_elf_src_esp32.i"
-	@echo "... project_elf_src_esp32.s"
+	@echo "... project_elf_src_esp32s3.obj"
+	@echo "... project_elf_src_esp32s3.i"
+	@echo "... project_elf_src_esp32s3.s"
 .PHONY : help
 
 

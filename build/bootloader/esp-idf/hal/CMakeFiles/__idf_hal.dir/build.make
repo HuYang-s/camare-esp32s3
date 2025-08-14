@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/esp-idf/components/bootloader/subproject
+CMAKE_SOURCE_DIR = /home/ubuntu/esp-idf-v5.4/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /workspace/build/bootloader
@@ -73,112 +73,97 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/codegen:
 .PHONY : esp-idf/hal/CMakeFiles/__idf_hal.dir/codegen
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj: esp-idf/hal/CMakeFiles/__idf_hal.dir/flags.make
-esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj: /home/ubuntu/esp-idf/components/hal/hal_utils.c
+esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj: /home/ubuntu/esp-idf-v5.4/components/hal/hal_utils.c
 esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj: esp-idf/hal/CMakeFiles/__idf_hal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj"
-	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj -MF CMakeFiles/__idf_hal.dir/hal_utils.c.obj.d -o CMakeFiles/__idf_hal.dir/hal_utils.c.obj -c /home/ubuntu/esp-idf/components/hal/hal_utils.c
+	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj -MF CMakeFiles/__idf_hal.dir/hal_utils.c.obj.d -o CMakeFiles/__idf_hal.dir/hal_utils.c.obj -c /home/ubuntu/esp-idf-v5.4/components/hal/hal_utils.c
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_hal.dir/hal_utils.c.i"
-	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/esp-idf/components/hal/hal_utils.c > CMakeFiles/__idf_hal.dir/hal_utils.c.i
+	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/esp-idf-v5.4/components/hal/hal_utils.c > CMakeFiles/__idf_hal.dir/hal_utils.c.i
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_hal.dir/hal_utils.c.s"
-	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/esp-idf/components/hal/hal_utils.c -o CMakeFiles/__idf_hal.dir/hal_utils.c.s
+	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/esp-idf-v5.4/components/hal/hal_utils.c -o CMakeFiles/__idf_hal.dir/hal_utils.c.s
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj: esp-idf/hal/CMakeFiles/__idf_hal.dir/flags.make
-esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj: /home/ubuntu/esp-idf/components/hal/mpu_hal.c
+esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj: /home/ubuntu/esp-idf-v5.4/components/hal/mpu_hal.c
 esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj: esp-idf/hal/CMakeFiles/__idf_hal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj"
-	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj -MF CMakeFiles/__idf_hal.dir/mpu_hal.c.obj.d -o CMakeFiles/__idf_hal.dir/mpu_hal.c.obj -c /home/ubuntu/esp-idf/components/hal/mpu_hal.c
+	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj -MF CMakeFiles/__idf_hal.dir/mpu_hal.c.obj.d -o CMakeFiles/__idf_hal.dir/mpu_hal.c.obj -c /home/ubuntu/esp-idf-v5.4/components/hal/mpu_hal.c
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_hal.dir/mpu_hal.c.i"
-	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/esp-idf/components/hal/mpu_hal.c > CMakeFiles/__idf_hal.dir/mpu_hal.c.i
+	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/esp-idf-v5.4/components/hal/mpu_hal.c > CMakeFiles/__idf_hal.dir/mpu_hal.c.i
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_hal.dir/mpu_hal.c.s"
-	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/esp-idf/components/hal/mpu_hal.c -o CMakeFiles/__idf_hal.dir/mpu_hal.c.s
+	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/esp-idf-v5.4/components/hal/mpu_hal.c -o CMakeFiles/__idf_hal.dir/mpu_hal.c.s
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj: esp-idf/hal/CMakeFiles/__idf_hal.dir/flags.make
-esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj: /home/ubuntu/esp-idf/components/hal/efuse_hal.c
+esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj: /home/ubuntu/esp-idf-v5.4/components/hal/efuse_hal.c
 esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj: esp-idf/hal/CMakeFiles/__idf_hal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj"
-	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj -MF CMakeFiles/__idf_hal.dir/efuse_hal.c.obj.d -o CMakeFiles/__idf_hal.dir/efuse_hal.c.obj -c /home/ubuntu/esp-idf/components/hal/efuse_hal.c
+	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj -MF CMakeFiles/__idf_hal.dir/efuse_hal.c.obj.d -o CMakeFiles/__idf_hal.dir/efuse_hal.c.obj -c /home/ubuntu/esp-idf-v5.4/components/hal/efuse_hal.c
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_hal.dir/efuse_hal.c.i"
-	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/esp-idf/components/hal/efuse_hal.c > CMakeFiles/__idf_hal.dir/efuse_hal.c.i
+	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/esp-idf-v5.4/components/hal/efuse_hal.c > CMakeFiles/__idf_hal.dir/efuse_hal.c.i
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_hal.dir/efuse_hal.c.s"
-	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/esp-idf/components/hal/efuse_hal.c -o CMakeFiles/__idf_hal.dir/efuse_hal.c.s
+	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/esp-idf-v5.4/components/hal/efuse_hal.c -o CMakeFiles/__idf_hal.dir/efuse_hal.c.s
 
-esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.obj: esp-idf/hal/CMakeFiles/__idf_hal.dir/flags.make
-esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.obj: /home/ubuntu/esp-idf/components/hal/esp32/efuse_hal.c
-esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.obj: esp-idf/hal/CMakeFiles/__idf_hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.obj"
-	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.obj -MF CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.obj.d -o CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.obj -c /home/ubuntu/esp-idf/components/hal/esp32/efuse_hal.c
+esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.obj: esp-idf/hal/CMakeFiles/__idf_hal.dir/flags.make
+esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.obj: /home/ubuntu/esp-idf-v5.4/components/hal/esp32s3/efuse_hal.c
+esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.obj: esp-idf/hal/CMakeFiles/__idf_hal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.obj"
+	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.obj -MF CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.obj.d -o CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.obj -c /home/ubuntu/esp-idf-v5.4/components/hal/esp32s3/efuse_hal.c
 
-esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.i"
-	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/esp-idf/components/hal/esp32/efuse_hal.c > CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.i
+esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.i"
+	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/esp-idf-v5.4/components/hal/esp32s3/efuse_hal.c > CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.i
 
-esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.s"
-	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/esp-idf/components/hal/esp32/efuse_hal.c -o CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.s
-
-esp-idf/hal/CMakeFiles/__idf_hal.dir/wdt_hal_iram.c.obj: esp-idf/hal/CMakeFiles/__idf_hal.dir/flags.make
-esp-idf/hal/CMakeFiles/__idf_hal.dir/wdt_hal_iram.c.obj: /home/ubuntu/esp-idf/components/hal/wdt_hal_iram.c
-esp-idf/hal/CMakeFiles/__idf_hal.dir/wdt_hal_iram.c.obj: esp-idf/hal/CMakeFiles/__idf_hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/wdt_hal_iram.c.obj"
-	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/hal/CMakeFiles/__idf_hal.dir/wdt_hal_iram.c.obj -MF CMakeFiles/__idf_hal.dir/wdt_hal_iram.c.obj.d -o CMakeFiles/__idf_hal.dir/wdt_hal_iram.c.obj -c /home/ubuntu/esp-idf/components/hal/wdt_hal_iram.c
-
-esp-idf/hal/CMakeFiles/__idf_hal.dir/wdt_hal_iram.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_hal.dir/wdt_hal_iram.c.i"
-	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/esp-idf/components/hal/wdt_hal_iram.c > CMakeFiles/__idf_hal.dir/wdt_hal_iram.c.i
-
-esp-idf/hal/CMakeFiles/__idf_hal.dir/wdt_hal_iram.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_hal.dir/wdt_hal_iram.c.s"
-	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/esp-idf/components/hal/wdt_hal_iram.c -o CMakeFiles/__idf_hal.dir/wdt_hal_iram.c.s
+esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.s"
+	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/esp-idf-v5.4/components/hal/esp32s3/efuse_hal.c -o CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.s
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj: esp-idf/hal/CMakeFiles/__idf_hal.dir/flags.make
-esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj: /home/ubuntu/esp-idf/components/hal/mmu_hal.c
+esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj: /home/ubuntu/esp-idf-v5.4/components/hal/mmu_hal.c
 esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj: esp-idf/hal/CMakeFiles/__idf_hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj"
-	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj -MF CMakeFiles/__idf_hal.dir/mmu_hal.c.obj.d -o CMakeFiles/__idf_hal.dir/mmu_hal.c.obj -c /home/ubuntu/esp-idf/components/hal/mmu_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj"
+	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj -MF CMakeFiles/__idf_hal.dir/mmu_hal.c.obj.d -o CMakeFiles/__idf_hal.dir/mmu_hal.c.obj -c /home/ubuntu/esp-idf-v5.4/components/hal/mmu_hal.c
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_hal.dir/mmu_hal.c.i"
-	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/esp-idf/components/hal/mmu_hal.c > CMakeFiles/__idf_hal.dir/mmu_hal.c.i
+	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/esp-idf-v5.4/components/hal/mmu_hal.c > CMakeFiles/__idf_hal.dir/mmu_hal.c.i
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_hal.dir/mmu_hal.c.s"
-	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/esp-idf/components/hal/mmu_hal.c -o CMakeFiles/__idf_hal.dir/mmu_hal.c.s
+	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/esp-idf-v5.4/components/hal/mmu_hal.c -o CMakeFiles/__idf_hal.dir/mmu_hal.c.s
 
-esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.obj: esp-idf/hal/CMakeFiles/__idf_hal.dir/flags.make
-esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.obj: /home/ubuntu/esp-idf/components/hal/esp32/cache_hal_esp32.c
-esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.obj: esp-idf/hal/CMakeFiles/__idf_hal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.obj"
-	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.obj -MF CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.obj.d -o CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.obj -c /home/ubuntu/esp-idf/components/hal/esp32/cache_hal_esp32.c
+esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.obj: esp-idf/hal/CMakeFiles/__idf_hal.dir/flags.make
+esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.obj: /home/ubuntu/esp-idf-v5.4/components/hal/cache_hal.c
+esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.obj: esp-idf/hal/CMakeFiles/__idf_hal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.obj"
+	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.obj -MF CMakeFiles/__idf_hal.dir/cache_hal.c.obj.d -o CMakeFiles/__idf_hal.dir/cache_hal.c.obj -c /home/ubuntu/esp-idf-v5.4/components/hal/cache_hal.c
 
-esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.i"
-	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/esp-idf/components/hal/esp32/cache_hal_esp32.c > CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.i
+esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_hal.dir/cache_hal.c.i"
+	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/esp-idf-v5.4/components/hal/cache_hal.c > CMakeFiles/__idf_hal.dir/cache_hal.c.i
 
-esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.s"
-	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/esp-idf/components/hal/esp32/cache_hal_esp32.c -o CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.s
+esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_hal.dir/cache_hal.c.s"
+	cd /workspace/build/bootloader/esp-idf/hal && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/esp-idf-v5.4/components/hal/cache_hal.c -o CMakeFiles/__idf_hal.dir/cache_hal.c.s
 
 # Object files for target __idf_hal
 __idf_hal_OBJECTS = \
 "CMakeFiles/__idf_hal.dir/hal_utils.c.obj" \
 "CMakeFiles/__idf_hal.dir/mpu_hal.c.obj" \
 "CMakeFiles/__idf_hal.dir/efuse_hal.c.obj" \
-"CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.obj" \
-"CMakeFiles/__idf_hal.dir/wdt_hal_iram.c.obj" \
+"CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.obj" \
 "CMakeFiles/__idf_hal.dir/mmu_hal.c.obj" \
-"CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.obj"
+"CMakeFiles/__idf_hal.dir/cache_hal.c.obj"
 
 # External object files for target __idf_hal
 __idf_hal_EXTERNAL_OBJECTS =
@@ -186,13 +171,12 @@ __idf_hal_EXTERNAL_OBJECTS =
 esp-idf/hal/libhal.a: esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj
 esp-idf/hal/libhal.a: esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj
 esp-idf/hal/libhal.a: esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj
-esp-idf/hal/libhal.a: esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.obj
-esp-idf/hal/libhal.a: esp-idf/hal/CMakeFiles/__idf_hal.dir/wdt_hal_iram.c.obj
+esp-idf/hal/libhal.a: esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.obj
 esp-idf/hal/libhal.a: esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj
-esp-idf/hal/libhal.a: esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.obj
+esp-idf/hal/libhal.a: esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.obj
 esp-idf/hal/libhal.a: esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make
 esp-idf/hal/libhal.a: esp-idf/hal/CMakeFiles/__idf_hal.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspace/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C static library libhal.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspace/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C static library libhal.a"
 	cd /workspace/build/bootloader/esp-idf/hal && $(CMAKE_COMMAND) -P CMakeFiles/__idf_hal.dir/cmake_clean_target.cmake
 	cd /workspace/build/bootloader/esp-idf/hal && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_hal.dir/link.txt --verbose=$(VERBOSE)
 
@@ -205,6 +189,6 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/clean:
 .PHONY : esp-idf/hal/CMakeFiles/__idf_hal.dir/clean
 
 esp-idf/hal/CMakeFiles/__idf_hal.dir/depend:
-	cd /workspace/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/esp-idf/components/bootloader/subproject /home/ubuntu/esp-idf/components/hal /workspace/build/bootloader /workspace/build/bootloader/esp-idf/hal /workspace/build/bootloader/esp-idf/hal/CMakeFiles/__idf_hal.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /workspace/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/esp-idf-v5.4/components/bootloader/subproject /home/ubuntu/esp-idf-v5.4/components/hal /workspace/build/bootloader /workspace/build/bootloader/esp-idf/hal /workspace/build/bootloader/esp-idf/hal/CMakeFiles/__idf_hal.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/hal/CMakeFiles/__idf_hal.dir/depend
 

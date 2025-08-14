@@ -175,77 +175,29 @@ __idf_esp_mm/fast:
 	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/build.make esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/build
 .PHONY : __idf_esp_mm/fast
 
-cache_esp32.obj: cache_esp32.c.obj
-.PHONY : cache_esp32.obj
+esp_cache.obj: esp_cache.c.obj
+.PHONY : esp_cache.obj
 
 # target to build an object file
-cache_esp32.c.obj:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/build.make esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/cache_esp32.c.obj
-.PHONY : cache_esp32.c.obj
+esp_cache.c.obj:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/build.make esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_cache.c.obj
+.PHONY : esp_cache.c.obj
 
-cache_esp32.i: cache_esp32.c.i
-.PHONY : cache_esp32.i
-
-# target to preprocess a source file
-cache_esp32.c.i:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/build.make esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/cache_esp32.c.i
-.PHONY : cache_esp32.c.i
-
-cache_esp32.s: cache_esp32.c.s
-.PHONY : cache_esp32.s
-
-# target to generate assembly for a file
-cache_esp32.c.s:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/build.make esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/cache_esp32.c.s
-.PHONY : cache_esp32.c.s
-
-esp_cache_msync.obj: esp_cache_msync.c.obj
-.PHONY : esp_cache_msync.obj
-
-# target to build an object file
-esp_cache_msync.c.obj:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/build.make esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_cache_msync.c.obj
-.PHONY : esp_cache_msync.c.obj
-
-esp_cache_msync.i: esp_cache_msync.c.i
-.PHONY : esp_cache_msync.i
+esp_cache.i: esp_cache.c.i
+.PHONY : esp_cache.i
 
 # target to preprocess a source file
-esp_cache_msync.c.i:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/build.make esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_cache_msync.c.i
-.PHONY : esp_cache_msync.c.i
+esp_cache.c.i:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/build.make esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_cache.c.i
+.PHONY : esp_cache.c.i
 
-esp_cache_msync.s: esp_cache_msync.c.s
-.PHONY : esp_cache_msync.s
-
-# target to generate assembly for a file
-esp_cache_msync.c.s:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/build.make esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_cache_msync.c.s
-.PHONY : esp_cache_msync.c.s
-
-esp_cache_utils.obj: esp_cache_utils.c.obj
-.PHONY : esp_cache_utils.obj
-
-# target to build an object file
-esp_cache_utils.c.obj:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/build.make esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_cache_utils.c.obj
-.PHONY : esp_cache_utils.c.obj
-
-esp_cache_utils.i: esp_cache_utils.c.i
-.PHONY : esp_cache_utils.i
-
-# target to preprocess a source file
-esp_cache_utils.c.i:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/build.make esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_cache_utils.c.i
-.PHONY : esp_cache_utils.c.i
-
-esp_cache_utils.s: esp_cache_utils.c.s
-.PHONY : esp_cache_utils.s
+esp_cache.s: esp_cache.c.s
+.PHONY : esp_cache.s
 
 # target to generate assembly for a file
-esp_cache_utils.c.s:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/build.make esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_cache_utils.c.s
-.PHONY : esp_cache_utils.c.s
+esp_cache.c.s:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/build.make esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_cache.c.s
+.PHONY : esp_cache.c.s
 
 esp_mmu_map.obj: esp_mmu_map.c.obj
 .PHONY : esp_mmu_map.obj
@@ -295,29 +247,29 @@ heap_align_hw.c.s:
 	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/build.make esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/heap_align_hw.c.s
 .PHONY : heap_align_hw.c.s
 
-port/esp32/ext_mem_layout.obj: port/esp32/ext_mem_layout.c.obj
-.PHONY : port/esp32/ext_mem_layout.obj
+port/esp32s3/ext_mem_layout.obj: port/esp32s3/ext_mem_layout.c.obj
+.PHONY : port/esp32s3/ext_mem_layout.obj
 
 # target to build an object file
-port/esp32/ext_mem_layout.c.obj:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/build.make esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/port/esp32/ext_mem_layout.c.obj
-.PHONY : port/esp32/ext_mem_layout.c.obj
+port/esp32s3/ext_mem_layout.c.obj:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/build.make esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/port/esp32s3/ext_mem_layout.c.obj
+.PHONY : port/esp32s3/ext_mem_layout.c.obj
 
-port/esp32/ext_mem_layout.i: port/esp32/ext_mem_layout.c.i
-.PHONY : port/esp32/ext_mem_layout.i
+port/esp32s3/ext_mem_layout.i: port/esp32s3/ext_mem_layout.c.i
+.PHONY : port/esp32s3/ext_mem_layout.i
 
 # target to preprocess a source file
-port/esp32/ext_mem_layout.c.i:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/build.make esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/port/esp32/ext_mem_layout.c.i
-.PHONY : port/esp32/ext_mem_layout.c.i
+port/esp32s3/ext_mem_layout.c.i:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/build.make esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/port/esp32s3/ext_mem_layout.c.i
+.PHONY : port/esp32s3/ext_mem_layout.c.i
 
-port/esp32/ext_mem_layout.s: port/esp32/ext_mem_layout.c.s
-.PHONY : port/esp32/ext_mem_layout.s
+port/esp32s3/ext_mem_layout.s: port/esp32s3/ext_mem_layout.c.s
+.PHONY : port/esp32s3/ext_mem_layout.s
 
 # target to generate assembly for a file
-port/esp32/ext_mem_layout.c.s:
-	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/build.make esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/port/esp32/ext_mem_layout.c.s
-.PHONY : port/esp32/ext_mem_layout.c.s
+port/esp32s3/ext_mem_layout.c.s:
+	cd /workspace/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/build.make esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/port/esp32s3/ext_mem_layout.c.s
+.PHONY : port/esp32s3/ext_mem_layout.c.s
 
 # Help Target
 help:
@@ -332,24 +284,18 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... __idf_esp_mm"
-	@echo "... cache_esp32.obj"
-	@echo "... cache_esp32.i"
-	@echo "... cache_esp32.s"
-	@echo "... esp_cache_msync.obj"
-	@echo "... esp_cache_msync.i"
-	@echo "... esp_cache_msync.s"
-	@echo "... esp_cache_utils.obj"
-	@echo "... esp_cache_utils.i"
-	@echo "... esp_cache_utils.s"
+	@echo "... esp_cache.obj"
+	@echo "... esp_cache.i"
+	@echo "... esp_cache.s"
 	@echo "... esp_mmu_map.obj"
 	@echo "... esp_mmu_map.i"
 	@echo "... esp_mmu_map.s"
 	@echo "... heap_align_hw.obj"
 	@echo "... heap_align_hw.i"
 	@echo "... heap_align_hw.s"
-	@echo "... port/esp32/ext_mem_layout.obj"
-	@echo "... port/esp32/ext_mem_layout.i"
-	@echo "... port/esp32/ext_mem_layout.s"
+	@echo "... port/esp32s3/ext_mem_layout.obj"
+	@echo "... port/esp32s3/ext_mem_layout.i"
+	@echo "... port/esp32s3/ext_mem_layout.s"
 .PHONY : help
 
 

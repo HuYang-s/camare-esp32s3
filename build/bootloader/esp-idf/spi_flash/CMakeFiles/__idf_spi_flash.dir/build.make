@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/esp-idf/components/bootloader/subproject
+CMAKE_SOURCE_DIR = /home/ubuntu/esp-idf-v5.4/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /workspace/build/bootloader
@@ -73,18 +73,18 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/codegen:
 .PHONY : esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/codegen
 
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj: esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flags.make
-esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj: /home/ubuntu/esp-idf/components/spi_flash/spi_flash_wrap.c
+esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj: /home/ubuntu/esp-idf-v5.4/components/spi_flash/spi_flash_wrap.c
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj: esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj"
-	cd /workspace/build/bootloader/esp-idf/spi_flash && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj -MF CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj.d -o CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj -c /home/ubuntu/esp-idf/components/spi_flash/spi_flash_wrap.c
+	cd /workspace/build/bootloader/esp-idf/spi_flash && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj -MF CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj.d -o CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj -c /home/ubuntu/esp-idf-v5.4/components/spi_flash/spi_flash_wrap.c
 
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.i"
-	cd /workspace/build/bootloader/esp-idf/spi_flash && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/esp-idf/components/spi_flash/spi_flash_wrap.c > CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.i
+	cd /workspace/build/bootloader/esp-idf/spi_flash && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/esp-idf-v5.4/components/spi_flash/spi_flash_wrap.c > CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.i
 
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.s"
-	cd /workspace/build/bootloader/esp-idf/spi_flash && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/esp-idf/components/spi_flash/spi_flash_wrap.c -o CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.s
+	cd /workspace/build/bootloader/esp-idf/spi_flash && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/esp-idf-v5.4/components/spi_flash/spi_flash_wrap.c -o CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.s
 
 # Object files for target __idf_spi_flash
 __idf_spi_flash_OBJECTS = \
@@ -109,6 +109,6 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/clean:
 .PHONY : esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/clean
 
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/depend:
-	cd /workspace/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/esp-idf/components/bootloader/subproject /home/ubuntu/esp-idf/components/spi_flash /workspace/build/bootloader /workspace/build/bootloader/esp-idf/spi_flash /workspace/build/bootloader/esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /workspace/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/esp-idf-v5.4/components/bootloader/subproject /home/ubuntu/esp-idf-v5.4/components/spi_flash /workspace/build/bootloader /workspace/build/bootloader/esp-idf/spi_flash /workspace/build/bootloader/esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/depend
 

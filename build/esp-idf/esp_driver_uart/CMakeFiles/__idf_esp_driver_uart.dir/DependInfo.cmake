@@ -8,9 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ubuntu/esp-idf/components/esp_driver_uart/src/uart.c" "esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/src/uart.c.obj" "gcc" "esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/src/uart.c.obj.d"
-  "/home/ubuntu/esp-idf/components/esp_driver_uart/src/uart_vfs.c" "esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/src/uart_vfs.c.obj" "gcc" "esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/src/uart_vfs.c.obj.d"
-  "/home/ubuntu/esp-idf/components/esp_driver_uart/src/uart_wakeup.c" "esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/src/uart_wakeup.c.obj" "gcc" "esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/src/uart_wakeup.c.obj.d"
+  "/home/ubuntu/esp-idf-v5.4/components/esp_driver_uart/src/uart.c" "esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/src/uart.c.obj" "gcc" "esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/src/uart.c.obj.d"
+  "/home/ubuntu/esp-idf-v5.4/components/esp_driver_uart/src/uart_vfs.c" "esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/src/uart_vfs.c.obj" "gcc" "esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/src/uart_vfs.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

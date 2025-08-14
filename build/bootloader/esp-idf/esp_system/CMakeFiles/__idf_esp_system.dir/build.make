@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/esp-idf/components/bootloader/subproject
+CMAKE_SOURCE_DIR = /home/ubuntu/esp-idf-v5.4/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /workspace/build/bootloader
@@ -73,18 +73,18 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/codegen:
 .PHONY : esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/codegen
 
 esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.obj: esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/flags.make
-esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.obj: /home/ubuntu/esp-idf/components/esp_system/esp_err.c
+esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.obj: /home/ubuntu/esp-idf-v5.4/components/esp_system/esp_err.c
 esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.obj: esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.obj"
-	cd /workspace/build/bootloader/esp-idf/esp_system && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.obj -MF CMakeFiles/__idf_esp_system.dir/esp_err.c.obj.d -o CMakeFiles/__idf_esp_system.dir/esp_err.c.obj -c /home/ubuntu/esp-idf/components/esp_system/esp_err.c
+	cd /workspace/build/bootloader/esp-idf/esp_system && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.obj -MF CMakeFiles/__idf_esp_system.dir/esp_err.c.obj.d -o CMakeFiles/__idf_esp_system.dir/esp_err.c.obj -c /home/ubuntu/esp-idf-v5.4/components/esp_system/esp_err.c
 
 esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_system.dir/esp_err.c.i"
-	cd /workspace/build/bootloader/esp-idf/esp_system && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/esp-idf/components/esp_system/esp_err.c > CMakeFiles/__idf_esp_system.dir/esp_err.c.i
+	cd /workspace/build/bootloader/esp-idf/esp_system && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/esp-idf-v5.4/components/esp_system/esp_err.c > CMakeFiles/__idf_esp_system.dir/esp_err.c.i
 
 esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_system.dir/esp_err.c.s"
-	cd /workspace/build/bootloader/esp-idf/esp_system && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/esp-idf/components/esp_system/esp_err.c -o CMakeFiles/__idf_esp_system.dir/esp_err.c.s
+	cd /workspace/build/bootloader/esp-idf/esp_system && /home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/esp-idf-v5.4/components/esp_system/esp_err.c -o CMakeFiles/__idf_esp_system.dir/esp_err.c.s
 
 # Object files for target __idf_esp_system
 __idf_esp_system_OBJECTS = \
@@ -109,6 +109,6 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/clean:
 .PHONY : esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/clean
 
 esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/depend:
-	cd /workspace/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/esp-idf/components/bootloader/subproject /home/ubuntu/esp-idf/components/esp_system /workspace/build/bootloader /workspace/build/bootloader/esp-idf/esp_system /workspace/build/bootloader/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /workspace/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/esp-idf-v5.4/components/bootloader/subproject /home/ubuntu/esp-idf-v5.4/components/esp_system /workspace/build/bootloader /workspace/build/bootloader/esp-idf/esp_system /workspace/build/bootloader/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/depend
 

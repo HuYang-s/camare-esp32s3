@@ -69,35 +69,35 @@ include CMakeFiles/shexiang-ov2640.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/shexiang-ov2640.elf.dir/flags.make
 
-project_elf_src_esp32.c:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating project_elf_src_esp32.c"
-	/usr/bin/cmake -E touch /workspace/build/project_elf_src_esp32.c
+project_elf_src_esp32s3.c:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating project_elf_src_esp32s3.c"
+	/usr/bin/cmake -E touch /workspace/build/project_elf_src_esp32s3.c
 
 CMakeFiles/shexiang-ov2640.elf.dir/codegen:
 .PHONY : CMakeFiles/shexiang-ov2640.elf.dir/codegen
 
-CMakeFiles/shexiang-ov2640.elf.dir/project_elf_src_esp32.c.obj: CMakeFiles/shexiang-ov2640.elf.dir/flags.make
-CMakeFiles/shexiang-ov2640.elf.dir/project_elf_src_esp32.c.obj: project_elf_src_esp32.c
-CMakeFiles/shexiang-ov2640.elf.dir/project_elf_src_esp32.c.obj: CMakeFiles/shexiang-ov2640.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/shexiang-ov2640.elf.dir/project_elf_src_esp32.c.obj"
-	/home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/shexiang-ov2640.elf.dir/project_elf_src_esp32.c.obj -MF CMakeFiles/shexiang-ov2640.elf.dir/project_elf_src_esp32.c.obj.d -o CMakeFiles/shexiang-ov2640.elf.dir/project_elf_src_esp32.c.obj -c /workspace/build/project_elf_src_esp32.c
+CMakeFiles/shexiang-ov2640.elf.dir/project_elf_src_esp32s3.c.obj: CMakeFiles/shexiang-ov2640.elf.dir/flags.make
+CMakeFiles/shexiang-ov2640.elf.dir/project_elf_src_esp32s3.c.obj: project_elf_src_esp32s3.c
+CMakeFiles/shexiang-ov2640.elf.dir/project_elf_src_esp32s3.c.obj: CMakeFiles/shexiang-ov2640.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/shexiang-ov2640.elf.dir/project_elf_src_esp32s3.c.obj"
+	/home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/shexiang-ov2640.elf.dir/project_elf_src_esp32s3.c.obj -MF CMakeFiles/shexiang-ov2640.elf.dir/project_elf_src_esp32s3.c.obj.d -o CMakeFiles/shexiang-ov2640.elf.dir/project_elf_src_esp32s3.c.obj -c /workspace/build/project_elf_src_esp32s3.c
 
-CMakeFiles/shexiang-ov2640.elf.dir/project_elf_src_esp32.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/shexiang-ov2640.elf.dir/project_elf_src_esp32.c.i"
-	/home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspace/build/project_elf_src_esp32.c > CMakeFiles/shexiang-ov2640.elf.dir/project_elf_src_esp32.c.i
+CMakeFiles/shexiang-ov2640.elf.dir/project_elf_src_esp32s3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/shexiang-ov2640.elf.dir/project_elf_src_esp32s3.c.i"
+	/home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspace/build/project_elf_src_esp32s3.c > CMakeFiles/shexiang-ov2640.elf.dir/project_elf_src_esp32s3.c.i
 
-CMakeFiles/shexiang-ov2640.elf.dir/project_elf_src_esp32.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/shexiang-ov2640.elf.dir/project_elf_src_esp32.c.s"
-	/home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspace/build/project_elf_src_esp32.c -o CMakeFiles/shexiang-ov2640.elf.dir/project_elf_src_esp32.c.s
+CMakeFiles/shexiang-ov2640.elf.dir/project_elf_src_esp32s3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/shexiang-ov2640.elf.dir/project_elf_src_esp32s3.c.s"
+	/home/ubuntu/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspace/build/project_elf_src_esp32s3.c -o CMakeFiles/shexiang-ov2640.elf.dir/project_elf_src_esp32s3.c.s
 
 # Object files for target shexiang-ov2640.elf
 shexiang__ov2640_elf_OBJECTS = \
-"CMakeFiles/shexiang-ov2640.elf.dir/project_elf_src_esp32.c.obj"
+"CMakeFiles/shexiang-ov2640.elf.dir/project_elf_src_esp32s3.c.obj"
 
 # External object files for target shexiang-ov2640.elf
 shexiang__ov2640_elf_EXTERNAL_OBJECTS =
 
-shexiang-ov2640.elf: CMakeFiles/shexiang-ov2640.elf.dir/project_elf_src_esp32.c.obj
+shexiang-ov2640.elf: CMakeFiles/shexiang-ov2640.elf.dir/project_elf_src_esp32s3.c.obj
 shexiang-ov2640.elf: CMakeFiles/shexiang-ov2640.elf.dir/build.make
 shexiang-ov2640.elf: esp-idf/xtensa/libxtensa.a
 shexiang-ov2640.elf: esp-idf/esp_driver_gpio/libesp_driver_gpio.a
@@ -131,6 +131,20 @@ shexiang-ov2640.elf: esp-idf/esp_driver_uart/libesp_driver_uart.a
 shexiang-ov2640.elf: esp-idf/app_trace/libapp_trace.a
 shexiang-ov2640.elf: esp-idf/esp_event/libesp_event.a
 shexiang-ov2640.elf: esp-idf/nvs_flash/libnvs_flash.a
+shexiang-ov2640.elf: esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a
+shexiang-ov2640.elf: esp-idf/esp_driver_spi/libesp_driver_spi.a
+shexiang-ov2640.elf: esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a
+shexiang-ov2640.elf: esp-idf/esp_driver_i2s/libesp_driver_i2s.a
+shexiang-ov2640.elf: esp-idf/sdmmc/libsdmmc.a
+shexiang-ov2640.elf: esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a
+shexiang-ov2640.elf: esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a
+shexiang-ov2640.elf: esp-idf/esp_driver_rmt/libesp_driver_rmt.a
+shexiang-ov2640.elf: esp-idf/esp_driver_tsens/libesp_driver_tsens.a
+shexiang-ov2640.elf: esp-idf/esp_driver_sdm/libesp_driver_sdm.a
+shexiang-ov2640.elf: esp-idf/esp_driver_i2c/libesp_driver_i2c.a
+shexiang-ov2640.elf: esp-idf/esp_driver_ledc/libesp_driver_ledc.a
+shexiang-ov2640.elf: esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_serial_jtag.a
+shexiang-ov2640.elf: esp-idf/driver/libdriver.a
 shexiang-ov2640.elf: esp-idf/esp_phy/libesp_phy.a
 shexiang-ov2640.elf: esp-idf/esp_vfs_console/libesp_vfs_console.a
 shexiang-ov2640.elf: esp-idf/vfs/libvfs.a
@@ -139,31 +153,14 @@ shexiang-ov2640.elf: esp-idf/esp_netif/libesp_netif.a
 shexiang-ov2640.elf: esp-idf/wpa_supplicant/libwpa_supplicant.a
 shexiang-ov2640.elf: esp-idf/esp_coex/libesp_coex.a
 shexiang-ov2640.elf: esp-idf/esp_wifi/libesp_wifi.a
-shexiang-ov2640.elf: esp-idf/esp_driver_spi/libesp_driver_spi.a
 shexiang-ov2640.elf: esp-idf/esp_gdbstub/libesp_gdbstub.a
 shexiang-ov2640.elf: esp-idf/unity/libunity.a
 shexiang-ov2640.elf: esp-idf/cmock/libcmock.a
 shexiang-ov2640.elf: esp-idf/console/libconsole.a
-shexiang-ov2640.elf: esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a
-shexiang-ov2640.elf: esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a
-shexiang-ov2640.elf: esp-idf/esp_driver_i2s/libesp_driver_i2s.a
-shexiang-ov2640.elf: esp-idf/sdmmc/libsdmmc.a
-shexiang-ov2640.elf: esp-idf/esp_driver_sd_intf/libesp_driver_sd_intf.a
-shexiang-ov2640.elf: esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a
-shexiang-ov2640.elf: esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a
-shexiang-ov2640.elf: esp-idf/esp_driver_sdio/libesp_driver_sdio.a
-shexiang-ov2640.elf: esp-idf/esp_driver_dac/libesp_driver_dac.a
-shexiang-ov2640.elf: esp-idf/esp_driver_rmt/libesp_driver_rmt.a
-shexiang-ov2640.elf: esp-idf/esp_driver_sdm/libesp_driver_sdm.a
-shexiang-ov2640.elf: esp-idf/esp_driver_i2c/libesp_driver_i2c.a
-shexiang-ov2640.elf: esp-idf/esp_driver_ledc/libesp_driver_ledc.a
-shexiang-ov2640.elf: esp-idf/esp_driver_twai/libesp_driver_twai.a
-shexiang-ov2640.elf: esp-idf/driver/libdriver.a
 shexiang-ov2640.elf: esp-idf/http_parser/libhttp_parser.a
 shexiang-ov2640.elf: esp-idf/esp-tls/libesp-tls.a
 shexiang-ov2640.elf: esp-idf/esp_adc/libesp_adc.a
 shexiang-ov2640.elf: esp-idf/esp_driver_cam/libesp_driver_cam.a
-shexiang-ov2640.elf: esp-idf/esp_driver_touch_sens/libesp_driver_touch_sens.a
 shexiang-ov2640.elf: esp-idf/esp_eth/libesp_eth.a
 shexiang-ov2640.elf: esp-idf/esp_hid/libesp_hid.a
 shexiang-ov2640.elf: esp-idf/tcp_transport/libtcp_transport.a
@@ -184,6 +181,8 @@ shexiang-ov2640.elf: esp-idf/nvs_sec_provider/libnvs_sec_provider.a
 shexiang-ov2640.elf: esp-idf/perfmon/libperfmon.a
 shexiang-ov2640.elf: esp-idf/rt/librt.a
 shexiang-ov2640.elf: esp-idf/spiffs/libspiffs.a
+shexiang-ov2640.elf: esp-idf/touch_element/libtouch_element.a
+shexiang-ov2640.elf: esp-idf/usb/libusb.a
 shexiang-ov2640.elf: esp-idf/wifi_provisioning/libwifi_provisioning.a
 shexiang-ov2640.elf: esp-idf/espressif__esp_jpeg/libespressif__esp_jpeg.a
 shexiang-ov2640.elf: esp-idf/espressif__esp32-camera/libespressif__esp32-camera.a
@@ -229,6 +228,20 @@ shexiang-ov2640.elf: esp-idf/esp_ringbuf/libesp_ringbuf.a
 shexiang-ov2640.elf: esp-idf/esp_driver_uart/libesp_driver_uart.a
 shexiang-ov2640.elf: esp-idf/esp_event/libesp_event.a
 shexiang-ov2640.elf: esp-idf/nvs_flash/libnvs_flash.a
+shexiang-ov2640.elf: esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a
+shexiang-ov2640.elf: esp-idf/esp_driver_spi/libesp_driver_spi.a
+shexiang-ov2640.elf: esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a
+shexiang-ov2640.elf: esp-idf/esp_driver_i2s/libesp_driver_i2s.a
+shexiang-ov2640.elf: esp-idf/sdmmc/libsdmmc.a
+shexiang-ov2640.elf: esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a
+shexiang-ov2640.elf: esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a
+shexiang-ov2640.elf: esp-idf/esp_driver_rmt/libesp_driver_rmt.a
+shexiang-ov2640.elf: esp-idf/esp_driver_tsens/libesp_driver_tsens.a
+shexiang-ov2640.elf: esp-idf/esp_driver_sdm/libesp_driver_sdm.a
+shexiang-ov2640.elf: esp-idf/esp_driver_i2c/libesp_driver_i2c.a
+shexiang-ov2640.elf: esp-idf/esp_driver_ledc/libesp_driver_ledc.a
+shexiang-ov2640.elf: esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_serial_jtag.a
+shexiang-ov2640.elf: esp-idf/driver/libdriver.a
 shexiang-ov2640.elf: esp-idf/esp_phy/libesp_phy.a
 shexiang-ov2640.elf: esp-idf/esp_vfs_console/libesp_vfs_console.a
 shexiang-ov2640.elf: esp-idf/vfs/libvfs.a
@@ -237,23 +250,7 @@ shexiang-ov2640.elf: esp-idf/esp_netif/libesp_netif.a
 shexiang-ov2640.elf: esp-idf/wpa_supplicant/libwpa_supplicant.a
 shexiang-ov2640.elf: esp-idf/esp_coex/libesp_coex.a
 shexiang-ov2640.elf: esp-idf/esp_wifi/libesp_wifi.a
-shexiang-ov2640.elf: esp-idf/esp_driver_spi/libesp_driver_spi.a
 shexiang-ov2640.elf: esp-idf/esp_gdbstub/libesp_gdbstub.a
-shexiang-ov2640.elf: esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a
-shexiang-ov2640.elf: esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a
-shexiang-ov2640.elf: esp-idf/esp_driver_i2s/libesp_driver_i2s.a
-shexiang-ov2640.elf: esp-idf/sdmmc/libsdmmc.a
-shexiang-ov2640.elf: esp-idf/esp_driver_sd_intf/libesp_driver_sd_intf.a
-shexiang-ov2640.elf: esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a
-shexiang-ov2640.elf: esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a
-shexiang-ov2640.elf: esp-idf/esp_driver_sdio/libesp_driver_sdio.a
-shexiang-ov2640.elf: esp-idf/esp_driver_dac/libesp_driver_dac.a
-shexiang-ov2640.elf: esp-idf/esp_driver_rmt/libesp_driver_rmt.a
-shexiang-ov2640.elf: esp-idf/esp_driver_sdm/libesp_driver_sdm.a
-shexiang-ov2640.elf: esp-idf/esp_driver_i2c/libesp_driver_i2c.a
-shexiang-ov2640.elf: esp-idf/esp_driver_ledc/libesp_driver_ledc.a
-shexiang-ov2640.elf: esp-idf/esp_driver_twai/libesp_driver_twai.a
-shexiang-ov2640.elf: esp-idf/driver/libdriver.a
 shexiang-ov2640.elf: esp-idf/http_parser/libhttp_parser.a
 shexiang-ov2640.elf: esp-idf/esp-tls/libesp-tls.a
 shexiang-ov2640.elf: esp-idf/esp_adc/libesp_adc.a
@@ -266,13 +263,13 @@ shexiang-ov2640.elf: esp-idf/mbedtls/mbedtls/library/libmbedcrypto.a
 shexiang-ov2640.elf: esp-idf/mbedtls/mbedtls/library/libmbedx509.a
 shexiang-ov2640.elf: esp-idf/mbedtls/mbedtls/3rdparty/everest/libeverest.a
 shexiang-ov2640.elf: esp-idf/mbedtls/mbedtls/3rdparty/p256-m/libp256m.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libcore.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libespnow.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libmesh.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libnet80211.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libpp.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libsmartconfig.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libwapi.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libcore.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libespnow.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libmesh.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libnet80211.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libpp.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libsmartconfig.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libwapi.a
 shexiang-ov2640.elf: esp-idf/xtensa/libxtensa.a
 shexiang-ov2640.elf: esp-idf/esp_driver_gpio/libesp_driver_gpio.a
 shexiang-ov2640.elf: esp-idf/esp_pm/libesp_pm.a
@@ -304,6 +301,20 @@ shexiang-ov2640.elf: esp-idf/esp_ringbuf/libesp_ringbuf.a
 shexiang-ov2640.elf: esp-idf/esp_driver_uart/libesp_driver_uart.a
 shexiang-ov2640.elf: esp-idf/esp_event/libesp_event.a
 shexiang-ov2640.elf: esp-idf/nvs_flash/libnvs_flash.a
+shexiang-ov2640.elf: esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a
+shexiang-ov2640.elf: esp-idf/esp_driver_spi/libesp_driver_spi.a
+shexiang-ov2640.elf: esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a
+shexiang-ov2640.elf: esp-idf/esp_driver_i2s/libesp_driver_i2s.a
+shexiang-ov2640.elf: esp-idf/sdmmc/libsdmmc.a
+shexiang-ov2640.elf: esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a
+shexiang-ov2640.elf: esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a
+shexiang-ov2640.elf: esp-idf/esp_driver_rmt/libesp_driver_rmt.a
+shexiang-ov2640.elf: esp-idf/esp_driver_tsens/libesp_driver_tsens.a
+shexiang-ov2640.elf: esp-idf/esp_driver_sdm/libesp_driver_sdm.a
+shexiang-ov2640.elf: esp-idf/esp_driver_i2c/libesp_driver_i2c.a
+shexiang-ov2640.elf: esp-idf/esp_driver_ledc/libesp_driver_ledc.a
+shexiang-ov2640.elf: esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_serial_jtag.a
+shexiang-ov2640.elf: esp-idf/driver/libdriver.a
 shexiang-ov2640.elf: esp-idf/esp_phy/libesp_phy.a
 shexiang-ov2640.elf: esp-idf/esp_vfs_console/libesp_vfs_console.a
 shexiang-ov2640.elf: esp-idf/vfs/libvfs.a
@@ -312,23 +323,7 @@ shexiang-ov2640.elf: esp-idf/esp_netif/libesp_netif.a
 shexiang-ov2640.elf: esp-idf/wpa_supplicant/libwpa_supplicant.a
 shexiang-ov2640.elf: esp-idf/esp_coex/libesp_coex.a
 shexiang-ov2640.elf: esp-idf/esp_wifi/libesp_wifi.a
-shexiang-ov2640.elf: esp-idf/esp_driver_spi/libesp_driver_spi.a
 shexiang-ov2640.elf: esp-idf/esp_gdbstub/libesp_gdbstub.a
-shexiang-ov2640.elf: esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a
-shexiang-ov2640.elf: esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a
-shexiang-ov2640.elf: esp-idf/esp_driver_i2s/libesp_driver_i2s.a
-shexiang-ov2640.elf: esp-idf/sdmmc/libsdmmc.a
-shexiang-ov2640.elf: esp-idf/esp_driver_sd_intf/libesp_driver_sd_intf.a
-shexiang-ov2640.elf: esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a
-shexiang-ov2640.elf: esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a
-shexiang-ov2640.elf: esp-idf/esp_driver_sdio/libesp_driver_sdio.a
-shexiang-ov2640.elf: esp-idf/esp_driver_dac/libesp_driver_dac.a
-shexiang-ov2640.elf: esp-idf/esp_driver_rmt/libesp_driver_rmt.a
-shexiang-ov2640.elf: esp-idf/esp_driver_sdm/libesp_driver_sdm.a
-shexiang-ov2640.elf: esp-idf/esp_driver_i2c/libesp_driver_i2c.a
-shexiang-ov2640.elf: esp-idf/esp_driver_ledc/libesp_driver_ledc.a
-shexiang-ov2640.elf: esp-idf/esp_driver_twai/libesp_driver_twai.a
-shexiang-ov2640.elf: esp-idf/driver/libdriver.a
 shexiang-ov2640.elf: esp-idf/http_parser/libhttp_parser.a
 shexiang-ov2640.elf: esp-idf/esp-tls/libesp-tls.a
 shexiang-ov2640.elf: esp-idf/esp_adc/libesp_adc.a
@@ -341,13 +336,13 @@ shexiang-ov2640.elf: esp-idf/mbedtls/mbedtls/library/libmbedcrypto.a
 shexiang-ov2640.elf: esp-idf/mbedtls/mbedtls/library/libmbedx509.a
 shexiang-ov2640.elf: esp-idf/mbedtls/mbedtls/3rdparty/everest/libeverest.a
 shexiang-ov2640.elf: esp-idf/mbedtls/mbedtls/3rdparty/p256-m/libp256m.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libcore.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libespnow.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libmesh.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libnet80211.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libpp.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libsmartconfig.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libwapi.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libcore.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libespnow.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libmesh.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libnet80211.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libpp.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libsmartconfig.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libwapi.a
 shexiang-ov2640.elf: esp-idf/xtensa/libxtensa.a
 shexiang-ov2640.elf: esp-idf/esp_driver_gpio/libesp_driver_gpio.a
 shexiang-ov2640.elf: esp-idf/esp_pm/libesp_pm.a
@@ -379,6 +374,20 @@ shexiang-ov2640.elf: esp-idf/esp_ringbuf/libesp_ringbuf.a
 shexiang-ov2640.elf: esp-idf/esp_driver_uart/libesp_driver_uart.a
 shexiang-ov2640.elf: esp-idf/esp_event/libesp_event.a
 shexiang-ov2640.elf: esp-idf/nvs_flash/libnvs_flash.a
+shexiang-ov2640.elf: esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a
+shexiang-ov2640.elf: esp-idf/esp_driver_spi/libesp_driver_spi.a
+shexiang-ov2640.elf: esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a
+shexiang-ov2640.elf: esp-idf/esp_driver_i2s/libesp_driver_i2s.a
+shexiang-ov2640.elf: esp-idf/sdmmc/libsdmmc.a
+shexiang-ov2640.elf: esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a
+shexiang-ov2640.elf: esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a
+shexiang-ov2640.elf: esp-idf/esp_driver_rmt/libesp_driver_rmt.a
+shexiang-ov2640.elf: esp-idf/esp_driver_tsens/libesp_driver_tsens.a
+shexiang-ov2640.elf: esp-idf/esp_driver_sdm/libesp_driver_sdm.a
+shexiang-ov2640.elf: esp-idf/esp_driver_i2c/libesp_driver_i2c.a
+shexiang-ov2640.elf: esp-idf/esp_driver_ledc/libesp_driver_ledc.a
+shexiang-ov2640.elf: esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_serial_jtag.a
+shexiang-ov2640.elf: esp-idf/driver/libdriver.a
 shexiang-ov2640.elf: esp-idf/esp_phy/libesp_phy.a
 shexiang-ov2640.elf: esp-idf/esp_vfs_console/libesp_vfs_console.a
 shexiang-ov2640.elf: esp-idf/vfs/libvfs.a
@@ -387,23 +396,7 @@ shexiang-ov2640.elf: esp-idf/esp_netif/libesp_netif.a
 shexiang-ov2640.elf: esp-idf/wpa_supplicant/libwpa_supplicant.a
 shexiang-ov2640.elf: esp-idf/esp_coex/libesp_coex.a
 shexiang-ov2640.elf: esp-idf/esp_wifi/libesp_wifi.a
-shexiang-ov2640.elf: esp-idf/esp_driver_spi/libesp_driver_spi.a
 shexiang-ov2640.elf: esp-idf/esp_gdbstub/libesp_gdbstub.a
-shexiang-ov2640.elf: esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a
-shexiang-ov2640.elf: esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a
-shexiang-ov2640.elf: esp-idf/esp_driver_i2s/libesp_driver_i2s.a
-shexiang-ov2640.elf: esp-idf/sdmmc/libsdmmc.a
-shexiang-ov2640.elf: esp-idf/esp_driver_sd_intf/libesp_driver_sd_intf.a
-shexiang-ov2640.elf: esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a
-shexiang-ov2640.elf: esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a
-shexiang-ov2640.elf: esp-idf/esp_driver_sdio/libesp_driver_sdio.a
-shexiang-ov2640.elf: esp-idf/esp_driver_dac/libesp_driver_dac.a
-shexiang-ov2640.elf: esp-idf/esp_driver_rmt/libesp_driver_rmt.a
-shexiang-ov2640.elf: esp-idf/esp_driver_sdm/libesp_driver_sdm.a
-shexiang-ov2640.elf: esp-idf/esp_driver_i2c/libesp_driver_i2c.a
-shexiang-ov2640.elf: esp-idf/esp_driver_ledc/libesp_driver_ledc.a
-shexiang-ov2640.elf: esp-idf/esp_driver_twai/libesp_driver_twai.a
-shexiang-ov2640.elf: esp-idf/driver/libdriver.a
 shexiang-ov2640.elf: esp-idf/http_parser/libhttp_parser.a
 shexiang-ov2640.elf: esp-idf/esp-tls/libesp-tls.a
 shexiang-ov2640.elf: esp-idf/esp_adc/libesp_adc.a
@@ -416,13 +409,13 @@ shexiang-ov2640.elf: esp-idf/mbedtls/mbedtls/library/libmbedcrypto.a
 shexiang-ov2640.elf: esp-idf/mbedtls/mbedtls/library/libmbedx509.a
 shexiang-ov2640.elf: esp-idf/mbedtls/mbedtls/3rdparty/everest/libeverest.a
 shexiang-ov2640.elf: esp-idf/mbedtls/mbedtls/3rdparty/p256-m/libp256m.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libcore.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libespnow.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libmesh.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libnet80211.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libpp.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libsmartconfig.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libwapi.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libcore.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libespnow.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libmesh.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libnet80211.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libpp.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libsmartconfig.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libwapi.a
 shexiang-ov2640.elf: esp-idf/xtensa/libxtensa.a
 shexiang-ov2640.elf: esp-idf/esp_driver_gpio/libesp_driver_gpio.a
 shexiang-ov2640.elf: esp-idf/esp_pm/libesp_pm.a
@@ -454,6 +447,20 @@ shexiang-ov2640.elf: esp-idf/esp_ringbuf/libesp_ringbuf.a
 shexiang-ov2640.elf: esp-idf/esp_driver_uart/libesp_driver_uart.a
 shexiang-ov2640.elf: esp-idf/esp_event/libesp_event.a
 shexiang-ov2640.elf: esp-idf/nvs_flash/libnvs_flash.a
+shexiang-ov2640.elf: esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a
+shexiang-ov2640.elf: esp-idf/esp_driver_spi/libesp_driver_spi.a
+shexiang-ov2640.elf: esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a
+shexiang-ov2640.elf: esp-idf/esp_driver_i2s/libesp_driver_i2s.a
+shexiang-ov2640.elf: esp-idf/sdmmc/libsdmmc.a
+shexiang-ov2640.elf: esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a
+shexiang-ov2640.elf: esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a
+shexiang-ov2640.elf: esp-idf/esp_driver_rmt/libesp_driver_rmt.a
+shexiang-ov2640.elf: esp-idf/esp_driver_tsens/libesp_driver_tsens.a
+shexiang-ov2640.elf: esp-idf/esp_driver_sdm/libesp_driver_sdm.a
+shexiang-ov2640.elf: esp-idf/esp_driver_i2c/libesp_driver_i2c.a
+shexiang-ov2640.elf: esp-idf/esp_driver_ledc/libesp_driver_ledc.a
+shexiang-ov2640.elf: esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_serial_jtag.a
+shexiang-ov2640.elf: esp-idf/driver/libdriver.a
 shexiang-ov2640.elf: esp-idf/esp_phy/libesp_phy.a
 shexiang-ov2640.elf: esp-idf/esp_vfs_console/libesp_vfs_console.a
 shexiang-ov2640.elf: esp-idf/vfs/libvfs.a
@@ -462,23 +469,7 @@ shexiang-ov2640.elf: esp-idf/esp_netif/libesp_netif.a
 shexiang-ov2640.elf: esp-idf/wpa_supplicant/libwpa_supplicant.a
 shexiang-ov2640.elf: esp-idf/esp_coex/libesp_coex.a
 shexiang-ov2640.elf: esp-idf/esp_wifi/libesp_wifi.a
-shexiang-ov2640.elf: esp-idf/esp_driver_spi/libesp_driver_spi.a
 shexiang-ov2640.elf: esp-idf/esp_gdbstub/libesp_gdbstub.a
-shexiang-ov2640.elf: esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a
-shexiang-ov2640.elf: esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a
-shexiang-ov2640.elf: esp-idf/esp_driver_i2s/libesp_driver_i2s.a
-shexiang-ov2640.elf: esp-idf/sdmmc/libsdmmc.a
-shexiang-ov2640.elf: esp-idf/esp_driver_sd_intf/libesp_driver_sd_intf.a
-shexiang-ov2640.elf: esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a
-shexiang-ov2640.elf: esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a
-shexiang-ov2640.elf: esp-idf/esp_driver_sdio/libesp_driver_sdio.a
-shexiang-ov2640.elf: esp-idf/esp_driver_dac/libesp_driver_dac.a
-shexiang-ov2640.elf: esp-idf/esp_driver_rmt/libesp_driver_rmt.a
-shexiang-ov2640.elf: esp-idf/esp_driver_sdm/libesp_driver_sdm.a
-shexiang-ov2640.elf: esp-idf/esp_driver_i2c/libesp_driver_i2c.a
-shexiang-ov2640.elf: esp-idf/esp_driver_ledc/libesp_driver_ledc.a
-shexiang-ov2640.elf: esp-idf/esp_driver_twai/libesp_driver_twai.a
-shexiang-ov2640.elf: esp-idf/driver/libdriver.a
 shexiang-ov2640.elf: esp-idf/http_parser/libhttp_parser.a
 shexiang-ov2640.elf: esp-idf/esp-tls/libesp-tls.a
 shexiang-ov2640.elf: esp-idf/esp_adc/libesp_adc.a
@@ -491,13 +482,13 @@ shexiang-ov2640.elf: esp-idf/mbedtls/mbedtls/library/libmbedcrypto.a
 shexiang-ov2640.elf: esp-idf/mbedtls/mbedtls/library/libmbedx509.a
 shexiang-ov2640.elf: esp-idf/mbedtls/mbedtls/3rdparty/everest/libeverest.a
 shexiang-ov2640.elf: esp-idf/mbedtls/mbedtls/3rdparty/p256-m/libp256m.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libcore.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libespnow.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libmesh.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libnet80211.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libpp.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libsmartconfig.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libwapi.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libcore.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libespnow.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libmesh.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libnet80211.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libpp.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libsmartconfig.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libwapi.a
 shexiang-ov2640.elf: esp-idf/xtensa/libxtensa.a
 shexiang-ov2640.elf: esp-idf/esp_driver_gpio/libesp_driver_gpio.a
 shexiang-ov2640.elf: esp-idf/esp_pm/libesp_pm.a
@@ -529,6 +520,20 @@ shexiang-ov2640.elf: esp-idf/esp_ringbuf/libesp_ringbuf.a
 shexiang-ov2640.elf: esp-idf/esp_driver_uart/libesp_driver_uart.a
 shexiang-ov2640.elf: esp-idf/esp_event/libesp_event.a
 shexiang-ov2640.elf: esp-idf/nvs_flash/libnvs_flash.a
+shexiang-ov2640.elf: esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a
+shexiang-ov2640.elf: esp-idf/esp_driver_spi/libesp_driver_spi.a
+shexiang-ov2640.elf: esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a
+shexiang-ov2640.elf: esp-idf/esp_driver_i2s/libesp_driver_i2s.a
+shexiang-ov2640.elf: esp-idf/sdmmc/libsdmmc.a
+shexiang-ov2640.elf: esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a
+shexiang-ov2640.elf: esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a
+shexiang-ov2640.elf: esp-idf/esp_driver_rmt/libesp_driver_rmt.a
+shexiang-ov2640.elf: esp-idf/esp_driver_tsens/libesp_driver_tsens.a
+shexiang-ov2640.elf: esp-idf/esp_driver_sdm/libesp_driver_sdm.a
+shexiang-ov2640.elf: esp-idf/esp_driver_i2c/libesp_driver_i2c.a
+shexiang-ov2640.elf: esp-idf/esp_driver_ledc/libesp_driver_ledc.a
+shexiang-ov2640.elf: esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_serial_jtag.a
+shexiang-ov2640.elf: esp-idf/driver/libdriver.a
 shexiang-ov2640.elf: esp-idf/esp_phy/libesp_phy.a
 shexiang-ov2640.elf: esp-idf/esp_vfs_console/libesp_vfs_console.a
 shexiang-ov2640.elf: esp-idf/vfs/libvfs.a
@@ -537,23 +542,7 @@ shexiang-ov2640.elf: esp-idf/esp_netif/libesp_netif.a
 shexiang-ov2640.elf: esp-idf/wpa_supplicant/libwpa_supplicant.a
 shexiang-ov2640.elf: esp-idf/esp_coex/libesp_coex.a
 shexiang-ov2640.elf: esp-idf/esp_wifi/libesp_wifi.a
-shexiang-ov2640.elf: esp-idf/esp_driver_spi/libesp_driver_spi.a
 shexiang-ov2640.elf: esp-idf/esp_gdbstub/libesp_gdbstub.a
-shexiang-ov2640.elf: esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a
-shexiang-ov2640.elf: esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a
-shexiang-ov2640.elf: esp-idf/esp_driver_i2s/libesp_driver_i2s.a
-shexiang-ov2640.elf: esp-idf/sdmmc/libsdmmc.a
-shexiang-ov2640.elf: esp-idf/esp_driver_sd_intf/libesp_driver_sd_intf.a
-shexiang-ov2640.elf: esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a
-shexiang-ov2640.elf: esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a
-shexiang-ov2640.elf: esp-idf/esp_driver_sdio/libesp_driver_sdio.a
-shexiang-ov2640.elf: esp-idf/esp_driver_dac/libesp_driver_dac.a
-shexiang-ov2640.elf: esp-idf/esp_driver_rmt/libesp_driver_rmt.a
-shexiang-ov2640.elf: esp-idf/esp_driver_sdm/libesp_driver_sdm.a
-shexiang-ov2640.elf: esp-idf/esp_driver_i2c/libesp_driver_i2c.a
-shexiang-ov2640.elf: esp-idf/esp_driver_ledc/libesp_driver_ledc.a
-shexiang-ov2640.elf: esp-idf/esp_driver_twai/libesp_driver_twai.a
-shexiang-ov2640.elf: esp-idf/driver/libdriver.a
 shexiang-ov2640.elf: esp-idf/http_parser/libhttp_parser.a
 shexiang-ov2640.elf: esp-idf/esp-tls/libesp-tls.a
 shexiang-ov2640.elf: esp-idf/esp_adc/libesp_adc.a
@@ -566,29 +555,108 @@ shexiang-ov2640.elf: esp-idf/mbedtls/mbedtls/library/libmbedcrypto.a
 shexiang-ov2640.elf: esp-idf/mbedtls/mbedtls/library/libmbedx509.a
 shexiang-ov2640.elf: esp-idf/mbedtls/mbedtls/3rdparty/everest/libeverest.a
 shexiang-ov2640.elf: esp-idf/mbedtls/mbedtls/3rdparty/p256-m/libp256m.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libcore.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libespnow.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libmesh.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libnet80211.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libpp.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libsmartconfig.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_wifi/lib/esp32/libwapi.a
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/xtensa/esp32/libxt_hal.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libcore.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libespnow.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libmesh.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libnet80211.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libpp.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libsmartconfig.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libwapi.a
+shexiang-ov2640.elf: esp-idf/xtensa/libxtensa.a
+shexiang-ov2640.elf: esp-idf/esp_driver_gpio/libesp_driver_gpio.a
+shexiang-ov2640.elf: esp-idf/esp_pm/libesp_pm.a
+shexiang-ov2640.elf: esp-idf/mbedtls/libmbedtls.a
+shexiang-ov2640.elf: esp-idf/esp_app_format/libesp_app_format.a
+shexiang-ov2640.elf: esp-idf/esp_bootloader_format/libesp_bootloader_format.a
+shexiang-ov2640.elf: esp-idf/app_update/libapp_update.a
+shexiang-ov2640.elf: esp-idf/esp_partition/libesp_partition.a
+shexiang-ov2640.elf: esp-idf/efuse/libefuse.a
+shexiang-ov2640.elf: esp-idf/bootloader_support/libbootloader_support.a
+shexiang-ov2640.elf: esp-idf/esp_mm/libesp_mm.a
+shexiang-ov2640.elf: esp-idf/spi_flash/libspi_flash.a
+shexiang-ov2640.elf: esp-idf/esp_system/libesp_system.a
+shexiang-ov2640.elf: esp-idf/esp_common/libesp_common.a
+shexiang-ov2640.elf: esp-idf/esp_rom/libesp_rom.a
+shexiang-ov2640.elf: esp-idf/hal/libhal.a
+shexiang-ov2640.elf: esp-idf/log/liblog.a
+shexiang-ov2640.elf: esp-idf/heap/libheap.a
+shexiang-ov2640.elf: esp-idf/soc/libsoc.a
+shexiang-ov2640.elf: esp-idf/esp_security/libesp_security.a
+shexiang-ov2640.elf: esp-idf/esp_hw_support/libesp_hw_support.a
+shexiang-ov2640.elf: esp-idf/freertos/libfreertos.a
+shexiang-ov2640.elf: esp-idf/newlib/libnewlib.a
+shexiang-ov2640.elf: esp-idf/pthread/libpthread.a
+shexiang-ov2640.elf: esp-idf/cxx/libcxx.a
+shexiang-ov2640.elf: esp-idf/esp_timer/libesp_timer.a
+shexiang-ov2640.elf: esp-idf/esp_driver_gptimer/libesp_driver_gptimer.a
+shexiang-ov2640.elf: esp-idf/esp_ringbuf/libesp_ringbuf.a
+shexiang-ov2640.elf: esp-idf/esp_driver_uart/libesp_driver_uart.a
+shexiang-ov2640.elf: esp-idf/esp_event/libesp_event.a
+shexiang-ov2640.elf: esp-idf/nvs_flash/libnvs_flash.a
+shexiang-ov2640.elf: esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a
+shexiang-ov2640.elf: esp-idf/esp_driver_spi/libesp_driver_spi.a
+shexiang-ov2640.elf: esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a
+shexiang-ov2640.elf: esp-idf/esp_driver_i2s/libesp_driver_i2s.a
+shexiang-ov2640.elf: esp-idf/sdmmc/libsdmmc.a
+shexiang-ov2640.elf: esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a
+shexiang-ov2640.elf: esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a
+shexiang-ov2640.elf: esp-idf/esp_driver_rmt/libesp_driver_rmt.a
+shexiang-ov2640.elf: esp-idf/esp_driver_tsens/libesp_driver_tsens.a
+shexiang-ov2640.elf: esp-idf/esp_driver_sdm/libesp_driver_sdm.a
+shexiang-ov2640.elf: esp-idf/esp_driver_i2c/libesp_driver_i2c.a
+shexiang-ov2640.elf: esp-idf/esp_driver_ledc/libesp_driver_ledc.a
+shexiang-ov2640.elf: esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_serial_jtag.a
+shexiang-ov2640.elf: esp-idf/driver/libdriver.a
+shexiang-ov2640.elf: esp-idf/esp_phy/libesp_phy.a
+shexiang-ov2640.elf: esp-idf/esp_vfs_console/libesp_vfs_console.a
+shexiang-ov2640.elf: esp-idf/vfs/libvfs.a
+shexiang-ov2640.elf: esp-idf/lwip/liblwip.a
+shexiang-ov2640.elf: esp-idf/esp_netif/libesp_netif.a
+shexiang-ov2640.elf: esp-idf/wpa_supplicant/libwpa_supplicant.a
+shexiang-ov2640.elf: esp-idf/esp_coex/libesp_coex.a
+shexiang-ov2640.elf: esp-idf/esp_wifi/libesp_wifi.a
+shexiang-ov2640.elf: esp-idf/esp_gdbstub/libesp_gdbstub.a
+shexiang-ov2640.elf: esp-idf/http_parser/libhttp_parser.a
+shexiang-ov2640.elf: esp-idf/esp-tls/libesp-tls.a
+shexiang-ov2640.elf: esp-idf/esp_adc/libesp_adc.a
+shexiang-ov2640.elf: esp-idf/tcp_transport/libtcp_transport.a
+shexiang-ov2640.elf: esp-idf/esp_http_client/libesp_http_client.a
+shexiang-ov2640.elf: esp-idf/esp_http_server/libesp_http_server.a
+shexiang-ov2640.elf: esp-idf/esp_https_ota/libesp_https_ota.a
+shexiang-ov2640.elf: esp-idf/mbedtls/mbedtls/library/libmbedtls.a
+shexiang-ov2640.elf: esp-idf/mbedtls/mbedtls/library/libmbedcrypto.a
+shexiang-ov2640.elf: esp-idf/mbedtls/mbedtls/library/libmbedx509.a
+shexiang-ov2640.elf: esp-idf/mbedtls/mbedtls/3rdparty/everest/libeverest.a
+shexiang-ov2640.elf: esp-idf/mbedtls/mbedtls/3rdparty/p256-m/libp256m.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libcore.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libespnow.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libmesh.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libnet80211.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libpp.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libsmartconfig.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_wifi/lib/esp32s3/libwapi.a
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/xtensa/esp32s3/libxt_hal.a
 shexiang-ov2640.elf: esp-idf/pthread/libpthread.a
 shexiang-ov2640.elf: esp-idf/newlib/libnewlib.a
 shexiang-ov2640.elf: esp-idf/cxx/libcxx.a
 shexiang-ov2640.elf: esp-idf/esp_phy/libesp_phy.a
 shexiang-ov2640.elf: esp-idf/esp_phy/libesp_phy.a
 shexiang-ov2640.elf: esp-idf/esp_system/ld/memory.ld
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libc-funcs.ld
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-reent-funcs.ld
-shexiang-ov2640.elf: /home/ubuntu/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
 shexiang-ov2640.elf: esp-idf/esp_system/ld/sections.ld
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/ld/esp32s3.rom.bt_funcs.ld
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/ld/esp32s3.rom.wdt.ld
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_master.ld
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_50.ld
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_smp.ld
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_dtm.ld
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_test.ld
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_scan.ld
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+shexiang-ov2640.elf: /home/ubuntu/esp-idf-v5.4/components/soc/esp32s3/ld/esp32s3.peripherals.ld
 shexiang-ov2640.elf: CMakeFiles/shexiang-ov2640.elf.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable shexiang-ov2640.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/shexiang-ov2640.elf.dir/link.txt --verbose=$(VERBOSE)
@@ -601,7 +669,7 @@ CMakeFiles/shexiang-ov2640.elf.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/shexiang-ov2640.elf.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/shexiang-ov2640.elf.dir/clean
 
-CMakeFiles/shexiang-ov2640.elf.dir/depend: project_elf_src_esp32.c
+CMakeFiles/shexiang-ov2640.elf.dir/depend: project_elf_src_esp32s3.c
 	cd /workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace /workspace /workspace/build /workspace/build /workspace/build/CMakeFiles/shexiang-ov2640.elf.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/shexiang-ov2640.elf.dir/depend
 

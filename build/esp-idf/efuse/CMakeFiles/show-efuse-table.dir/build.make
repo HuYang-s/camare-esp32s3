@@ -67,7 +67,7 @@ include esp-idf/efuse/CMakeFiles/show-efuse-table.dir/compiler_depend.make
 include esp-idf/efuse/CMakeFiles/show-efuse-table.dir/progress.make
 
 esp-idf/efuse/CMakeFiles/show-efuse-table:
-	cd /workspace/build/esp-idf/efuse && /home/ubuntu/.espressif/python_env/idf6.0_py3.13_env/bin/python /home/ubuntu/esp-idf/components/efuse/efuse_table_gen.py /home/ubuntu/esp-idf/components/efuse/esp32/esp_efuse_table.csv -t esp32 --max_blk_len 192 --info
+	cd /workspace/build/esp-idf/efuse && /home/ubuntu/.espressif/python_env/idf5.4_py3.13_env/bin/python /home/ubuntu/esp-idf-v5.4/components/efuse/efuse_table_gen.py /home/ubuntu/esp-idf-v5.4/components/efuse/esp32s3/esp_efuse_table.csv -t esp32s3 --max_blk_len 256 --info
 
 esp-idf/efuse/CMakeFiles/show-efuse-table.dir/codegen:
 .PHONY : esp-idf/efuse/CMakeFiles/show-efuse-table.dir/codegen
@@ -85,6 +85,6 @@ esp-idf/efuse/CMakeFiles/show-efuse-table.dir/clean:
 .PHONY : esp-idf/efuse/CMakeFiles/show-efuse-table.dir/clean
 
 esp-idf/efuse/CMakeFiles/show-efuse-table.dir/depend:
-	cd /workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace /home/ubuntu/esp-idf/components/efuse /workspace/build /workspace/build/esp-idf/efuse /workspace/build/esp-idf/efuse/CMakeFiles/show-efuse-table.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace /home/ubuntu/esp-idf-v5.4/components/efuse /workspace/build /workspace/build/esp-idf/efuse /workspace/build/esp-idf/efuse/CMakeFiles/show-efuse-table.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/efuse/CMakeFiles/show-efuse-table.dir/depend
 

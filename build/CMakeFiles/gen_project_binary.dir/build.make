@@ -66,11 +66,18 @@ include CMakeFiles/gen_project_binary.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/gen_project_binary.dir/progress.make
 
-CMakeFiles/gen_project_binary:
+CMakeFiles/gen_project_binary: .bin_timestamp
+
+.bin_timestamp: shexiang-ov2640.elf
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating binary image from built executable"
+	/home/ubuntu/.espressif/python_env/idf5.4_py3.13_env/bin/python /home/ubuntu/esp-idf-v5.4/components/esptool_py/esptool/esptool.py --chip esp32s3 elf2image --flash_mode dio --flash_freq 80m --flash_size 2MB --elf-sha256-offset 0xb0 --min-rev-full 0 --max-rev-full 99 -o /workspace/build/shexiang-ov2640.bin /workspace/build/shexiang-ov2640.elf
+	/usr/bin/cmake -E echo "Generated /workspace/build/shexiang-ov2640.bin"
+	/usr/bin/cmake -E md5sum /workspace/build/shexiang-ov2640.bin > /workspace/build/.bin_timestamp
 
 CMakeFiles/gen_project_binary.dir/codegen:
 .PHONY : CMakeFiles/gen_project_binary.dir/codegen
 
+gen_project_binary: .bin_timestamp
 gen_project_binary: CMakeFiles/gen_project_binary
 gen_project_binary: CMakeFiles/gen_project_binary.dir/build.make
 .PHONY : gen_project_binary

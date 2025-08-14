@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/esp-idf/components/bootloader/subproject
+CMAKE_SOURCE_DIR = /home/ubuntu/esp-idf-v5.4/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /workspace/build/bootloader
@@ -66,11 +66,18 @@ include CMakeFiles/gen_project_binary.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/gen_project_binary.dir/progress.make
 
-CMakeFiles/gen_project_binary:
+CMakeFiles/gen_project_binary: .bin_timestamp
+
+.bin_timestamp: bootloader.elf
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/workspace/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating binary image from built executable"
+	/home/ubuntu/.espressif/python_env/idf5.4_py3.13_env/bin/python /home/ubuntu/esp-idf-v5.4/components/esptool_py/esptool/esptool.py --chip esp32s3 elf2image --flash_mode dio --flash_freq 80m --flash_size 2MB --min-rev-full 0 --max-rev-full 99 -o /workspace/build/bootloader/bootloader.bin /workspace/build/bootloader/bootloader.elf
+	/usr/bin/cmake -E echo "Generated /workspace/build/bootloader/bootloader.bin"
+	/usr/bin/cmake -E md5sum /workspace/build/bootloader/bootloader.bin > /workspace/build/bootloader/.bin_timestamp
 
 CMakeFiles/gen_project_binary.dir/codegen:
 .PHONY : CMakeFiles/gen_project_binary.dir/codegen
 
+gen_project_binary: .bin_timestamp
 gen_project_binary: CMakeFiles/gen_project_binary
 gen_project_binary: CMakeFiles/gen_project_binary.dir/build.make
 .PHONY : gen_project_binary
@@ -84,6 +91,6 @@ CMakeFiles/gen_project_binary.dir/clean:
 .PHONY : CMakeFiles/gen_project_binary.dir/clean
 
 CMakeFiles/gen_project_binary.dir/depend:
-	cd /workspace/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/esp-idf/components/bootloader/subproject /home/ubuntu/esp-idf/components/bootloader/subproject /workspace/build/bootloader /workspace/build/bootloader /workspace/build/bootloader/CMakeFiles/gen_project_binary.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /workspace/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/esp-idf-v5.4/components/bootloader/subproject /home/ubuntu/esp-idf-v5.4/components/bootloader/subproject /workspace/build/bootloader /workspace/build/bootloader /workspace/build/bootloader/CMakeFiles/gen_project_binary.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/gen_project_binary.dir/depend
 
