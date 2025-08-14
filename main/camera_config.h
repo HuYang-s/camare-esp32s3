@@ -2,8 +2,8 @@
 #define CAMERA_CONFIG_H
 
 // WiFi配置
-#define WIFI_SSID "YOUR_WIFI_SSID"
-#define WIFI_PASS "YOUR_WIFI_PASSWORD"
+#define WIFI_SSID "bed_room_2.4G"
+#define WIFI_PASS "Hdk4560.0"
 #define WIFI_MAXIMUM_RETRY 5
 
 // 摄像头引脚配置 (ESP32-S3 CAM)
@@ -13,15 +13,16 @@
 #define CAM_PIN_SIOD    4   // SDA
 #define CAM_PIN_SIOC    5   // SCL
 
-// 摄像头数据引脚
-#define CAM_PIN_D7      16
-#define CAM_PIN_D6      17
-#define CAM_PIN_D5      18
-#define CAM_PIN_D4      12
-#define CAM_PIN_D3      10
-#define CAM_PIN_D2      8
-#define CAM_PIN_D1      9
-#define CAM_PIN_D0      11
+// 摄像头数据引脚 (Y2-Y9 对应 D0-D7)
+// 引脚映射：Y2->D0, Y3->D1, Y4->D2, Y5->D3, Y6->D4, Y7->D5, Y8->D6, Y9->D7
+#define CAM_PIN_D0      11  // Y2_GPIO_NUM
+#define CAM_PIN_D1      9   // Y3_GPIO_NUM
+#define CAM_PIN_D2      8   // Y4_GPIO_NUM
+#define CAM_PIN_D3      10  // Y5_GPIO_NUM
+#define CAM_PIN_D4      12  // Y6_GPIO_NUM
+#define CAM_PIN_D5      18  // Y7_GPIO_NUM
+#define CAM_PIN_D6      17  // Y8_GPIO_NUM
+#define CAM_PIN_D7      16  // Y9_GPIO_NUM
 
 // 摄像头控制引脚
 #define CAM_PIN_VSYNC   6   // 垂直同步

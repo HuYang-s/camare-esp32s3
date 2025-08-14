@@ -19,24 +19,26 @@
 - 至少4MB Flash和8MB PSRAM
 
 ### OV2640摄像头模块
-标准的ESP32-CAM开发板引脚配置：
+ESP32-S3开发板引脚配置：
 
-| 功能 | GPIO | 说明 |
-|------|------|------|
-| XCLK | 15 | 时钟信号 |
-| SIOD | 4 | I2C数据线(SDA) |
-| SIOC | 5 | I2C时钟线(SCL) |
-| D7 | 16 | 数据位7 |
-| D6 | 17 | 数据位6 |
-| D5 | 18 | 数据位5 |
-| D4 | 12 | 数据位4 |
-| D3 | 10 | 数据位3 |
-| D2 | 8 | 数据位2 |
-| D1 | 9 | 数据位1 |
-| D0 | 11 | 数据位0 |
-| VSYNC | 6 | 垂直同步 |
-| HREF | 7 | 水平参考 |
-| PCLK | 13 | 像素时钟 |
+| 功能 | GPIO | 摄像头引脚 | 说明 |
+|------|------|------------|------|
+| XCLK | 15 | XCLK | 时钟信号 |
+| SIOD | 4 | SDA | I2C数据线 |
+| SIOC | 5 | SCL | I2C时钟线 |
+| D0 | 11 | Y2 | 数据位0 |
+| D1 | 9 | Y3 | 数据位1 |
+| D2 | 8 | Y4 | 数据位2 |
+| D3 | 10 | Y5 | 数据位3 |
+| D4 | 12 | Y6 | 数据位4 |
+| D5 | 18 | Y7 | 数据位5 |
+| D6 | 17 | Y8 | 数据位6 |
+| D7 | 16 | Y9 | 数据位7 |
+| VSYNC | 6 | VSYNC | 垂直同步 |
+| HREF | 7 | HREF | 水平参考 |
+| PCLK | 13 | PCLK | 像素时钟 |
+| PWDN | - | - | 未使用 |
+| RESET | - | - | 未使用 |
 
 ## 软件配置
 
@@ -45,11 +47,21 @@
 - 支持ESP32-S3的工具链
 
 ### WiFi配置
-在`main/shexiang-ov2640.c`文件中修改以下配置：
+WiFi已经预配置为以下设置（在`main/camera_config.h`中）：
 
 ```c
-#define WIFI_SSID "YOUR_WIFI_SSID"    // 替换为你的WiFi名称
-#define WIFI_PASS "YOUR_WIFI_PASSWORD" // 替换为你的WiFi密码
+#define WIFI_SSID "bed_room_2.4G"     // WiFi名称
+#define WIFI_PASS "Hdk4560.0"         // WiFi密码
+```
+
+如需修改WiFi设置，可以：
+1. 直接编辑 `main/camera_config.h` 文件
+2. 或使用快速配置脚本：`./setup_wifi.sh`
+
+### 配置验证
+使用配置验证脚本检查当前设置：
+```bash
+./verify_config.sh
 ```
 
 ### 摄像头参数配置
@@ -90,6 +102,13 @@ idf.py build
 ```bash
 idf.py -p /dev/ttyUSB0 flash monitor
 ```
+
+### 快速构建和烧录（推荐）
+使用一键构建脚本：
+```bash
+./build_and_flash.sh
+```
+此脚本会自动完成构建、烧录和串口监视。
 
 ## 使用方法
 
@@ -153,6 +172,45 @@ idf.py -p /dev/ttyUSB0 flash monitor
 - **视频流格式**: MJPEG (multipart/x-mixed-replace)
 - **网络协议**: HTTP/1.1
 - **帧率**: 约10-15 FPS（取决于分辨率和网络条件）
+
+## 项目文件结构
+
+```
+shexiang-ov2640/
+├── main/
+│   ├── shexiang-ov2640.c      # 主程序文件
+│   ├── camera_config.h        # 配置头文件
+│   └── CMakeLists.txt         # 组件配置
+├── CMakeLists.txt             # 项目配置
+├── partitions.csv             # 分区表配置
+├── README.md                  # 详细使用说明
+├── setup_wifi.sh              # WiFi快速配置脚本
+├── verify_config.sh           # 配置验证脚本
+├── build_and_flash.sh         # 一键构建烧录脚本
+└── sdkconfig                  # ESP-IDF配置
+```
+
+## 实用脚本
+
+项目包含多个实用脚本简化开发流程：
+
+### 📡 WiFi配置脚本
+```bash
+./setup_wifi.sh
+```
+快速设置WiFi SSID和密码。
+
+### 🔍 配置验证脚本
+```bash
+./verify_config.sh
+```
+验证当前WiFi和摄像头引脚配置。
+
+### 🔨 构建烧录脚本
+```bash
+./build_and_flash.sh
+```
+一键完成项目构建、烧录和串口监视。
 
 ## 许可证
 
