@@ -104,11 +104,18 @@ idf.py -p /dev/ttyUSB0 flash monitor
 ```
 
 ### 快速构建和烧录（推荐）
-使用一键构建脚本：
+
+**Linux/WSL用户**：
 ```bash
 ./build_and_flash.sh
 ```
-此脚本会自动完成构建、烧录和串口监视。
+
+**macOS用户**：
+```bash
+./build_macos.sh
+```
+
+这些脚本会自动完成构建、烧录和串口监视。
 
 ## 使用方法
 
@@ -138,6 +145,20 @@ idf.py -p /dev/ttyUSB0 flash monitor
 - `GET /capture` - 拍摄单张照片
 
 ## 故障排除
+
+### macOS ESP-IDF v5.4.2 构建错误
+如果遇到 `Failed to resolve component 'esp32-camera'` 错误，请参考：
+```bash
+# 查看详细故障排除指南
+cat TROUBLESHOOTING_MACOS.md
+```
+
+**快速解决方案**：
+```bash
+rm -rf build managed_components
+idf.py set-target esp32s3
+idf.py build
+```
 
 ### 摄像头无法初始化
 1. 检查引脚连接是否正确
